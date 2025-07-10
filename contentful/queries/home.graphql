@@ -1,8 +1,8 @@
 #import "../fragments/link.graphql"
 #import "../fragments/image.graphql"
 
-query studioFreightEntryQuery($preview: Boolean!) {
-  studioFreight(id: "2Aj2bopjw3dWELYGPP1ciN", preview: $preview) {
+query studioTitanEntryQuery($preview: Boolean!) {
+  studioTitan(id: "5O5FgOdUFQPAY3GuGTQG53", preview: $preview) {
     sys {
       id
     }
@@ -16,7 +16,7 @@ query studioFreightEntryQuery($preview: Boolean!) {
 }
 
 query footerEntryQuery($preview: Boolean!) {
-  footer(id: "79mFjxkAPeJr60vPYhCeDC", preview: $preview) {
+  footer(id: "5I7agtZ6v3LyVo3mlmPDcj", preview: $preview) {
     sys {
       id
     }
@@ -29,7 +29,7 @@ query footerEntryQuery($preview: Boolean!) {
 }
 
 query contactEntryQuery($preview: Boolean!) {
-  contact(id: "4Jf4kYvhy8vgKraoM0oLQO", preview: $preview) {
+  contact(id: "vY0YUX2NNRKObRnLhLELc", preview: $preview) {
     sys {
       id
     }
@@ -52,7 +52,7 @@ query contactEntryQuery($preview: Boolean!) {
 }
 
 query projectListEntryQuery($preview: Boolean!) {
-  projectList(id: "6nQzRceL1TxfIzIYatjR8T", preview: $preview) {
+  projectList(id: "519KOpAG8hCJRyr2RdO3Jm", preview: $preview) {
     sys {
       id
     }
@@ -69,12 +69,11 @@ query projectListEntryQuery($preview: Boolean!) {
         testimonial
         assetsCollection(limit: 20) {
           items {
-            imagesCollection(limit: 20) {
-              items {
-                url
-                title
-              }
-            }
+            url
+            title
+            contentType
+            width
+            height
           }
         }
         services
@@ -84,6 +83,7 @@ query projectListEntryQuery($preview: Boolean!) {
     }
   }
 }
+
 
 # query projectCollectionQuery($preview: Boolean!) {
 #   projectCollection(preview: $preview) {

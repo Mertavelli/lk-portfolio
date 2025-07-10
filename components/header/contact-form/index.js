@@ -12,6 +12,7 @@ import { useEffect, useRef } from 'react'
 import s from './contact-form.module.scss'
 
 export function ContactForm({ data }) {
+  //console.log("data: ", data.form)
   const menuRef = useRef(null)
   const router = useRouter()
   const { contact } = router.query

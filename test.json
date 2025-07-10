@@ -1,0 +1,293 @@
+"projects": {
+    "items": [
+        {
+            "sys": {
+                "id": "uH7yLdfWt1hETfn1whpBP"
+            },
+            "body": {
+                "json": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "La Marzocco has never chased attention. For nearly a century, their machines have earned it — quietly, consistently, and by hand. Founded in Florence in 1927, the company helped shape modern espresso as we know it. Their designs are at once industrial and intimate, equally at home in a busy café or a minimalist kitchen. In many ways, La Marzocco is more a standard than a brand.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "In recent years, that standard found its way into homes. La Marzocco Home was created not to simplify the craft, but to bring it closer. What began as a small shift, professional equipment made available to the domestic barista, has grown into a global offering for people who care deeply about the ritual of coffee. The team behind that growth had spent the last decade building it, one market at a time, and they wanted to document the journey, sharing what worked, what mattered, and what others could carry forward.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Our brief was to create the La Marzocco Home Playbook. Part guide, part retrospective. It needed to serve multiple audiences: internal teams, international partners, executives, and anyone looking to understand how the work gets done. But above all, it needed to feel like La Marzocco — considered, enduring, and quietly confident.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "We treated it less like a corporate manual and more like a brand artifact. The book draws from the visual language of travel guides, archival materials, and slow, tactile publishing. A linen-bound cover, rich color palette, and purposeful typography connect the content to La Marzocco’s Italian roots without leaning on nostalgia.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Every section walks the line between function and feeling. There are frameworks, tools, and insights, but also photography that lingers on the small, human details. A machine being unwrapped for the first time. A storefront in Florence catching morning light. A cup, held in quiet celebration. These moments remind readers what the brand is actually in service of.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "The result is a book that doesn’t try to sell anything. It simply reflects a way of working and a way of seeing, the same way La Marzocco has always approached its machines. Thoughtfully made. Built to last. And best understood in use.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "name": "La Marzocco",
+            "industry": "Commerce",
+            "testimonial": "\"Agency projects can feel transactional. But this never did. From concept to execution, the Studio Freight team translated our idea and elevated it. Every detail across planning, design, copy, print, and digital was thoughtfully handled. Their team had a clear, well-run system for us to step into, which gave us a confidence throughout the project. We never had to chase next steps. The clarity and pace of their workflow was inspiring — so much so that we’ve since looked to it as a model in refining our own.\" — Ben Blake, Marketing and Creative Director",
+            "services": [
+                "Art Direction",
+                "Print Design"
+            ],
+            "stack": [
+                "Figma",
+                "Adobe"
+            ],
+            "link": null,
+            "assetsCollection": {
+                "items": [
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/rFhkszkHov0j1RJAMeRfD/a1abe454a47cad58fb64ce20379b4649/StudioFreight-LaMarzocco-1.png",
+                                    "title": "1"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://videos.ctfassets.net/bwpwtlijv9w2/2LFOokGwRUGKQkqZAh1Fsx/88dcd0bacc1b7e0b0a7dc49d94dbe723/StudioFreight-LaMarzocco-2.mp4",
+                                    "title": "2"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/3qVKz20RVklrL9s6uP7j8A/9ab7e96c9c25495c2d0abcdc0cb9fb68/StudioFreight-LaMarzocco-3a.png",
+                                    "title": "3"
+                                },
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/7oXgVheqxFZN4RWyVOTPob/82a461a089430ae6a028f822c639e4e7/StudioFreight-LaMarzocco-3b.png",
+                                    "title": "3b"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/7qKlbIQHK0ioRBAseKlEp8/ddd7c759143a80b62074e4b0d2465e76/StudioFreight-LaMarzocco-4.png",
+                                    "title": "4"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/32WkAmg96nIGu52UQuhjPT/52cc551eeb1307315e2b20f9a4823328/StudioFreight-LaMarzocco-5.png",
+                                    "title": "5"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/2ZU5bW8BTDMoVvcDguxOZP/7c4ef6f8b8d90899690d4fa24d127c28/StudioFreight-LaMarzocco-6.png",
+                                    "title": "6"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/3wJEDlHLxCOqLKuF4snNlu/76cd8efe7139ae34c3ef18a211902822/StudioFreight-LaMarzocco-7.png",
+                                    "title": "7"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/4eXw1RmD2ko7W5NVOugruu/5a2dee26189fd92564ba4abe721fd044/StudioFreight-LaMarzocco-8.png",
+                                    "title": "8"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/7benKotvg58o3kXRkgJEOx/e3c42c3b5f5a51bed41642a885ae4547/StudioFreight-LaMarzocco-9.png",
+                                    "title": "9"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/3GUEBqoVtFVgPmWOvIaET1/656c2b40b159bc3ee4642ccdf080fa1a/StudioFreight-LaMarzocco-10a.png",
+                                    "title": "10a"
+                                },
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/5gsHKnL9b0FC5TvPjfwO32/873b3b7d01fbeaad0ab92126ce26ed57/StudioFreight-LaMarzocco-10b.png",
+                                    "title": "10b"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/5R58cFrnfpGLMqKdgGzSYJ/81a28aa14aa2f55f6d887e308b7cfc9e/StudioFreight-LaMarzocco-11.png",
+                                    "title": "11"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/3ENZt477pyRmcPdl0cTE2k/1fe4ab10bb2b0809e4cd016ef958893f/StudioFreight-LaMarzocco-12.png",
+                                    "title": "12"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://videos.ctfassets.net/bwpwtlijv9w2/7BdXFTAn5iaNmy2i9MpmC3/36e2063cc28a0d913b1508d145249362/StudioFreight-LaMarzocco-13.mp4",
+                                    "title": "13"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/3nfpiVLKehMSAZXHApNnlG/ea8e6683b8efd426b5cd6bb036bddd81/StudioFreight-LaMarzocco-14a.png",
+                                    "title": "14a"
+                                },
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/6kuzVUtyisX4kr3CY46tQg/23cb006340a390f5a3a0cf3f37d2126d/StudioFreight-LaMarzocco-14b.png",
+                                    "title": "14b"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/3EbD77gPvzseiapIbjNEqW/a09e03c143d37ba2c8ea8b6d4c00c3d2/StudioFreight-LaMarzocco-15.png",
+                                    "title": "15"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "__typename": "SingleImage",
+                        "imagesCollection": {
+                            "items": [
+                                {
+                                    "url": "https://images.ctfassets.net/bwpwtlijv9w2/4fnko9pUqY9L99Agh5QXaV/e146078f9c8a3dd39e7be80d44863523/StudioFreight-LaMarzocco-16.png",
+                                    "title": "16"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+    ]
+},

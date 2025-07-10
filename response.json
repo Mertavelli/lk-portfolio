@@ -1,0 +1,140 @@
+{
+  "id": "bb9cc0ad-aa2f-4e28-b499-6e00baa2081e",
+  "name": "Neues leeres Formular (7. Juli 2025 12:31:03 EDT)",
+  "createdAt": "2025-07-07T16:31:03.983Z",
+  "updatedAt": "2025-07-07T17:32:47.186Z",
+  "archived": false,
+  "fieldGroups": [
+    {
+      "groupType": "default_group",
+      "richTextType": "text",
+      "fields": [
+          {
+            "objectTypeId": "0-1",
+            "name": "full_name",
+            "label": "Name",
+            "required": false,
+            "hidden": false,
+            "fieldType": "single_line_text"
+        },
+        {
+            "objectTypeId": "0-1",
+            "name": "email",
+            "label": "E-Mail",
+            "required": true,
+            "hidden": false,
+            "validation": {
+                "blockedEmailDomains": [],
+                "useDefaultBlockList": false
+            },
+            "fieldType": "email"
+        },
+        {
+            "objectTypeId": "0-1",
+            "name": "companyname",
+            "label": "Unternehmen",
+            "required": false,
+            "hidden": false,
+            "fieldType": "single_line_text"
+        },
+        {
+            "objectTypeId": "0-1",
+            "name": "project_type",
+            "label": "project type",
+            "required": false,
+            "hidden": false,
+            "options": [
+                { "label": "Webdesign", "value": "webdesign" },
+                { "label": "App", "value": "app" },
+                { "label": "Shop", "value": "shop" }
+            ],
+            "fieldType": "radio"
+        },
+  {
+    "objectTypeId": "0-1",
+    "name": "contact",
+    "label": "Beschreibung",
+    "required": false,
+    "hidden": false,
+    "fieldType": "multi_line_text"
+  },
+  {
+    "objectTypeId": "0-1",
+    "name": "budget_expectation",
+    "label": "Budget Expectation",
+    "required": false,
+    "hidden": false,
+    "options": [
+      { "label": "<5.000 €", "value": "under_5000" }
+    ],
+    "fieldType": "dropdown"
+  },
+  {
+    "objectTypeId": "0-1",
+    "name": "timeline_expectation",
+    "label": "Timeline Expectation",
+    "required": false,
+    "hidden": false,
+    "fieldType": "single_line_text"
+  },
+  {
+    "objectTypeId": "0-1",
+    "name": "how_you_found_us",
+    "label": "How You Found Us",
+    "required": false,
+    "hidden": false,
+    "fieldType": "single_line_text"
+  },
+  {
+    "objectTypeId": "0-1",
+    "name": "favorite_movie_or_album",
+    "label": "Favorite Movie or Album",
+    "required": false,
+    "hidden": false,
+    "fieldType": "single_line_text"
+  }
+      ]
+    }
+  ],
+  "configuration": {
+    "language": "en",
+    "cloneable": true,
+    "postSubmitAction": {
+      "type": "thank_you",
+      "value": ""
+    },
+    "editable": true,
+    "archivable": true,
+    "recaptchaEnabled": false,
+    "notifyContactOwner": false,
+    "notifyRecipients": ["81464459"],
+    "createNewContactForNewEmail": false,
+    "prePopulateKnownValues": true,
+    "allowLinkToResetKnownValues": false,
+    "lifecycleStages": []
+  },
+  "displayOptions": {
+    "renderRawHtml": false,
+    "theme": "default_style",
+    "submitButtonText": "",
+    "style": {
+      "fontFamily": "arial, helvetica, sans-serif",
+      "backgroundWidth": "100%",
+      "labelTextColor": "#33475b",
+      "labelTextSize": "11px",
+      "helpTextColor": "#7C98B6",
+      "helpTextSize": "11px",
+      "legalConsentTextColor": "#33475b",
+      "legalConsentTextSize": "14px",
+      "submitColor": "#ff7a59",
+      "submitAlignment": "left",
+      "submitFontColor": "#ffffff",
+      "submitSize": "12px"
+    },
+    "cssClass": null
+  },
+  "legalConsentOptions": {
+    "type": "none"
+  },
+  "formType": "hubspot"
+}

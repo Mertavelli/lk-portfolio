@@ -11,7 +11,7 @@ import {
   contactEntryQuery,
   footerEntryQuery,
   projectListEntryQuery,
-  studioFreightEntryQuery,
+  studioTitanEntryQuery,
 } from 'contentful/queries/home.graphql'
 import { renderer } from 'contentful/renderer'
 import { Layout } from 'layouts/default'
@@ -32,7 +32,7 @@ const Gallery = dynamic(
   },
 )
 
-export default function Home({ studioFreight, footer, contact, projects }) {
+export default function Home({ studioTitan, footer, contact, projects }) {
   const router = useRouter()
 
   const [showInfoModal, setShowInfoModal] = useState(false)
@@ -42,6 +42,7 @@ export default function Home({ studioFreight, footer, contact, projects }) {
     state.selectedProject,
     state.setSelectedProject,
   ])
+
   const [setGalleryVisible] = useStore((state) => [state.setGalleryVisible])
 
   useEffect(() => {
@@ -66,16 +67,16 @@ export default function Home({ studioFreight, footer, contact, projects }) {
   return (
     <Layout
       theme="dark"
-      principles={studioFreight.principles}
+      principles={studioTitan.principles}
       studioInfo={{
-        phone: studioFreight.phoneNumber,
-        email: studioFreight.email,
+        phone: studioTitan.phoneNumber,
+        email: studioTitan.email,
       }}
       contactData={contact}
       footerLinks={footer.linksCollection.items}
     >
       {!isDesktop ? (
-        <LayoutMobile studioFreight={studioFreight} projects={projects} />
+        <LayoutMobile studioTitan={studioTitan} projects={projects} />
       ) : (
         <ClientOnly>
           <div className={cn(s.content, 'layout-grid')}>
@@ -86,14 +87,14 @@ export default function Home({ studioFreight, footer, contact, projects }) {
                 About
               </p>
               <ScrollableBox className={s.description}>
-                {renderer(studioFreight.about)}
+                {renderer(studioTitan.about)}
               </ScrollableBox>
             </section>
             <section className={s.projects}>
               <p
                 className={cn(s.title, 'p text-bold text-uppercase text-muted')}
               >
-                Projects
+                Use Cases
               </p>
               <ScrollableBox className={s.list}>
                 <ul>
@@ -133,7 +134,7 @@ export default function Home({ studioFreight, footer, contact, projects }) {
                     'p text-bold text-uppercase text-muted',
                   )}
                 >
-                  Project detail
+                  Details
                 </p>
                 <div className={s.actions}>
                   <button
@@ -195,10 +196,11 @@ export default function Home({ studioFreight, footer, contact, projects }) {
                           }}
                         >
                           <ComposableImage
-                            sources={asset.imagesCollection}
+                            src={asset.url}
+                            title={asset.title}
+                            width={asset.width}
+                            height={asset.height}
                             priority={i === 0}
-                            width={1026}
-                            height={604}
                           />
                         </button>
                       ),
@@ -278,9 +280,9 @@ export default function Home({ studioFreight, footer, contact, projects }) {
 }
 
 export async function getStaticProps({ preview = false }) {
-  const [{ studioFreight }, { footer }, { contact }, { projectList }] =
+  const [{ studioTitan }, { footer }, { contact }, { projectList }] =
     await Promise.all([
-      fetchCmsQuery(studioFreightEntryQuery, {
+      fetchCmsQuery(studioTitanEntryQuery, {
         preview,
       }),
       fetchCmsQuery(footerEntryQuery, {
@@ -294,11 +296,11 @@ export async function getStaticProps({ preview = false }) {
       }),
     ])
 
-  contact.form = await getForm(contact.form)
+  contact.form = await getForm(contact.form) // form field aus contact content type cms
 
   return {
     props: {
-      studioFreight,
+      studioTitan,
       footer,
       contact,
       projects: projectList.listCollection,

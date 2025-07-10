@@ -41,16 +41,19 @@ export function Gallery() {
         <span className={cn(s.text, 'p-xs text-uppercase')}>Close</span>
       </button>
       <ScrollableBox className={s.scroller} reset={!galleryVisible}>
-        {selectedProject?.assetsCollection?.items.map((asset, i) => (
-          <div key={i} ref={contentRef}>
-            <ComposableImage
-              sources={asset.imagesCollection}
-              width={1557}
-              height={916.5}
-              large
-            />
-          </div>
-        ))}
+        {selectedProject?.assetsCollection?.items.map((asset, i) =>
+          asset?.url ? (
+            <div key={i} ref={contentRef}>
+              <ComposableImage
+                src={asset.url}
+                title={asset.title}
+                width={asset.width}
+                height={asset.height}
+                large
+              />
+            </div>
+          ) : null,
+        )}
       </ScrollableBox>
     </div>
   )

@@ -9,12 +9,12 @@ import { useStore } from 'lib/store'
 import dynamic from 'next/dynamic'
 import s from './header.module.scss'
 
-const SFLogo = dynamic(() => import('icons/sf-logo.svg'), { ssr: false })
-const SFLogoMobile = dynamic(() => import('icons/sf-logo-mobile.svg'), {
+const SFLogo = dynamic(() => import('icons/st-logo.svg'), { ssr: false })
+const SFLogoMobile = dynamic(() => import('icons/st-logo-mobile.svg'), {
   ssr: false,
 })
 const Stard = dynamic(() => import('icons/stard.svg'), { ssr: false })
-const Monogram = dynamic(() => import('icons/sf-monogram.svg'), { ssr: false })
+//const Monogram = dynamic(() => import('icons/sf-monogram.svg'), { ssr: false })
 const StarDuotone = dynamic(() => import('icons/star-duotone.svg'), {
   ssr: false,
 })
@@ -35,17 +35,17 @@ export const Header = ({ principles = [], contact }) => {
           <Link
             name="easter egg"
             className={s.egg}
-            href="https://github.com/studio-freight/sf-website"
+            href="" //"https://github.com/studio-freight/sf-website"
           >
             <Stard />
           </Link>
-          <Link
+          {/*           <Link
             name="easter egg - soundboard"
             className={s.egg}
-            href="https://soundboard.studiofreight.com"
+            href="" //"https://soundboard.studiofreight.com"
           >
             <Monogram />
-          </Link>
+          </Link> */}
           <Link
             name="easter egg - pale blue dot"
             className={s.egg}

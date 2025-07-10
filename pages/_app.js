@@ -35,12 +35,12 @@ if (typeof window !== 'undefined') {
 
   window.CREDIT_ME = {
     id: location.hostname,
-    url: 'https://studiofreight.com',
+    url: 'https://studiotitan.de',
     credits: [
       {
-        name: 'Studio Freight',
-        email: 'hello@studiofreight.com',
-        website: 'https://studiofreight.com',
+        name: 'Studio Titan',
+        email: 'hello@studiotitan.de',
+        website: 'https://studiotitan.de',
       },
     ],
   }

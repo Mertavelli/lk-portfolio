@@ -1,6 +1,5 @@
 import { Image, Link } from '@studio-freight/compono'
 import { useMediaQuery } from '@studio-freight/hamo'
-import va from '@vercel/analytics'
 import cn from 'clsx'
 import { Separator } from 'components/separator'
 import s from './footer.module.scss'
@@ -12,14 +11,17 @@ export function Footer({ className, style, links, studioInfo }) {
     <footer className={s.container}>
       <Separator className="layout-block" />
       <div className={cn(s.footer, 'layout-grid', className)} style={style}>
-        <a
+        {/*         <a
           href="/StudioFreight-Capabilities.pdf"
           download
           className={cn(s.column, 'p-s text-accent')}
           onClick={() => va.track('Downloaded Capabilities deck')}
         >
           Capabilities Deck ↓
-        </a>
+        </a> */}
+
+        <div className={cn(s.column, 'p-s text-accent')}>&nbsp;</div>
+
         {isMobile === false && (
           <>
             <ul className={s.column}>
@@ -106,7 +108,7 @@ export function Footer({ className, style, links, studioInfo }) {
         <section className={s['footer-image']}>
           <Image
             src="/mobile-temp-images/footer.png"
-            alt="studio freight"
+            alt="studio titan"
             fill
             className={s.image}
           />

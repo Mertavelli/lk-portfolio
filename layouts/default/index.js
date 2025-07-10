@@ -8,39 +8,36 @@ import s from './layout.module.scss'
 
 const Orchestra = dynamic(
   () => import('lib/orchestra').then(({ Orchestra }) => Orchestra),
-  { ssr: false }
+  { ssr: false },
 )
 
 export function Layout({
   seo = {
-    title: 'Studio Freight - Built on Principle',
+    title: 'Studio Titan – Intelligence meets Execution',
     description:
-      'Studio Freight is an independent creative studio built on principle.',
-    image: { url: 'https://studiofreight.com/sf-og.jpg' },
+      'Studio Titan ist ein Studio für AI Beratung, Automatisierung und Produktentwicklung.',
+    image: { url: 'https://studiotitan.de/st-og.jpg' },
     keywords: [
-      'freight',
-      'studio',
-      'UX',
-      'UI',
-      'userexperience',
-      'webdesign',
-      'webdeveloper',
-      'design',
-      'codedesign',
-      'code',
-      'hashtag',
-      'development',
-      'website',
-      'websitedevelopment',
-      'webservices',
-      'art direction',
-      'strategy',
-      'web',
-      'murals',
-      'illustration',
-      'photography',
-      'signage',
-      'video',
+      'Studio Titan',
+      'AI Beratung',
+      'Strategieberatung',
+      'digitale Produkte',
+      'Automatisierung',
+      'Prozessoptimierung',
+      'AI Agenten',
+      'Custom Tools',
+      'digitale Transformation',
+      'LLMs',
+      'OpenAI',
+      'API Entwicklung',
+      'digitale Strategie',
+      'Webentwicklung',
+      'Tech-Consulting',
+      'Business Automation',
+      'Agentensysteme',
+      'Studio',
+      'Execution',
+      'Intelligence',
     ],
   },
   children,
@@ -60,11 +57,7 @@ export function Layout({
       <div className={cn(`theme-${theme}`, s.layout, className)}>
         <Cursor />
         <Scrollbar />
-        <Header
-          
-          principles={principles}
-          contact={contactData}
-        />
+        <Header principles={principles} contact={contactData} />
         <main className={s.main}>{children}</main>
         <Footer links={footerLinks} studioInfo={studioInfo} />
       </div>

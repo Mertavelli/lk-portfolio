@@ -1,6 +1,6 @@
 import cn from 'clsx'
-import { useStore } from 'lib/store'
-import { Fragment, useEffect, useState } from 'react'
+import { useStore } from 'lib/store' // t
+import { Fragment } from 'react'
 import { Controller, useForm } from 'react-hook-form'
 import {
   InputField,
@@ -37,22 +37,22 @@ export const Hubspot = ({ form, children }) => {
   })
 
   const { errors, isSubmitting, isValid } = formState
-  const [IP, setIP] = useState('')
+  // const [IP, setIP] = useState('')
   const url = `https://api.hsforms.com/submissions/v3/integration/submit/${form.portalId}/${form.id}`
   const formFields = form.inputs.map((field) => field.name)
 
-  async function fetchIP() {
-    const res = await fetch('https://ip.nf/me.json')
+  /*   async function fetchIP() {
+    const res = await fetch('https://api.ipify.org?format=json')
     res
       .json()
       .then((res) => setIP(res.ip.ip))
       .catch((err) => console.log(err))
-  }
+  } */
 
-  useEffect(() => {
+  /*   useEffect(() => {
     fetchIP()
   }, [])
-
+ */
   const onSubmit = (input) => {
     const hsCookie = document.cookie.split(';').reduce((cookies, cookie) => {
       const [name, value] = cookie.split('=').map((c) => c.trim())
@@ -71,16 +71,16 @@ export const Hubspot = ({ form, children }) => {
         hutk: hsCookie?.hubspotutk,
         pageUri: `${window.location.href}`,
         pageName: `${window.location.pathname}`,
-        ipAddress: `${IP}`,
+        // ipAddress: `${IP}`,
       },
     }
 
     const dealData = {
       properties: {
-        dealstage: 'bf25df15-53fb-48aa-9f5f-0fe15f725ea2',
+        dealstage: 'appointmentscheduled',
         dealname: '',
         inquiry_date: new Date().toISOString().slice(0, 10),
-        hubspot_owner_id: `${process.env.NEXT_PUBLIC_HUSBPOT_OWNER_ID}`,
+        hubspot_owner_id: `${process.env.NEXT_PUBLIC_HUBSPOT_OWNER_ID}`,
       },
 
       associations: [],
@@ -88,6 +88,13 @@ export const Hubspot = ({ form, children }) => {
 
     let contactEmail = ''
     let dealID = ''
+    let dealDescription = ''
+    let fullName = ''
+    let projectScope = ''
+    let budgetExpectation = ''
+    let timelineExpectation = ''
+    let howYouFoundUs = ''
+    let favoriteMovieOrAlbum = ''
 
     data.fields.forEach((field) => {
       if (field.name === 'company') {
@@ -96,7 +103,27 @@ export const Hubspot = ({ form, children }) => {
       if (field.name === 'email') {
         contactEmail = field.value
       }
-      // add more conditions if you want to map other fields
+      if (field.name === 'description') {
+        dealDescription = field.value
+      }
+      if (field.name === 'full_name') {
+        fullName = field.value
+      }
+      if (field.name === 'project_scope') {
+        projectScope = field.value
+      }
+      if (field.name === 'budget_expectation') {
+        budgetExpectation = field.value
+      }
+      if (field.name === 'timeline_expectation') {
+        timelineExpectation = field.value
+      }
+      if (field.name === 'how_you_found_us') {
+        howYouFoundUs = field.value
+      }
+      if (field.name === 'favorite_movie_or_album') {
+        favoriteMovieOrAlbum = field.value
+      }
     })
 
     removeHTMLFromStrings(data)
@@ -133,20 +160,54 @@ export const Hubspot = ({ form, children }) => {
             fields: [
               {
                 type: 'mrkdwn',
-                text: `*Company Name:*\n${dealData.properties.dealname}`,
+                text: `*Full Name:*\n${fullName || '–'}`,
               },
               {
                 type: 'mrkdwn',
-                text: `*When:*\n${dealData.properties.inquiry_date}`,
+                text: `*Company Name:*\n${dealData.properties.dealname || '–'}`,
               },
               {
                 type: 'mrkdwn',
-                text: `*Contact Info:*\n${contactEmail}`,
+                text: `*Contact Info:*\n${contactEmail || '–'}`,
               },
-
               {
                 type: 'mrkdwn',
-                text: `*Review deal in hubspot:*\nhttps://app.hubspot.com/contacts/${process.env.NEXT_PUBLIC_HUSBPOT_TEAM_ID}/record/0-3/${dealID}`,
+                text: `*When:*\n${dealData.properties.inquiry_date || '–'}`,
+              },
+              {
+                type: 'mrkdwn',
+                text: `*Project Scope:*\n${projectScope || '–'}`,
+              },
+              {
+                type: 'mrkdwn',
+                text: `*Budget Expectation:*\n${budgetExpectation || '–'}`,
+              },
+            ],
+          },
+          {
+            type: 'section',
+            fields: [
+              {
+                type: 'mrkdwn',
+                text: `*Timeline Expectation:*\n${timelineExpectation || '–'}`,
+              },
+              {
+                type: 'mrkdwn',
+                text: `*How You Found Us:*\n${howYouFoundUs || '–'}`,
+              },
+              {
+                type: 'mrkdwn',
+                text: `*Favorite Movie/Album:*\n${favoriteMovieOrAlbum || '–'}`,
+              },
+              {
+                type: 'mrkdwn',
+                text: `*Description:*\n${
+                  dealDescription || 'No description provided'
+                }`,
+              },
+              {
+                type: 'mrkdwn',
+                text: `*Review deal in hubspot:*\nhttps://app.hubspot.com/contacts/${process.env.NEXT_PUBLIC_HUBSPOT_TEAM_ID}/record/0-3/${dealID}`,
               },
             ],
           },

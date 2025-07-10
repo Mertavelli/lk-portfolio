@@ -12,10 +12,14 @@ export const fetchCmsQuery = async (query, variables) => {
         }`,
       },
     })
-    return await graphQLClient.request(query, variables)
+    const data = await graphQLClient.request(query, variables)
+
+    //console.log('[fetchCmsQuery] Response:', JSON.stringify(data, null, 2))
+
+    return data
   } catch (error) {
     console.error(
-      `There was a problem retrieving entries with the query ${query}`
+      `There was a problem retrieving entries with the query ${query}`,
     )
     console.error(error)
   }

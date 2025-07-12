@@ -13,10 +13,11 @@ const Arrow = dynamic(() => import('icons/arrow.svg'), { ssr: false })
 
 export const ProjectAccordion = ({ data }) => {
   const [active, setActive] = useState(0)
+  //console.log("Data: ", data)
 
   return (
     <div className={s.accordion}>
-      <p className="p text-bold text-uppercase text-muted">Projects</p>
+      <p className="p text-bold text-uppercase text-muted">Use Cases</p>
 
       <Accordion.Root type="single" className={s['accordion-root']} collapsible>
         {data.map((item, i) => (
@@ -59,7 +60,7 @@ export const ProjectAccordion = ({ data }) => {
               <Slider enableAutoplay={!!active} className={s.slides}>
                 {item.assetsCollection.items.map((asset, i) => (
                   <ComposableImage
-                    sources={asset.imagesCollection}
+                    src={asset.url}
                     key={i}
                     width={343}
                     height={211}

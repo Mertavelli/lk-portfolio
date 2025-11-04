@@ -1,4 +1,4 @@
-import { Image, Link } from '@studio-freight/compono'
+import { Link } from '@studio-freight/compono'
 import { useMediaQuery } from '@studio-freight/hamo'
 import cn from 'clsx'
 import { Separator } from 'components/separator'
@@ -11,15 +11,6 @@ export function Footer({ className, style, links, studioInfo }) {
     <footer className={s.container}>
       <Separator className="layout-block" />
       <div className={cn(s.footer, 'layout-grid', className)} style={style}>
-        {/*         <a
-          href="/StudioFreight-Capabilities.pdf"
-          download
-          className={cn(s.column, 'p-s text-accent')}
-          onClick={() => va.track('Downloaded Capabilities deck')}
-        >
-          Capabilities Deck ↓
-        </a> */}
-
         <div className={cn(s.column, 'p-s text-accent')}>&nbsp;</div>
 
         {isMobile === false && (
@@ -85,7 +76,7 @@ export function Footer({ className, style, links, studioInfo }) {
         <ul className={s.column}>
           <li>
             <Link className="p-s decorate" href={`tel:${studioInfo.phone}`}>
-              Telefon: {studioInfo.phone}
+              Phone: {studioInfo.phone}
             </Link>
           </li>
           <li>
@@ -103,17 +94,6 @@ export function Footer({ className, style, links, studioInfo }) {
           </ul>
         )}
       </div>
-
-      {isMobile === true && (
-        <section className={s['footer-image']}>
-          <Image
-            src="/mobile-temp-images/footer.png"
-            alt="studio titan"
-            fill
-            className={s.image}
-          />
-        </section>
-      )}
     </footer>
   )
 }

@@ -9,8 +9,8 @@ import { useStore } from 'lib/store'
 import dynamic from 'next/dynamic'
 import s from './header.module.scss'
 
-const SFLogo = dynamic(() => import('icons/st-logo.svg'), { ssr: false })
-const SFLogoMobile = dynamic(() => import('icons/st-logo-mobile.svg'), {
+const SFLogo = dynamic(() => import('icons/lk-logo.svg'), { ssr: false })
+const SFLogoMobile = dynamic(() => import('icons/lk-logo-mobile.svg'), {
   ssr: false,
 })
 const Stard = dynamic(() => import('icons/stard.svg'), { ssr: false })

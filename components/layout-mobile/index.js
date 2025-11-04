@@ -17,13 +17,6 @@ const LayoutMobile = ({ projects, studioTitan }) => {
       <section className={cn(s.projects, 'layout-block')}>
         <ProjectAccordion data={projects.items} />
       </section>
-      <section className={s.image}>
-        <Image
-          src={'/mobile-temp-images/st-game-boy.png'}
-          alt={'tetsuo placeholder face'}
-          fill
-        />
-      </section>
       <section className={cn(s.about, 'layout-block')}>
         <p className={cn(s.title, 'p text-bold text-uppercase text-muted')}>
           About

@@ -38,7 +38,7 @@ if (typeof window !== 'undefined') {
     url: 'https://studiotitan.de',
     credits: [
       {
-        name: 'Studio Titan',
+        name: 'Louis Karakas',
         email: 'hello@studiotitan.de',
         website: 'https://studiotitan.de',
       },

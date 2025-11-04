@@ -94,7 +94,7 @@ export default function Home({ studioTitan, footer, contact, projects }) {
               <p
                 className={cn(s.title, 'p text-bold text-uppercase text-muted')}
               >
-                Use Cases
+                Work
               </p>
               <ScrollableBox className={s.list}>
                 <ul>

@@ -17,7 +17,7 @@ export const ProjectAccordion = ({ data }) => {
 
   return (
     <div className={s.accordion}>
-      <p className="p text-bold text-uppercase text-muted">Use Cases</p>
+      <p className="p text-bold text-uppercase text-muted">Work</p>
 
       <Accordion.Root type="single" className={s['accordion-root']} collapsible>
         {data.map((item, i) => (

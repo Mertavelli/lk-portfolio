@@ -35,12 +35,12 @@ if (typeof window !== 'undefined') {
 
   window.CREDIT_ME = {
     id: location.hostname,
-    url: 'https://studiotitan.de',
+    url: 'https://louiskarakas.com',
     credits: [
       {
         name: 'Louis Karakas',
-        email: 'hello@studiotitan.de',
-        website: 'https://studiotitan.de',
+        email: 'hello@louiskarakas.com',
+        website: 'https://louiskarakas.com',
       },
     ],
   }

@@ -1,4 +1,4 @@
-# Studio Freight Website
+# Louis Karakas Website
 
 ## Setup
 
@@ -20,8 +20,6 @@ The usual process for Next.js based apps/websites:
 
 ## Stack
 
-- [Lenis](https://github.com/studio-freight/lenis)
-- [Hamo](https://github.com/studio-freight/hamo)
 - [PNPM](https://pnpm.io/)
 - [Next.js](https://nextjs.org/)
 - Sass (Modules)

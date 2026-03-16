@@ -13,9 +13,9 @@ const Orchestra = dynamic(
 
 export function Layout({
   seo = {
-    title: 'Louis Karakas – AI Product Engineer',
+    title: 'Louis Karakas – CTO',
     description:
-      'Independent AI Product Engineer. I build AI-native software end-to-end – from idea to working product. Focus on LLM systems, automation and pragmatic execution.',
+      'Independent CTO. I build AI-native software end-to-end – from idea to working product. Focus on agentic systems, automation and pragmatic execution.',
     image: { url: 'https://louiskarakas.com/profile.png' },
     keywords: [
       'Louis Karakas',

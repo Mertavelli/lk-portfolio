@@ -12,12 +12,25 @@
       padding-bottom: desktop-vw(8px);
     }
 
-    .eggs {
-      grid-column: span 2;
+    .leftCluster {
+      align-items: center;
+      display: flex;
+      grid-column: span 1;
+      min-width: 0;
 
       @include desktop {
-        grid-column: span 1;
+        gap: desktop-vw(18px);
+        grid-column: 1/5;
       }
+
+      .marquee {
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+    }
+
+    .eggs {
+      flex: 0 0 auto;
 
       .egg {
         display: inline-block;
@@ -45,19 +58,73 @@
       }
     }
 
-    .cta {
-      grid-column: 3/-1;
-      text-align: end;
+    .actions {
+      grid-column: 2/-1;
       margin-left: auto;
+      align-items: center;
+      display: flex;
+      gap: mobile-vw(10px);
+      justify-content: flex-end;
+      white-space: nowrap;
 
       @include desktop {
-        grid-column: 8/-1;
+        grid-column: 5/-1;
+        gap: desktop-vw(18px);
+      }
+
+      .desktopNav {
+        display: none;
+
+        @include desktop {
+          align-items: center;
+          display: flex;
+          gap: desktop-vw(18px);
+        }
+      }
+
+      .menuToggle {
+        color: var(--green);
+        min-height: mobile-vw(44px);
+        text-transform: uppercase;
+
+        @include desktop {
+          display: none;
+        }
+      }
+
+      .navLink {
+        color: var(--green);
+        text-transform: uppercase;
+      }
+
+      .cta {
+        min-height: mobile-vw(44px);
+        text-align: end;
+
+        @include desktop {
+          min-height: 0;
+        }
       }
     }
   }
 
+  .mobileNav {
+    @include desktop {
+      display: none;
+    }
+
+    .navLink {
+      align-items: center;
+      border-bottom: 1px solid var(--grey);
+      color: var(--green);
+      display: flex;
+      grid-column: 1/-1;
+      min-height: mobile-vw(48px);
+      text-transform: uppercase;
+    }
+  }
+
   .marquee {
-    grid-column: 5/8;
     color: var(--grey);
     text-transform: uppercase;
 

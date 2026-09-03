@@ -1,8 +1,8 @@
 {
   "meta": {
     "version": 1,
-    "nodeCount": 184,
-    "edgeCount": 423,
+    "nodeCount": 236,
+    "edgeCount": 529,
     "languages": [
       "typescript"
     ],
@@ -17,6 +17,35 @@
     ]
   },
   "nodes": [
+    {
+      "id": "components\\approach\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\approach\\index.js",
+      "span": "L1-L186",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "3f8f7530039ba694226607595c7a0e2b2ca4919c8bfd79f8414c91ed16d2b507",
+      "chars": 6779,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\approach\\index.js#openContact",
+      "name": "openContact",
+      "kind": "function",
+      "path": "components\\approach\\index.js",
+      "span": "L32-L35",
+      "signature": "openContact = ()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "11e7c68ade0c3677d473d73c1bb9c45586378b5263ffb6cec1a10b5327b084c6",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
     {
       "id": "components\\composable-image\\index.js",
       "name": "index.js",
@@ -71,6 +100,231 @@
       "exported": false,
       "origin": "ast",
       "body_hash": "64e6b93d351dd55dc55fc6e9f9951ca641b2cc9b5c616aeac319dcf9f600b865",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L1-L620",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "eceaeed702fedcfce957fd5b95869b37104d25f3cbdf83d967c9b8d49127db26",
+      "chars": 19263,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#cn",
+      "name": "cn",
+      "kind": "method",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L263-L263",
+      "signature": "cn('button', s.discussButton)} onClick",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "164baa99e949ff599e3cac455d39421bfc9aa73de0e8a723d1c8bfdcf8df83c5",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#cn",
+      "name": "cn",
+      "kind": "method",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L380-L380",
+      "signature": "cn('button', s.sendButton)} disabled",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "7b98ae4de8b59f242b711732cbc0bcf926a3356fc43b0b0ffbcb614ae788b3ec",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#cn",
+      "name": "cn",
+      "kind": "method",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L543-L543",
+      "signature": "cn('button', s.startButton)} disabled",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "8fb1358b820c9b3ef6e1b1486cf8fca78d52a86424e8fe845063ac5f15368c7f",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#cn",
+      "name": "cn",
+      "kind": "method",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L572-L572",
+      "signature": "cn('button', s.continueButton)} disabled",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "6be7281b9b70d2254f9a479faf821754ef078405683ed984e8d72dff2d038bd6",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#cn",
+      "name": "cn",
+      "kind": "method",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L584-L584",
+      "signature": "cn('button', s.continueButton)} disabled",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "6be7281b9b70d2254f9a479faf821754ef078405683ed984e8d72dff2d038bd6",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#cn",
+      "name": "cn",
+      "kind": "method",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L612-L612",
+      "signature": "cn('button', s.resetButton)} onClick",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "8927bdff9192f9ce03f73725735ebd14be202d4b6dade5ad3d9d1280ad652f68",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#continueWithAnswer",
+      "name": "continueWithAnswer",
+      "kind": "function",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L466-L485",
+      "signature": "continueWithAnswer = async (event)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "5a338cadeaf43e871a886c65174aaac9382eac93b33c265d41ab88c2c967c926",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#finalize",
+      "name": "finalize",
+      "kind": "function",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L487-L501",
+      "signature": "finalize = async ()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "523866832ff82bdc40e721f473631beb1463e44844bc5b286401d1a43451adda",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#makeUserSignal",
+      "name": "makeUserSignal",
+      "kind": "function",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L28-L36",
+      "signature": "function makeUserSignal(signal, value)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "b9995e50e2ead95dace4b4f72b6a3863eeb43526bb97fd2d32350ae364d50f7e",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#request",
+      "name": "request",
+      "kind": "function",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L434-L444",
+      "signature": "request = async (endpoint, payload)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "1c4280bea5ea9d79bc21601273c640f8f9b49d7d8fbc176785fbb05b5a66e914",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#reset",
+      "name": "reset",
+      "kind": "function",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L503-L512",
+      "signature": "reset = ()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "288ee2b6495ef46f03d51c0b3b9eca29975b4a2299deab338a2dc4f92be50e8f",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#signalValue",
+      "name": "signalValue",
+      "kind": "function",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L24-L26",
+      "signature": "function signalValue(signal)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "8e24bd24166cc062ec152dafbe93dc619a6b582dab005cfe8077ded23ce89a3d",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#start",
+      "name": "start",
+      "kind": "function",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L446-L464",
+      "signature": "start = async (event)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "92b777f9df7ad4e0b1f11e7b092660d82f5b5c96a94d85aed1608a7a465b5bb6",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#submit",
+      "name": "submit",
+      "kind": "function",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L284-L305",
+      "signature": "submit = async (event)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "72e9f1cf216a10df78157935f9f4b0362748188d4ccbb2a7dad63fcc45344920",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\diagnostic\\index.js#updateValue",
+      "name": "updateValue",
+      "kind": "function",
+      "path": "components\\diagnostic\\index.js",
+      "span": "L282-L282",
+      "signature": "updateValue = (key, value)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "8dc74e95e961f1fb99ac2a04b39dd4509ebc5f7907de66e99f2d688d654f0c3a",
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -182,12 +436,12 @@
       "name": "index.js",
       "kind": "file",
       "path": "components\\header\\index.js",
-      "span": "L1-L103",
+      "span": "L1-L116",
       "signature": null,
       "exported": true,
       "origin": "ast",
-      "body_hash": "532ee4ac3dd50d539f981a718c662b8d122411dc80459369ae2900160d49781b",
-      "chars": 3312,
+      "body_hash": "c7ef0bf023b5dc349ef0576c4748217a8bd0888c681cdd0a73a68a6d29dd2f03",
+      "chars": 3803,
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -425,16 +679,31 @@
       "crux": null
     },
     {
+      "id": "config\\approach.js",
+      "name": "approach.js",
+      "kind": "file",
+      "path": "config\\approach.js",
+      "span": "L1-L30",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "cb7d0266339303dcff4a342533d6ed7ba069e9ee5742cfd04e49e2ff3ce819a9",
+      "chars": 1261,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
       "id": "config\\contact-form.js",
       "name": "contact-form.js",
       "kind": "file",
       "path": "config\\contact-form.js",
-      "span": "L1-L86",
+      "span": "L1-L84",
       "signature": null,
       "exported": true,
       "origin": "ast",
-      "body_hash": "9492b09a594372603eca530be945b71af65ea0442657b0068feaee5279f37bec",
-      "chars": 1984,
+      "body_hash": "26348ed857235ddbd590113b1b89d8a765902d4b3d2f1fd888187b896a3b506c",
+      "chars": 1994,
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -690,12 +959,12 @@
       "name": "index.js",
       "kind": "file",
       "path": "layouts\\default\\index.js",
-      "span": "L1-L79",
+      "span": "L1-L89",
       "signature": null,
       "exported": true,
       "origin": "ast",
-      "body_hash": "8173eab2b55ad99e9fc741b1fc072afde2ea23d3b96d5fde399eb4abdcad6390",
-      "chars": 2079,
+      "body_hash": "d15b793420acb92671232cb518a19f7cb391d4ce7054dbbda6c3389c568f73e4",
+      "chars": 2267,
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -705,11 +974,310 @@
       "name": "Layout",
       "kind": "function",
       "path": "layouts\\default\\index.js",
-      "span": "L14-L78",
-      "signature": "function Layout({ seo = { title: 'Louis Karakas – CTO', description: 'Independent CTO. I build AI-native software end-to-end – from idea to working product. Focus on agentic systems, automation and pragmatic execution.', image: { url: 'https://louiskarakas.com/profile.png' }, keywords: [ 'Louis Karakas', 'AI Product Engineer', 'AI Engineering', 'AI Product Development', 'AI Enablement', 'LLM Systems', 'Large Language Models', 'OpenAI', 'Agent Orchestration', 'AI Agents', 'AI Venture Prototyping', 'AI Automation', 'Business Automation', 'Process Automation', 'System Architecture', 'Technical Architecture', 'Web Application Development', 'Fullstack Engineering', 'Next.js', 'TypeScript', 'Product Engineering', 'Custom AI Tools', 'Execution Focused', 'Founder Engineer', 'AI Prototyping', 'MVP Development', ], }, children, theme = 'dark', className, principles, footerLinks, studioInfo, contactData, })",
+      "span": "L14-L88",
+      "signature": "function Layout({ seo = { title: 'Louis Karakas – AI Strategy & Engineering', description: 'I help knowledge-intensive businesses redesign how they work with AI and build the systems required to make it real. Focus on AI strategy, agentic workflows and custom AI software.', image: { url: 'https://louiskarakas.com/profile.png' }, keywords: [ 'Louis Karakas', 'AI Strategy', 'AI Engineering', 'AI Strategy and Engineering', 'AI Consultant', 'AI Transformation', 'AI Operating Model', 'AI-Native Workflows', 'Agentic Workflows', 'AI Agents', 'Agentic Systems', 'Custom AI Software', 'AI Automation', 'Knowledge Systems', 'Research Automation', 'Workflow Automation', 'Professional Services AI', 'Consulting AI', 'Business Process Automation', 'AI Product Engineering', 'Fullstack Engineering', 'System Architecture', 'Technical Architecture', 'Next.js', 'TypeScript', 'LLM Systems', 'OpenAI', 'Human-in-the-Loop Systems', 'AI Enablement', ], }, children, theme = 'dark', className, principles, footerLinks, studioInfo, contactData, scrollable = false, })",
       "exported": true,
       "origin": "ast",
-      "body_hash": "813cbea948ee570ec785e0bcb03ee6a826e419eeb0fd13efc96fd90d7be87dc2",
+      "body_hash": "088727f3a72c881d704712e9aee60ddd94c3d7eca9db0c9ad4699a653cb0f568",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\agent.js",
+      "name": "agent.js",
+      "kind": "file",
+      "path": "lib\\diagnostic\\agent.js",
+      "span": "L1-L123",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "cc7cd8fa18ee3d042e65cbedff2470089c4d64c09c424ac5a9de35d194299387",
+      "chars": 4433,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\agent.js#configureTracing",
+      "name": "configureTracing",
+      "kind": "function",
+      "path": "lib\\diagnostic\\agent.js",
+      "span": "L28-L32",
+      "signature": "function configureTracing()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "57162db5b6d2a8fa2b13bca9a665ea414df8e3816c162f48a85fbdbbb3338753",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\agent.js#createFinalAgent",
+      "name": "createFinalAgent",
+      "kind": "function",
+      "path": "lib\\diagnostic\\agent.js",
+      "span": "L78-L92",
+      "signature": "function createFinalAgent()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "8f8327bfa2cce8bc4aca74ee806bc6322920b35fdc7dd1b5710e4ddca517bdf0",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\agent.js#createIntakeAgent",
+      "name": "createIntakeAgent",
+      "kind": "function",
+      "path": "lib\\diagnostic\\agent.js",
+      "span": "L51-L67",
+      "signature": "function createIntakeAgent()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "11e168d144acf23ff2746cce8f70066a3e3bad6b076d444ea332e93ac4017262",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\agent.js#finalizeDiagnostic",
+      "name": "finalizeDiagnostic",
+      "kind": "function",
+      "path": "lib\\diagnostic\\agent.js",
+      "span": "L110-L122",
+      "signature": "async function finalizeDiagnostic(state)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "6956ac1af123f95facbf01a73562d2c729a84c3c3cfe252458ce14ab0b63f2db",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\agent.js#modelName",
+      "name": "modelName",
+      "kind": "function",
+      "path": "lib\\diagnostic\\agent.js",
+      "span": "L47-L49",
+      "signature": "function modelName()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "6b1bddc41c00878639df0e692e5cb804c6777f711ebdcf3101d58dc925675010",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\agent.js#modelSettings",
+      "name": "modelSettings",
+      "kind": "function",
+      "path": "lib\\diagnostic\\agent.js",
+      "span": "L34-L45",
+      "signature": "function modelSettings(maxTokens, toolChoice = 'none')",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "d0d3477518eb9f1cec99a84483bfa0ac41dedb15c064286f81ba4a22768fa967",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\agent.js#runDiagnosticIntake",
+      "name": "runDiagnosticIntake",
+      "kind": "function",
+      "path": "lib\\diagnostic\\agent.js",
+      "span": "L94-L108",
+      "signature": "async function runDiagnosticIntake({ workflowDescription, state, answer })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "ee29596e364a8fd1b445429307cfdca88d6ce0d0b6a96594698dcb0769d3740a",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\experience.js",
+      "name": "experience.js",
+      "kind": "file",
+      "path": "lib\\diagnostic\\experience.js",
+      "span": "L1-L49",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "a12a5a9c0a2a8853cd910524a964a2c7c27a5ac7c70cf903d13bca70b2b1d2d3",
+      "chars": 1431,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\experience.js#getRelevantExperience",
+      "name": "getRelevantExperience",
+      "kind": "function",
+      "path": "lib\\diagnostic\\experience.js",
+      "span": "L1-L48",
+      "signature": "function getRelevantExperience(state)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "48e81bdee5c622348f2f1509422224edf3f26434d499ce0ac77c11d0c98f0f29",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\fit.js",
+      "name": "fit.js",
+      "kind": "file",
+      "path": "lib\\diagnostic\\fit.js",
+      "span": "L1-L76",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "f8c51bd66997594a9b8a7b445abebd743173d21b4380e902f5d7deac7dd493aa",
+      "chars": 2951,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\fit.js#assessWorkflowFit",
+      "name": "assessWorkflowFit",
+      "kind": "function",
+      "path": "lib\\diagnostic\\fit.js",
+      "span": "L9-L75",
+      "signature": "function assessWorkflowFit(workflow)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "4866cde51b4af14ced219958b6af960815ab52050d96d66725b3358280dc55bc",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\fit.js#signalText",
+      "name": "signalText",
+      "kind": "function",
+      "path": "lib\\diagnostic\\fit.js",
+      "span": "L7-L7",
+      "signature": "signalText = (signal)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "5f375037f46a626aa9e4f3e7e3adb383fd3ac62b214780b164064ae545ea6fb7",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\schemas.js",
+      "name": "schemas.js",
+      "kind": "file",
+      "path": "lib\\diagnostic\\schemas.js",
+      "span": "L1-L168",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "1985373a937002a099f7e86494358db44c3619ab022043c90f2aef70c853c875",
+      "chars": 4436,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\security.js",
+      "name": "security.js",
+      "kind": "file",
+      "path": "lib\\diagnostic\\security.js",
+      "span": "L1-L37",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "7e6116d46dcf8a046f27d2a502ce4747c96320e11a21284af74347859d75af41",
+      "chars": 997,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\security.js#expectedOrigin",
+      "name": "expectedOrigin",
+      "kind": "function",
+      "path": "lib\\diagnostic\\security.js",
+      "span": "L5-L9",
+      "signature": "function expectedOrigin(req)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "0621e5dc4afbef97207b78de2731558befe3b5d73ffc4c8a36adf30ae99e7760",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\security.js#isProduction",
+      "name": "isProduction",
+      "kind": "function",
+      "path": "lib\\diagnostic\\security.js",
+      "span": "L1-L3",
+      "signature": "function isProduction()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "d9df8e177c03bfcc4a4368fb654538e1325da675c971311e0b4a0d249cfe5e46",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\security.js#rejectIfUnsafeRequest",
+      "name": "rejectIfUnsafeRequest",
+      "kind": "function",
+      "path": "lib\\diagnostic\\security.js",
+      "span": "L22-L28",
+      "signature": "function rejectIfUnsafeRequest(req, res)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "facbae4d98ca2a014bd997935783db0693a3b52639b9837a6c3515f929ab7244",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\security.js#requireDiagnosticConfiguration",
+      "name": "requireDiagnosticConfiguration",
+      "kind": "function",
+      "path": "lib\\diagnostic\\security.js",
+      "span": "L30-L36",
+      "signature": "function requireDiagnosticConfiguration()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "6bb00f3ed869f6040b77066c9fecc329ed1bfc7a9cbd8b8dacecdb0d5b0347e9",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\security.js#requireSameOrigin",
+      "name": "requireSameOrigin",
+      "kind": "function",
+      "path": "lib\\diagnostic\\security.js",
+      "span": "L11-L15",
+      "signature": "function requireSameOrigin(req)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "a22c3be6d69d2783210c6da7cd462839635d4774fafc8dcb15d078f879f0b890",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\diagnostic\\security.js#setApiHeaders",
+      "name": "setApiHeaders",
+      "kind": "function",
+      "path": "lib\\diagnostic\\security.js",
+      "span": "L17-L20",
+      "signature": "function setApiHeaders(res)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "1336e7ecc1a8c450c6c607dc861cf86c39b64ce840093115d964b32c959e5cf3",
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -1268,8 +1836,8 @@
       "signature": null,
       "exported": true,
       "origin": "ast",
-      "body_hash": "b2c8bd275524e27228e9763da0cbdd5ba046d30ffe7af513a4f24855b33763d6",
-      "chars": 133,
+      "body_hash": "28bb0c4f10940b917f2680f2b19001a9ddcccc17d9f2f1778f2b4a5bb2ff5590",
+      "chars": 131,
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -1279,12 +1847,12 @@
       "name": "next.config.js",
       "kind": "file",
       "path": "next.config.js",
-      "span": "L1-L169",
+      "span": "L1-L183",
       "signature": null,
       "exported": true,
       "origin": "ast",
-      "body_hash": "6e193e223669d440b9a6f40b20e93c35f517c70f8d566b86684d3ab6d54ce25a",
-      "chars": 4291,
+      "body_hash": "e699b27a124a9dc64cd7fbdae179f4ef8dafa70560d28802f2ce2d294044cf11",
+      "chars": 4655,
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -1294,7 +1862,7 @@
       "name": "nextConfigWrapper",
       "kind": "function",
       "path": "next.config.js",
-      "span": "L155-L160",
+      "span": "L169-L174",
       "signature": "nextConfigWrapper = ()",
       "exported": false,
       "origin": "ast",
@@ -1427,8 +1995,8 @@
       "signature": null,
       "exported": true,
       "origin": "ast",
-      "body_hash": "111f2311cf1c59405b0b89ff417b749baf753dc5e2a6d303c9e4f95bee46d90f",
-      "chars": 1702,
+      "body_hash": "ce89e15e39f6d8e1869cefb62424085e147210ffc52acb860d5381ff8f21cc15",
+      "chars": 1712,
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -1442,7 +2010,7 @@
       "signature": "function Document()",
       "exported": true,
       "origin": "ast",
-      "body_hash": "ce9ea0413c14f175cf26d645523465b07020348e9c634bfba87f4c2dc48753d2",
+      "body_hash": "10ff3b87473d3c836f82c8586f35666cc85254b7599f135ebe633dc5ddbf74c5",
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -1452,12 +2020,12 @@
       "name": "contact.js",
       "kind": "file",
       "path": "pages\\api\\contact.js",
-      "span": "L1-L113",
+      "span": "L1-L112",
       "signature": null,
       "exported": true,
       "origin": "ast",
-      "body_hash": "a3f47156db6b3d8362a4493d50b206889cbba4a86590741b07d8a67f7cc6a305",
-      "chars": 3362,
+      "body_hash": "8e2f44047e1b3b780767b049f316bde64173a0dbdce6ddd78a6f0f9b0908da1c",
+      "chars": 3353,
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -1467,7 +2035,7 @@
       "name": "escapeHtml",
       "kind": "function",
       "path": "pages\\api\\contact.js",
-      "span": "L15-L21",
+      "span": "L14-L20",
       "signature": "escapeHtml = (value)",
       "exported": false,
       "origin": "ast",
@@ -1481,7 +2049,7 @@
       "name": "handler",
       "kind": "function",
       "path": "pages\\api\\contact.js",
-      "span": "L28-L112",
+      "span": "L27-L111",
       "signature": "async function handler(req, res)",
       "exported": true,
       "origin": "ast",
@@ -1495,11 +2063,140 @@
       "name": "valueFor",
       "kind": "function",
       "path": "pages\\api\\contact.js",
-      "span": "L23-L26",
+      "span": "L22-L25",
       "signature": "valueFor = (value)",
       "exported": false,
       "origin": "ast",
       "body_hash": "fd2dc541bb8d6dccf7ff61dafa8cd9962f54c44b87ee028e3bf9211088e607e4",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\diagnostic\\finalize.js",
+      "name": "finalize.js",
+      "kind": "file",
+      "path": "pages\\api\\diagnostic\\finalize.js",
+      "span": "L1-L40",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "d5ea8ecbc646c3b9cadacf36669158fa6fc4ee660b4fb58e711679a0b697d11a",
+      "chars": 1348,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\diagnostic\\finalize.js#handler",
+      "name": "handler",
+      "kind": "function",
+      "path": "pages\\api\\diagnostic\\finalize.js",
+      "span": "L13-L39",
+      "signature": "async function handler(req, res)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "aeb39f7707318b41ba0339acfbd92967770fc45a8df762ea98ce2cf02dfb1b9d",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\diagnostic\\handoff.js",
+      "name": "handoff.js",
+      "kind": "file",
+      "path": "pages\\api\\diagnostic\\handoff.js",
+      "span": "L1-L90",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "c5af91adaf4a338ec5faea3c7dbc2cd1cc1ed17a2c445db2d3e50a0375ef56be",
+      "chars": 3455,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\diagnostic\\handoff.js#briefHtml",
+      "name": "briefHtml",
+      "kind": "function",
+      "path": "pages\\api\\diagnostic\\handoff.js",
+      "span": "L22-L41",
+      "signature": "function briefHtml(brief)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "01a3356c3a193f8c4d49d6f1f503ba7a824c678690f192d793015bd9d746fd53",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\diagnostic\\handoff.js#escapeHtml",
+      "name": "escapeHtml",
+      "kind": "function",
+      "path": "pages\\api\\diagnostic\\handoff.js",
+      "span": "L9-L16",
+      "signature": "function escapeHtml(value)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "281f9abb67558c95ad654ec96245291a12c6d2570791d6cefa9a8511bb7ecb6f",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\diagnostic\\handoff.js#handler",
+      "name": "handler",
+      "kind": "function",
+      "path": "pages\\api\\diagnostic\\handoff.js",
+      "span": "L47-L89",
+      "signature": "async function handler(req, res)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "bb53477af26645fed29f557f96e9a2a2b5411e1e85745e29f7a7e0232a9f099f",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\diagnostic\\handoff.js#list",
+      "name": "list",
+      "kind": "function",
+      "path": "pages\\api\\diagnostic\\handoff.js",
+      "span": "L18-L20",
+      "signature": "function list(items)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "b426dc0e55fe6c717aeeaab28384078d3255c829b02661ebbad3d0bc17e6ddcf",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\diagnostic\\run.js",
+      "name": "run.js",
+      "kind": "file",
+      "path": "pages\\api\\diagnostic\\run.js",
+      "span": "L1-L57",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "26e7c18f7a342df50217755b83a70eef823d5383b48a5c7cacce4abc1fee0712",
+      "chars": 1829,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\diagnostic\\run.js#handler",
+      "name": "handler",
+      "kind": "function",
+      "path": "pages\\api\\diagnostic\\run.js",
+      "span": "L13-L56",
+      "signature": "async function handler(req, res)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "7dd40c1cab70e934baf3e355335096d3a448e783998c1b2c6331f39ef4d863b8",
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -1534,16 +2231,60 @@
       "crux": null
     },
     {
+      "id": "pages\\approach\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "pages\\approach\\index.js",
+      "span": "L1-L50",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "1b9e4d763524f3c2ca116366e5986df491de038e230ad89d4e5ab5427880d14e",
+      "chars": 1367,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\approach\\index.js#ApproachPage",
+      "name": "ApproachPage",
+      "kind": "function",
+      "path": "pages\\approach\\index.js",
+      "span": "L10-L49",
+      "signature": "function ApproachPage({ studioTitan, footer, contact })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "08460c3fbb1ee44dea820d7efa9b159f6315a0fa9938b011e066bc8222d35f7b",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\diagnostic\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "pages\\diagnostic\\index.js",
+      "span": "L1-L50",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "e7247dc99d096e88b127c469682e08813fca7d9e5b5656279218a22cceb5cabc",
+      "chars": 1495,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
       "id": "pages\\home\\index.js",
       "name": "index.js",
       "kind": "file",
       "path": "pages\\home\\index.js",
-      "span": "L1-L309",
+      "span": "L1-L318",
       "signature": null,
       "exported": true,
       "origin": "ast",
-      "body_hash": "f0f8aa1f3c7cb6db0dd47491b728175f52b76edbd3ca3b76a4c87f1c4bc90c71",
-      "chars": 10781,
+      "body_hash": "53e7e31f3547c7264df09e4065a592ac4bca2580a1abb7dc42c1c53008b24d91",
+      "chars": 11163,
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -1553,7 +2294,7 @@
       "name": "selectedProject",
       "kind": "method",
       "path": "pages\\home\\index.js",
-      "span": "L261-L308",
+      "span": "L270-L317",
       "signature": "selectedProject?.stack?.map((item, i) => i === selectedProject.stack.length - 1 ? item : `${item}, `, )} </p> </div> )} </ScrollableBox> </div> </section> </div> </ClientOnly> )} <Gallery /> </Layout> ) } export async function getStaticProps({ preview = false })",
       "exported": false,
       "origin": "ast",
@@ -1582,12 +2323,12 @@
       "name": "sw.js",
       "kind": "file",
       "path": "public\\sw.js",
-      "span": "L1-L94",
+      "span": "L1-L93",
       "signature": null,
       "exported": true,
       "origin": "ast",
-      "body_hash": "e1fb39693fa8604a86c044c177c6ccafb5de00ddb03f4c7e32d1c09dc9f66321",
-      "chars": 2825,
+      "body_hash": "b722f708f792b68be7cde8e7302f65c705889a2923b037098cac45ffe797f3c4",
+      "chars": 2794,
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -1625,12 +2366,12 @@
       "name": "workbox-1b1de004.js",
       "kind": "file",
       "path": "public\\workbox-1b1de004.js",
-      "span": "L1-L2457",
+      "span": "L1-L2456",
       "signature": null,
       "exported": true,
       "origin": "ast",
-      "body_hash": "a75022eeeeb035e565f127d501f1b75ef817ef81e43aceebe3a761e294a83c83",
-      "chars": 92691,
+      "body_hash": "bb946227215c5ece372dceb0f5d03dd1de72dcf6454983972c362918b88bac81",
+      "chars": 92646,
       "summary_state": "pending",
       "summary": null,
       "crux": null
@@ -2646,6 +3387,54 @@
   ],
   "edges": [
     {
+      "source": "components\\approach\\index.js",
+      "target": "components\\approach\\index.js#openContact",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\approach\\index.js",
+      "target": "./approach.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\approach\\index.js",
+      "target": "@studio-freight/compono",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\approach\\index.js",
+      "target": "@vercel/analytics",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\approach\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\approach\\index.js",
+      "target": "config/approach",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\approach\\index.js",
+      "target": "lib/store",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\approach\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
       "source": "components\\composable-image\\index.js",
       "target": "./composable-image.module.scss",
       "relation": "imports",
@@ -2715,6 +3504,150 @@
       "source": "components\\contact-email-form\\index.js",
       "target": "react-hook-form",
       "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\contact-email-form\\index.js#onSubmit",
+      "target": "components\\diagnostic\\index.js#reset",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "components\\diagnostic\\index.js#makeUserSignal",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "components\\diagnostic\\index.js#updateValue",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "hooks\\use-ready-state.js#useDocumentReadyState.onStateChange",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "lib\\diagnostic\\experience.js#getRelevantExperience",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "lib\\theatre\\hooks\\use-theatre.js#useTheatre.onChange",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "components\\diagnostic\\index.js#cn",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "components\\diagnostic\\index.js#continueWithAnswer",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "components\\diagnostic\\index.js#finalize",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "components\\diagnostic\\index.js#makeUserSignal",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "components\\diagnostic\\index.js#request",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "components\\diagnostic\\index.js#reset",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "components\\diagnostic\\index.js#signalValue",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "components\\diagnostic\\index.js#start",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "components\\diagnostic\\index.js#submit",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "components\\diagnostic\\index.js#updateValue",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "./diagnostic.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "@vercel/analytics",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "lib/diagnostic/experience",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js#continueWithAnswer",
+      "target": "components\\diagnostic\\index.js#request",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js#finalize",
+      "target": "components\\diagnostic\\index.js#request",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\diagnostic\\index.js#start",
+      "target": "components\\diagnostic\\index.js#request",
+      "relation": "calls",
       "confidence": "extracted"
     },
     {
@@ -3456,6 +4389,210 @@
       "confidence": "extracted"
     },
     {
+      "source": "lib\\diagnostic\\agent.js",
+      "target": "lib\\diagnostic\\fit.js#assessWorkflowFit",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js",
+      "target": "lib\\diagnostic\\agent.js#configureTracing",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js",
+      "target": "lib\\diagnostic\\agent.js#createFinalAgent",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js",
+      "target": "lib\\diagnostic\\agent.js#createIntakeAgent",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js",
+      "target": "lib\\diagnostic\\agent.js#finalizeDiagnostic",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js",
+      "target": "lib\\diagnostic\\agent.js#modelName",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js",
+      "target": "lib\\diagnostic\\agent.js#modelSettings",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js",
+      "target": "lib\\diagnostic\\agent.js#runDiagnosticIntake",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js",
+      "target": "./fit",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js",
+      "target": "./schemas",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js",
+      "target": "@openai/agents",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js",
+      "target": "zod",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js#createFinalAgent",
+      "target": "lib\\diagnostic\\agent.js#modelName",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js#createFinalAgent",
+      "target": "lib\\diagnostic\\agent.js#modelSettings",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js#createIntakeAgent",
+      "target": "lib\\diagnostic\\agent.js#modelName",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js#createIntakeAgent",
+      "target": "lib\\diagnostic\\agent.js#modelSettings",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js#finalizeDiagnostic",
+      "target": "lib\\diagnostic\\agent.js#configureTracing",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js#finalizeDiagnostic",
+      "target": "lib\\diagnostic\\agent.js#createFinalAgent",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js#runDiagnosticIntake",
+      "target": "lib\\diagnostic\\agent.js#configureTracing",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\agent.js#runDiagnosticIntake",
+      "target": "lib\\diagnostic\\agent.js#createIntakeAgent",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\experience.js",
+      "target": "lib\\diagnostic\\experience.js#getRelevantExperience",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\fit.js",
+      "target": "lib\\diagnostic\\fit.js#assessWorkflowFit",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\fit.js",
+      "target": "lib\\diagnostic\\fit.js#signalText",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\fit.js#assessWorkflowFit",
+      "target": "lib\\diagnostic\\fit.js#signalText",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\schemas.js",
+      "target": "zod",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\security.js",
+      "target": "lib\\diagnostic\\security.js#expectedOrigin",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\security.js",
+      "target": "lib\\diagnostic\\security.js#isProduction",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\security.js",
+      "target": "lib\\diagnostic\\security.js#rejectIfUnsafeRequest",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\security.js",
+      "target": "lib\\diagnostic\\security.js#requireDiagnosticConfiguration",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\security.js",
+      "target": "lib\\diagnostic\\security.js#requireSameOrigin",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\security.js",
+      "target": "lib\\diagnostic\\security.js#setApiHeaders",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\security.js#rejectIfUnsafeRequest",
+      "target": "lib\\diagnostic\\security.js#requireSameOrigin",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\security.js#requireDiagnosticConfiguration",
+      "target": "lib\\diagnostic\\security.js#isProduction",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\diagnostic\\security.js#requireSameOrigin",
+      "target": "lib\\diagnostic\\security.js#expectedOrigin",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
       "source": "lib\\maths.js",
       "target": "lib\\maths.js#clamp",
       "relation": "contains",
@@ -4182,9 +5319,249 @@
       "confidence": "extracted"
     },
     {
+      "source": "pages\\api\\diagnostic\\finalize.js",
+      "target": "pages\\api\\diagnostic\\finalize.js#handler",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\finalize.js",
+      "target": "lib/diagnostic/agent",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\finalize.js",
+      "target": "lib/diagnostic/schemas",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\finalize.js",
+      "target": "lib/diagnostic/security",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\finalize.js#handler",
+      "target": "lib\\diagnostic\\agent.js#finalizeDiagnostic",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\finalize.js#handler",
+      "target": "lib\\diagnostic\\security.js#rejectIfUnsafeRequest",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\finalize.js#handler",
+      "target": "lib\\diagnostic\\security.js#requireDiagnosticConfiguration",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\finalize.js#handler",
+      "target": "lib\\diagnostic\\security.js#setApiHeaders",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\handoff.js",
+      "target": "pages\\api\\diagnostic\\handoff.js#briefHtml",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\handoff.js",
+      "target": "pages\\api\\diagnostic\\handoff.js#escapeHtml",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\handoff.js",
+      "target": "pages\\api\\diagnostic\\handoff.js#handler",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\handoff.js",
+      "target": "pages\\api\\diagnostic\\handoff.js#list",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\handoff.js",
+      "target": "lib/diagnostic/schemas",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\handoff.js",
+      "target": "lib/diagnostic/security",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\handoff.js#briefHtml",
+      "target": "pages\\api\\diagnostic\\handoff.js#escapeHtml",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\handoff.js#briefHtml",
+      "target": "pages\\api\\diagnostic\\handoff.js#list",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\handoff.js#handler",
+      "target": "lib\\diagnostic\\security.js#rejectIfUnsafeRequest",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\handoff.js#handler",
+      "target": "lib\\diagnostic\\security.js#setApiHeaders",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\handoff.js#handler",
+      "target": "pages\\api\\diagnostic\\handoff.js#briefHtml",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\handoff.js#handler",
+      "target": "pages\\api\\diagnostic\\handoff.js#escapeHtml",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\handoff.js#list",
+      "target": "pages\\api\\diagnostic\\handoff.js#escapeHtml",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\run.js",
+      "target": "pages\\api\\diagnostic\\run.js#handler",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\run.js",
+      "target": "lib/diagnostic/agent",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\run.js",
+      "target": "lib/diagnostic/schemas",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\run.js",
+      "target": "lib/diagnostic/security",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\run.js#handler",
+      "target": "lib\\diagnostic\\agent.js#runDiagnosticIntake",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\run.js#handler",
+      "target": "lib\\diagnostic\\security.js#rejectIfUnsafeRequest",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\run.js#handler",
+      "target": "lib\\diagnostic\\security.js#requireDiagnosticConfiguration",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\api\\diagnostic\\run.js#handler",
+      "target": "lib\\diagnostic\\security.js#setApiHeaders",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
       "source": "pages\\api\\test.js",
       "target": "pages\\api\\test.js#handler",
       "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\approach\\index.js",
+      "target": "pages\\approach\\index.js#ApproachPage",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\approach\\index.js",
+      "target": "components/approach",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\approach\\index.js",
+      "target": "contentful/api",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\approach\\index.js",
+      "target": "contentful/queries/home.graphql",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\approach\\index.js",
+      "target": "layouts/default",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\approach\\index.js#ApproachPage",
+      "target": "contentful\\api.js#fetchCmsQuery",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\diagnostic\\index.js",
+      "target": "contentful\\api.js#fetchCmsQuery",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\diagnostic\\index.js",
+      "target": "components/diagnostic",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\diagnostic\\index.js",
+      "target": "contentful/api",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\diagnostic\\index.js",
+      "target": "contentful/queries/home.graphql",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\diagnostic\\index.js",
+      "target": "layouts/default",
+      "relation": "imports",
       "confidence": "extracted"
     },
     {

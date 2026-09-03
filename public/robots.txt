@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://studiofreight.com
+Host: https://louiskarakas.com
 
 # Sitemaps
-Sitemap: https://studiofreight.com/sitemap.xml
+Sitemap: https://louiskarakas.com/sitemap.xml

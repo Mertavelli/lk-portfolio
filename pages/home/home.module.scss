@@ -22,6 +22,12 @@
   }
 
   .list {
+    .listContent {
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+    }
+
     .list-item {
       padding: desktop-vw(16px) 0;
       border-top: 1px solid var(--grey);
@@ -69,6 +75,26 @@
       &:last-child {
         border-bottom: 1px solid var(--grey);
       }
+    }
+
+    .approachLink {
+      align-items: center;
+      border-bottom: 1px solid var(--grey);
+      border-top: 1px solid var(--grey);
+      color: var(--theme-secondary);
+      display: flex;
+      font-family: var(--font-secondary);
+      justify-content: space-between;
+      line-height: 1.2;
+      margin-top: auto;
+      padding: desktop-vh(12px) 0;
+      text-transform: uppercase;
+    }
+
+    .approachArrow {
+      flex: 0 0 auto;
+      margin-left: desktop-vw(12px);
+      width: desktop-vw(10px);
     }
   }
 }

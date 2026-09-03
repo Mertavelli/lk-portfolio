@@ -1,5 +1,15 @@
 const withPWA = require('@ducanh2912/next-pwa').default({
   dest: 'public',
+  extendDefaultRuntimeCaching: true,
+  workboxOptions: {
+    runtimeCaching: [
+      {
+        urlPattern: /\/api\/(diagnostic|contact)(?:\/.*)?$/i,
+        handler: 'NetworkOnly',
+        method: 'GET',
+      },
+    ],
+  },
 })
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
@@ -126,11 +136,15 @@ const nextConfig = {
           },
           {
             key: 'X-Frame-Options',
-            value: 'SAMEORIGIN',
+            value: 'DENY',
           },
           {
-            key: 'X-XSS-Protection',
-            value: '1; mode=block',
+            key: 'Referrer-Policy',
+            value: 'strict-origin-when-cross-origin',
+          },
+          {
+            key: 'Permissions-Policy',
+            value: 'camera=(), microphone=(), geolocation=(), payment=()',
           },
         ],
       },

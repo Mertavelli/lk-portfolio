@@ -1,0 +1,210 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link [ref=e8] [cursor=pointer]:
+            - /url: /
+          - link [ref=e15] [cursor=pointer]:
+            - /url: https://youtu.be/GO5FwsblpT8
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - paragraph [ref=e22]: 01 Design what matters//
+            - paragraph [ref=e23]: 02 Operate above complexity//
+            - paragraph [ref=e24]: 03 Build thinking systems//
+            - paragraph [ref=e25]: 04 Choose what scales//
+            - paragraph [ref=e26]: 05 See before it happens//
+            - paragraph [ref=e27]: 06 Make clarity a weapon//
+            - paragraph [ref=e28]: 07 Think without illusion//
+          - generic [aria-hidden] [ref=e29]:
+            - paragraph [ref=e30]: 01 Design what matters//
+            - paragraph [ref=e31]: 02 Operate above complexity//
+            - paragraph [ref=e32]: 03 Build thinking systems//
+            - paragraph [ref=e33]: 04 Choose what scales//
+            - paragraph [ref=e34]: 05 See before it happens//
+            - paragraph [ref=e35]: 06 Make clarity a weapon//
+            - paragraph [ref=e36]: 07 Think without illusion//
+        - generic [ref=e37]:
+          - link "Work" [ref=e38] [cursor=pointer]:
+            - /url: /
+          - button "Contact" [ref=e39] [cursor=pointer]
+      - generic [ref=e62]:
+        - button "close" [ref=e64] [cursor=pointer]
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - heading "Project Inquiry" [level=2] [ref=e72]
+            - paragraph [ref=e73]: I work with a small number of companies on AI strategy, workflow redesign, and the systems required to put those ideas into production.
+            - paragraph [ref=e74]: The starting point is usually not a predefined tool. I first want to understand how your team works, where knowledge-intensive processes consume disproportionate time, and where AI can create meaningful leverage.
+            - paragraph [ref=e75]: If there is a strong use case, I can support both the strategic design and the technical implementation.
+            - paragraph [ref=e76]: If you think there may be a fit, tell me a little about your company and what you are currently looking to improve.
+            - paragraph [ref=e77]: "Timing: I keep my workload intentionally focused and only take on a limited number of engagements at the same time. Timing depends on scope and current availability."
+            - paragraph [ref=e78]: "Scope: I focus on AI-native operating models, agentic workflows, knowledge systems, and custom AI software. I am most useful where there is a meaningful business problem to solve rather than a predefined technical task."
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - generic [ref=e81] [cursor=pointer]: Full name *
+              - textbox "Full name *" [ref=e82] [cursor=pointer]:
+                - /placeholder: TYPE HERE
+            - generic [ref=e83]:
+              - generic [ref=e84] [cursor=pointer]: Company
+              - textbox "Company" [ref=e85] [cursor=pointer]:
+                - /placeholder: TYPE HERE
+            - generic [ref=e86]:
+              - generic [ref=e87] [cursor=pointer]: Email *
+              - textbox "Email *" [ref=e88] [cursor=pointer]:
+                - /placeholder: TYPE HERE
+            - generic [ref=e89]:
+              - generic [ref=e90] [cursor=pointer]: What are you looking to improve? *
+              - combobox [ref=e91] [cursor=pointer]:
+                - generic: SELECT
+              - combobox [aria-hidden] [ref=e95] [cursor=pointer]
+            - generic [ref=e96]:
+              - generic [ref=e97] [cursor=pointer]: Timeline
+              - combobox [ref=e98] [cursor=pointer]:
+                - generic: SELECT
+              - combobox [aria-hidden] [ref=e102] [cursor=pointer]
+            - generic [ref=e103]:
+              - generic [ref=e104] [cursor=pointer]: How did you find me?
+              - textbox "How did you find me?" [ref=e105] [cursor=pointer]:
+                - /placeholder: TYPE HERE
+            - generic [ref=e106]:
+              - generic [ref=e107] [cursor=pointer]: Favourite movie or album
+              - textbox "Favourite movie or album" [ref=e108] [cursor=pointer]:
+                - /placeholder: TYPE HERE
+            - generic [ref=e109]:
+              - generic [ref=e110] [cursor=pointer]: Tell me about your current setup or challenge *
+              - textbox "Tell me about your current setup or challenge *" [ref=e111] [cursor=pointer]:
+                - /placeholder: How does your team work today, where do you see friction, and what would you like to improve?
+            - button "SHIP IT" [ref=e112] [cursor=pointer]
+          - generic [ref=e113]:
+            - paragraph [ref=e114]: FAQ
+            - generic [ref=e115]:
+              - heading [level=3] [ref=e117]:
+                - button [ref=e118] [cursor=pointer]:
+                  - paragraph [ref=e119]: Approach
+              - heading [level=3] [ref=e129]:
+                - button [ref=e130] [cursor=pointer]:
+                  - paragraph [ref=e131]: Collaborations
+              - heading [level=3] [ref=e141]:
+                - button [ref=e142] [cursor=pointer]:
+                  - paragraph [ref=e143]: Press / Interviews
+              - heading [level=3] [ref=e153]:
+                - button [ref=e154] [cursor=pointer]:
+                  - paragraph [ref=e155]: Recommendations (life matters too)
+    - main [ref=e164]:
+      - article [ref=e165]:
+        - generic [ref=e166]:
+          - generic [ref=e167]:
+            - paragraph [ref=e168]: AI Strategy & Engineering
+            - heading "AI is useful when it changes the workflow, not when it adds another tab." [level=1] [ref=e169]
+            - paragraph [ref=e170]: I help teams rethink how research, analysis, and decisions move through the business — then build the systems that make the change real.
+          - figure "An isolated tool leaves the work around it unchanged." [ref=e171]:
+            - list [ref=e173]:
+              - listitem [ref=e174]:
+                - generic [ref=e175]: "01"
+                - text: Research
+              - listitem [ref=e176]:
+                - generic [ref=e177]: "02"
+                - text: Analysis
+              - listitem [ref=e178]:
+                - generic [ref=e179]: "03"
+                - text: Draft
+              - listitem [ref=e180]:
+                - generic [ref=e181]: "04"
+                - text: Review
+              - listitem [ref=e182]:
+                - generic [ref=e183]: "05"
+                - text: Decision
+            - generic [ref=e184]: Isolated AI tool
+        - region [ref=e185]:
+          - generic [ref=e186]:
+            - complementary [ref=e187]:
+              - heading "A practical way to begin." [level=2] [ref=e188]
+              - list [ref=e189]:
+                - listitem [ref=e190]:
+                  - link "Assess" [ref=e191] [cursor=pointer]:
+                    - /url: "#assess"
+                - listitem [ref=e192]:
+                  - link "Diagnose" [ref=e193] [cursor=pointer]:
+                    - /url: "#diagnose"
+                - listitem [ref=e194]:
+                  - link "Prescribe" [ref=e195] [cursor=pointer]:
+                    - /url: "#prescribe"
+                - listitem [ref=e196]:
+                  - link "Implement" [ref=e197] [cursor=pointer]:
+                    - /url: "#implement"
+            - generic [ref=e198]:
+              - region [ref=e199]:
+                - paragraph [ref=e200]: "01"
+                - generic [ref=e201]:
+                  - heading "Assess" [level=3] [ref=e202]
+                  - paragraph [ref=e203]: Start with how the work happens today. Where does time go? Where does information move? Where do people stop to make a judgment?
+                  - paragraph [ref=e204]: A useful map follows the work, not the org chart.
+              - region [ref=e205]:
+                - paragraph [ref=e206]: "02"
+                - generic [ref=e207]:
+                  - heading "Diagnose" [level=3] [ref=e208]
+                  - paragraph [ref=e209]: Find the moments where AI can create real leverage. Separate repetitive synthesis from work that needs context, accountability, or expert judgment.
+                  - paragraph [ref=e210]: Not every task should be automated.
+              - region [ref=e211]:
+                - paragraph [ref=e212]: "03"
+                - generic [ref=e213]:
+                  - heading "Prescribe" [level=3] [ref=e214]
+                  - paragraph [ref=e215]: Define the target workflow before choosing tools. Set human and system responsibilities, the data required, the interfaces, the boundaries, and the order of work.
+                  - paragraph [ref=e216]: A target workflow is more useful than a feature list.
+              - region [ref=e217]:
+                - paragraph [ref=e218]: "04"
+                - generic [ref=e219]:
+                  - heading "Implement" [level=3] [ref=e220]
+                  - paragraph [ref=e221]: "Build what the workflow needs: retrieval, structured interfaces, integrations, review states, and software that can hold up in day-to-day use."
+                  - paragraph [ref=e222]: Strategy only matters when it becomes a working system.
+                  - link "See Markets AI" [ref=e223] [cursor=pointer]:
+                    - /url: /#markets-ai
+        - region [ref=e224]:
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - heading "Human judgment stays where it matters." [level=2] [ref=e227]
+              - paragraph [ref=e228]: In high-stakes workflows, the goal is not maximum autonomy. The system should make its output easy to inspect, correct, and verify.
+            - figure "Models propose. Systems constrain. People verify." [ref=e229]:
+              - generic [ref=e231]:
+                - generic [ref=e232]:
+                  - paragraph [ref=e233]: Probabilistic generation
+                  - generic [ref=e234]: Retrieval and model output
+                - generic [ref=e235]:
+                  - paragraph [ref=e236]: Structured state
+                  - generic [ref=e237]: Schema, validation, evidence
+                - generic [ref=e238]:
+                  - paragraph [ref=e239]: Human review
+                  - generic [ref=e240]: Inspect, edit, verify
+              - paragraph [ref=e241]: Missing evidence should be visible. Outputs should stay editable.
+        - region [ref=e242]:
+          - generic [ref=e243]:
+            - paragraph [ref=e244]: Independent research
+            - generic [ref=e245]:
+              - 'heading "Collaborative AI for Private Markets: Schema-Driven Document Generation" [level=2] [ref=e246]'
+              - paragraph [ref=e247]: A research paper exploring schema-bound, human-in-the-loop AI for high-stakes document workflows.
+            - link "Read the paper (PDF)" [ref=e248] [cursor=pointer]:
+              - /url: /research/collaborative-ai-private-markets.pdf
+        - generic [ref=e250]:
+          - heading "Build the system only after the problem is understood." [level=2] [ref=e251]
+          - button "Discuss a workflow" [ref=e252] [cursor=pointer]
+    - contentinfo [ref=e253]:
+      - generic [ref=e258]:
+        - list [ref=e260]:
+          - listitem [ref=e261]:
+            - link "LinkedIn" [ref=e262] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/louiskarakas/
+          - listitem [ref=e263]:
+            - link "GitHub" [ref=e264] [cursor=pointer]:
+              - /url: https://www.github.com/Mertavelli
+        - list [ref=e265]
+        - list [ref=e266]
+        - list [ref=e267]:
+          - listitem [ref=e268]:
+            - 'link "Phone: +49 15567 350603" [ref=e269] [cursor=pointer]':
+              - /url: tel:+49 15567 350603
+          - listitem [ref=e270]:
+            - 'link "E-Mail: hello@louiskarakas.com" [ref=e271] [cursor=pointer]':
+              - /url: mailto:hello@louiskarakas.com
+        - list [ref=e272]:
+          - listitem [ref=e273]: © 2026
+  - alert [ref=e274]

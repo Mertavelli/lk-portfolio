@@ -1,0 +1,611 @@
+.approach {
+  padding-bottom: mobile-vw(96px);
+
+  @include desktop {
+    padding-bottom: desktop-vw(160px);
+  }
+}
+
+.intro {
+  padding-top: mobile-vw(38px);
+
+  @include desktop {
+    padding-top: desktop-vw(74px);
+  }
+}
+
+.introGrid {
+  .practice {
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: mobile-vw(11px);
+    grid-column: 1/-1;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    @include desktop {
+      font-size: desktop-vw(12px);
+      grid-column: 1/3;
+      padding-top: desktop-vw(16px);
+    }
+  }
+
+  .title {
+    font-family: var(--font);
+    font-size: mobile-vw(43px);
+    font-weight: 400;
+    grid-column: 1/-1;
+    letter-spacing: -0.04em;
+    line-height: 0.96;
+    margin-top: mobile-vw(34px);
+    max-width: 13ch;
+
+    @include desktop {
+      font-size: min(6rem, desktop-vw(94px));
+      grid-column: 3/-1;
+      margin-top: 0;
+      max-width: 12.5ch;
+    }
+  }
+
+  .lead {
+    color: var(--theme-secondary);
+    font-size: mobile-vw(15px);
+    font-weight: 400;
+    grid-column: 1/-1;
+    line-height: 1.3;
+    margin-top: mobile-vw(40px);
+    max-width: 34ch;
+    opacity: 0.62;
+
+    @include desktop {
+      font-size: desktop-vw(18px);
+      grid-column: 5/8;
+      margin-top: desktop-vw(66px);
+      max-width: 32ch;
+    }
+  }
+}
+
+.workflow {
+  border-bottom: 1px solid var(--grey);
+  border-top: 1px solid var(--grey);
+  margin-top: mobile-vw(76px);
+  padding: mobile-vw(13px) 0 mobile-vw(16px);
+  position: relative;
+
+  @include desktop {
+    margin-top: desktop-vw(154px);
+    padding: desktop-vw(14px) 0 desktop-vw(18px);
+  }
+
+  figcaption,
+  .isolatedTool,
+  ol {
+    font-family: var(--font-mono);
+    font-size: mobile-vw(10px);
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    @include desktop {
+      font-size: desktop-vw(10px);
+    }
+  }
+
+  figcaption {
+    color: var(--grey);
+    margin-bottom: mobile-vw(34px);
+
+    @include desktop {
+      margin-bottom: desktop-vw(50px);
+    }
+  }
+
+  ol {
+    display: grid;
+    gap: mobile-vw(12px);
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: mobile-vw(12px);
+
+    @include desktop {
+      gap: desktop-vw(16px);
+      grid-template-columns: repeat(5, 1fr);
+      padding-right: desktop-vw(145px);
+    }
+
+    li {
+      align-items: baseline;
+      border-top: 1px solid var(--grey);
+      display: flex;
+      gap: mobile-vw(8px);
+      padding-top: mobile-vw(7px);
+
+      @include desktop {
+        gap: desktop-vw(8px);
+        padding-top: desktop-vw(8px);
+      }
+
+      span {
+        color: var(--green);
+      }
+    }
+  }
+
+  .isolatedTool {
+    border: 1px dashed var(--grey);
+    color: var(--grey);
+    margin-left: auto;
+    margin-top: mobile-vw(22px);
+    padding: mobile-vw(8px);
+    width: max-content;
+
+    @include desktop {
+      position: absolute;
+      right: 0;
+      bottom: desktop-vw(18px);
+      margin: 0;
+      padding: desktop-vw(8px);
+    }
+  }
+}
+
+.method {
+  margin-top: mobile-vw(104px);
+
+  @include desktop {
+    margin-top: desktop-vw(180px);
+  }
+}
+
+.methodGrid {
+  .methodIndex {
+    grid-column: 1/-1;
+
+    @include desktop {
+      align-self: start;
+      grid-column: 1/3;
+      position: sticky;
+      top: desktop-vw(28px);
+    }
+
+    h2 {
+      font-size: mobile-vw(25px);
+      font-weight: 400;
+      letter-spacing: -0.03em;
+      line-height: 0.98;
+      max-width: 10ch;
+
+      @include desktop {
+        font-size: desktop-vw(31px);
+      }
+    }
+
+    ol {
+      margin-top: mobile-vw(35px);
+
+      @include desktop {
+        margin-top: desktop-vw(55px);
+      }
+
+      li {
+        border-top: 1px solid var(--grey);
+        color: var(--grey);
+        font-family: var(--font-mono);
+        font-size: mobile-vw(11px);
+        padding: mobile-vw(8px) 0;
+        text-transform: uppercase;
+        transition: color 350ms var(--ease-out-expo);
+
+        @include desktop {
+          font-size: desktop-vw(11px);
+          padding: desktop-vw(8px) 0;
+        }
+
+        &.active {
+          color: var(--green);
+        }
+      }
+    }
+  }
+
+  .stages {
+    grid-column: 1/-1;
+    margin-top: mobile-vw(73px);
+
+    @include desktop {
+      grid-column: 3/-1;
+      margin-top: 0;
+    }
+  }
+}
+
+.stage {
+  border-top: 1px solid var(--grey);
+  display: grid;
+  gap: mobile-vw(16px);
+  grid-template-columns: mobile-vw(34px) 1fr;
+  padding: mobile-vw(14px) 0 mobile-vw(64px);
+  scroll-margin-top: mobile-vw(20px);
+
+  @include desktop {
+    gap: desktop-vw(25px);
+    grid-template-columns: desktop-vw(54px) minmax(0, 1fr);
+    min-height: desktop-vw(320px);
+    padding: desktop-vw(16px) 0 desktop-vw(105px);
+    scroll-margin-top: desktop-vw(35px);
+  }
+
+  &:last-child {
+    border-bottom: 1px solid var(--grey);
+  }
+
+  .stageNumber {
+    color: var(--grey);
+    font-family: var(--font-mono);
+    font-size: mobile-vw(10px);
+    transition: color 350ms var(--ease-out-expo);
+
+    @include desktop {
+      font-size: desktop-vw(10px);
+    }
+  }
+
+  h3 {
+    font-size: mobile-vw(45px);
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    line-height: 0.9;
+
+    @include desktop {
+      font-size: min(5.5rem, desktop-vw(76px));
+    }
+  }
+
+  h3 + p {
+    font-size: mobile-vw(19px);
+    line-height: 1.17;
+    margin-top: mobile-vw(26px);
+    max-width: 31ch;
+
+    @include desktop {
+      font-size: desktop-vw(26px);
+      margin-top: desktop-vw(35px);
+      max-width: 34ch;
+    }
+  }
+
+  &.active .stageNumber {
+    color: var(--green);
+  }
+
+  .stageDetail {
+    color: var(--grey);
+    font-family: var(--font-mono);
+    font-size: mobile-vw(11px);
+    line-height: 1.25;
+    margin-top: mobile-vw(27px);
+    max-width: 36ch;
+    text-transform: uppercase;
+
+    @include desktop {
+      font-size: desktop-vw(11px);
+      margin-top: desktop-vw(40px);
+    }
+  }
+
+  .workLink {
+    display: inline-block;
+    margin-top: mobile-vw(28px);
+
+    @include desktop {
+      margin-top: desktop-vw(35px);
+    }
+  }
+}
+
+.judgment {
+  margin-top: mobile-vw(106px);
+
+  @include desktop {
+    margin-top: desktop-vw(180px);
+  }
+}
+
+.judgmentGrid {
+  .judgmentCopy {
+    grid-column: 1/-1;
+
+    @include desktop {
+      grid-column: 1/5;
+    }
+
+    h2 {
+      font-size: mobile-vw(43px);
+      font-weight: 400;
+      letter-spacing: -0.04em;
+      line-height: 0.94;
+      max-width: 12ch;
+
+      @include desktop {
+        font-size: min(5.8rem, desktop-vw(81px));
+      }
+    }
+
+    p {
+      font-size: mobile-vw(19px);
+      line-height: 1.18;
+      margin-top: mobile-vw(33px);
+      max-width: 30ch;
+
+      @include desktop {
+        font-size: desktop-vw(23px);
+        margin-top: desktop-vw(43px);
+      }
+    }
+  }
+
+  .system {
+    border-top: 1px solid var(--grey);
+    grid-column: 1/-1;
+    margin-top: mobile-vw(70px);
+    padding-top: mobile-vw(13px);
+
+    @include desktop {
+      grid-column: 5/-1;
+      margin-top: desktop-vw(156px);
+      padding-top: desktop-vw(14px);
+    }
+
+    figcaption {
+      font-family: var(--font-mono);
+      font-size: mobile-vw(11px);
+      line-height: 1.2;
+      max-width: 30ch;
+      text-transform: uppercase;
+
+      @include desktop {
+        font-size: desktop-vw(11px);
+      }
+    }
+  }
+}
+
+.systemSteps {
+  display: grid;
+  gap: mobile-vw(22px);
+  margin-top: mobile-vw(47px);
+
+  @include desktop {
+    gap: desktop-vw(12px);
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: desktop-vw(72px);
+  }
+
+  section {
+    border-top: 1px solid var(--grey);
+    min-height: mobile-vw(116px);
+    padding-top: mobile-vw(9px);
+    position: relative;
+
+    @include desktop {
+      min-height: desktop-vw(148px);
+      padding-top: desktop-vw(10px);
+
+      &:not(:last-child)::after {
+        background-color: var(--grey);
+        content: '';
+        height: 1px;
+        position: absolute;
+        right: desktop-vw(-8px);
+        top: desktop-vw(-1px);
+        width: desktop-vw(4px);
+      }
+    }
+
+    &:nth-child(2) {
+      border-color: var(--green);
+    }
+
+    &:last-child {
+      border-color: var(--green);
+    }
+
+    p {
+      font-size: mobile-vw(21px);
+      letter-spacing: -0.03em;
+      line-height: 0.98;
+      max-width: 12ch;
+
+      @include desktop {
+        font-size: desktop-vw(23px);
+      }
+    }
+
+    span {
+      color: var(--grey);
+      display: block;
+      font-family: var(--font-mono);
+      font-size: mobile-vw(11px);
+      line-height: 1.25;
+      margin-top: mobile-vw(26px);
+      max-width: 18ch;
+      text-transform: uppercase;
+
+      @include desktop {
+        font-size: desktop-vw(11px);
+        margin-top: desktop-vw(35px);
+      }
+    }
+  }
+}
+
+.systemNote {
+  border-top: 1px solid var(--grey);
+  color: var(--grey);
+  font-family: var(--font-mono);
+  font-size: mobile-vw(10px);
+  line-height: 1.25;
+  margin-top: mobile-vw(24px);
+  padding-top: mobile-vw(9px);
+  text-transform: uppercase;
+
+  @include desktop {
+    font-size: desktop-vw(10px);
+    margin-top: desktop-vw(36px);
+    padding-top: desktop-vw(10px);
+  }
+}
+
+.research {
+  margin-top: mobile-vw(112px);
+
+  @include desktop {
+    margin-top: desktop-vw(184px);
+  }
+}
+
+.researchGrid {
+  border-bottom: 1px solid var(--grey);
+  border-top: 1px solid var(--grey);
+  padding: mobile-vw(13px) 0 mobile-vw(43px);
+
+  @include desktop {
+    padding: desktop-vw(15px) 0 desktop-vw(50px);
+  }
+
+  .researchType {
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: mobile-vw(10px);
+    grid-column: 1/-1;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    @include desktop {
+      font-size: desktop-vw(10px);
+      grid-column: 1/3;
+    }
+  }
+
+  h2 {
+    font-family: var(--font-alt);
+    font-size: mobile-vw(30px);
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    margin-top: mobile-vw(46px);
+    max-width: 22ch;
+
+    @include desktop {
+      font-size: desktop-vw(42px);
+      margin-top: 0;
+      max-width: 25ch;
+    }
+  }
+
+  h2 + p {
+    color: var(--grey);
+    font-size: mobile-vw(17px);
+    line-height: 1.2;
+    margin-top: mobile-vw(25px);
+    max-width: 36ch;
+
+    @include desktop {
+      font-size: desktop-vw(20px);
+      margin-top: desktop-vw(29px);
+    }
+  }
+
+  > div {
+    grid-column: 1/-1;
+
+    @include desktop {
+      grid-column: 3/7;
+    }
+  }
+
+  .paperLink {
+    align-self: end;
+    color: var(--green);
+    display: inline-block;
+    grid-column: 1/-1;
+    margin-top: mobile-vw(44px);
+    width: max-content;
+
+    @include desktop {
+      grid-column: 7/-1;
+      justify-self: end;
+      margin-top: 0;
+    }
+  }
+}
+
+.close {
+  margin-top: mobile-vw(126px);
+
+  @include desktop {
+    margin-top: desktop-vw(210px);
+  }
+}
+
+.closeGrid {
+  h2 {
+    font-size: mobile-vw(48px);
+    font-weight: 400;
+    grid-column: 1/-1;
+    letter-spacing: -0.04em;
+    line-height: 0.91;
+    max-width: 12ch;
+
+    @include desktop {
+      font-size: min(6rem, desktop-vw(102px));
+      grid-column: 1/7;
+      max-width: 13ch;
+    }
+  }
+
+  .closeActions {
+    grid-column: 1/-1;
+    margin-top: mobile-vw(49px);
+
+    @include desktop {
+      align-self: end;
+      grid-column: 7/-1;
+      justify-self: end;
+      margin-top: 0;
+    }
+  }
+
+  .diagnosticLink,
+  .contactButton {
+    color: var(--green);
+    display: block;
+    font-family: var(--font-mono);
+    font-size: mobile-vw(11px);
+    padding-bottom: mobile-vw(6px);
+    text-align: left;
+    text-transform: uppercase;
+
+    @include desktop {
+      font-size: desktop-vw(12px);
+      padding-bottom: desktop-vw(7px);
+      text-align: right;
+    }
+  }
+
+  .contactButton {
+    margin-top: mobile-vw(18px);
+
+    @include desktop {
+      margin-top: desktop-vw(18px);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .methodIndex li,
+  .stageNumber {
+    transition: none !important;
+  }
+}

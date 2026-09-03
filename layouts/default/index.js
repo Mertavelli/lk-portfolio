@@ -1,4 +1,4 @@
-import { Cursor, CustomHead, Scrollbar } from '@studio-freight/compono'
+import { Cursor, CustomHead } from '@studio-freight/compono'
 import { useDebug } from '@studio-freight/hamo'
 import cn from 'clsx'
 import { Footer } from 'components/footer'
@@ -13,37 +13,40 @@ const Orchestra = dynamic(
 
 export function Layout({
   seo = {
-    title: 'Louis Karakas – CTO',
+    title: 'Louis Karakas – AI Strategy & Engineering',
     description:
-      'Independent CTO. I build AI-native software end-to-end – from idea to working product. Focus on agentic systems, automation and pragmatic execution.',
+      'I help knowledge-intensive businesses redesign how they work with AI and build the systems required to make it real. Focus on AI strategy, agentic workflows and custom AI software.',
     image: { url: 'https://louiskarakas.com/profile.png' },
     keywords: [
       'Louis Karakas',
-      'AI Product Engineer',
+      'AI Strategy',
       'AI Engineering',
-      'AI Product Development',
-      'AI Enablement',
-      'LLM Systems',
-      'Large Language Models',
-      'OpenAI',
-      'Agent Orchestration',
+      'AI Strategy and Engineering',
+      'AI Consultant',
+      'AI Transformation',
+      'AI Operating Model',
+      'AI-Native Workflows',
+      'Agentic Workflows',
       'AI Agents',
-      'AI Venture Prototyping',
+      'Agentic Systems',
+      'Custom AI Software',
       'AI Automation',
-      'Business Automation',
-      'Process Automation',
+      'Knowledge Systems',
+      'Research Automation',
+      'Workflow Automation',
+      'Professional Services AI',
+      'Consulting AI',
+      'Business Process Automation',
+      'AI Product Engineering',
+      'Fullstack Engineering',
       'System Architecture',
       'Technical Architecture',
-      'Web Application Development',
-      'Fullstack Engineering',
       'Next.js',
       'TypeScript',
-      'Product Engineering',
-      'Custom AI Tools',
-      'Execution Focused',
-      'Founder Engineer',
-      'AI Prototyping',
-      'MVP Development',
+      'LLM Systems',
+      'OpenAI',
+      'Human-in-the-Loop Systems',
+      'AI Enablement',
     ],
   },
   children,
@@ -53,6 +56,7 @@ export function Layout({
   footerLinks,
   studioInfo,
   contactData,
+  scrollable = false,
 }) {
   const debug = useDebug()
 
@@ -60,9 +64,15 @@ export function Layout({
     <>
       <CustomHead {...seo} />
 
-      <div className={cn(`theme-${theme}`, s.layout, className)}>
+      <div
+        className={cn(
+          `theme-${theme}`,
+          s.layout,
+          scrollable && s.scrollable,
+          className,
+        )}
+      >
         <Cursor />
-        <Scrollbar />
         <Header principles={principles} contact={contactData} />
         <main className={s.main}>{children}</main>
         <Footer links={footerLinks} studioInfo={studioInfo} />

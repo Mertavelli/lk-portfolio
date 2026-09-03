@@ -19,4 +19,19 @@
       display: flex;
     }
   }
+
+  &.scrollable {
+    @include desktop {
+      height: auto;
+      min-height: 100vh;
+    }
+
+    .main {
+      overflow: visible;
+
+      @include desktop {
+        display: block;
+      }
+    }
+  }
 }

@@ -96,33 +96,43 @@ export default function Home({ studioTitan, footer, contact, projects }) {
                 Work
               </p>
               <ScrollableBox className={s.list}>
-                <ul>
-                  {projects.items.map((project) => (
-                    <li
-                      key={project.sys.id}
-                      className={cn(
-                        selectedProject?.sys?.id === project.sys.id && s.active,
-                        s['list-item'],
-                      )}
-                    >
-                      <button
-                        onClick={() => {
-                          va.track('Selected:', {
-                            project: project.name,
-                          })
-                          setSelectedProject(project)
-                        }}
+                <div className={s.listContent}>
+                  <ul>
+                    {projects.items.map((project) => (
+                      <li
+                        key={project.sys.id}
+                        className={cn(
+                          selectedProject?.sys?.id === project.sys.id &&
+                            s.active,
+                          s['list-item'],
+                        )}
                       >
-                        <p className="p text-bold text-uppercase">
-                          {project.name}
-                        </p>
-                        <p className="p-xs text-uppercase">
-                          {project.industry}
-                        </p>
-                      </button>
-                    </li>
-                  ))}
-                </ul>
+                        <button
+                          onClick={() => {
+                            va.track('Selected:', {
+                              project: project.name,
+                            })
+                            setSelectedProject(project)
+                          }}
+                        >
+                          <p className="p text-bold text-uppercase">
+                            {project.name}
+                          </p>
+                          <p className="p-xs text-uppercase">
+                            {project.industry}
+                          </p>
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                  <Link
+                    className={cn('p-s decorate', s.approachLink)}
+                    href="/approach"
+                  >
+                    See my approach
+                    <Arrow aria-hidden="true" className={s.approachArrow} />
+                  </Link>
+                </div>
               </ScrollableBox>
             </section>
             <section className={s['project-details']}>

@@ -1,0 +1,184 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link [ref=e8] [cursor=pointer]:
+            - /url: /
+          - link [ref=e9] [cursor=pointer]:
+            - /url: https://youtu.be/GO5FwsblpT8
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - paragraph [ref=e12]: 01 Design what matters//
+            - paragraph [ref=e13]: 02 Operate above complexity//
+            - paragraph [ref=e14]: 03 Build thinking systems//
+            - paragraph [ref=e15]: 04 Choose what scales//
+            - paragraph [ref=e16]: 05 See before it happens//
+            - paragraph [ref=e17]: 06 Make clarity a weapon//
+            - paragraph [ref=e18]: 07 Think without illusion//
+          - generic [aria-hidden] [ref=e19]:
+            - paragraph [ref=e20]: 01 Design what matters//
+            - paragraph [ref=e21]: 02 Operate above complexity//
+            - paragraph [ref=e22]: 03 Build thinking systems//
+            - paragraph [ref=e23]: 04 Choose what scales//
+            - paragraph [ref=e24]: 05 See before it happens//
+            - paragraph [ref=e25]: 06 Make clarity a weapon//
+            - paragraph [ref=e26]: 07 Think without illusion//
+        - button "Contact" [ref=e27] [cursor=pointer]
+      - generic [ref=e36]:
+        - button "close" [ref=e38] [cursor=pointer]
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - heading "Project Inquiry" [level=2] [ref=e46]
+            - paragraph [ref=e47]: I work with a small number of companies on AI strategy, workflow redesign, and the systems required to put those ideas into production.
+            - paragraph [ref=e48]: The starting point is usually not a predefined tool. I first want to understand how your team works, where knowledge-intensive processes consume disproportionate time, and where AI can create meaningful leverage.
+            - paragraph [ref=e49]: If there is a strong use case, I can support both the strategic design and the technical implementation.
+            - paragraph [ref=e50]: If you think there may be a fit, tell me a little about your company and what you are currently looking to improve.
+            - paragraph [ref=e51]: "Timing: I keep my workload intentionally focused and only take on a limited number of engagements at the same time. Timing depends on scope and current availability."
+            - paragraph [ref=e52]: "Scope: I focus on AI-native operating models, agentic workflows, knowledge systems, and custom AI software. I am most useful where there is a meaningful business problem to solve rather than a predefined technical task."
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - generic [ref=e55] [cursor=pointer]: Full name *
+              - textbox "Full name *" [ref=e56] [cursor=pointer]:
+                - /placeholder: TYPE HERE
+            - generic [ref=e57]:
+              - generic [ref=e58] [cursor=pointer]: Company
+              - textbox "Company" [ref=e59] [cursor=pointer]:
+                - /placeholder: TYPE HERE
+            - generic [ref=e60]:
+              - generic [ref=e61] [cursor=pointer]: Email *
+              - textbox "Email *" [ref=e62] [cursor=pointer]:
+                - /placeholder: TYPE HERE
+            - generic [ref=e63]:
+              - generic [ref=e64] [cursor=pointer]: What are you looking to improve? *
+              - combobox [ref=e65] [cursor=pointer]:
+                - generic: SELECT
+              - combobox [aria-hidden] [ref=e67] [cursor=pointer]
+            - generic [ref=e68]:
+              - generic [ref=e69] [cursor=pointer]: Timeline
+              - combobox [ref=e70] [cursor=pointer]:
+                - generic: SELECT
+              - combobox [aria-hidden] [ref=e72] [cursor=pointer]
+            - generic [ref=e73]:
+              - generic [ref=e74] [cursor=pointer]: How did you find me?
+              - textbox "How did you find me?" [ref=e75] [cursor=pointer]:
+                - /placeholder: TYPE HERE
+            - generic [ref=e76]:
+              - generic [ref=e77] [cursor=pointer]: Favourite movie or album
+              - textbox "Favourite movie or album" [ref=e78] [cursor=pointer]:
+                - /placeholder: TYPE HERE
+            - generic [ref=e79]:
+              - generic [ref=e80] [cursor=pointer]: Tell me about your current setup or challenge *
+              - textbox "Tell me about your current setup or challenge *" [ref=e81] [cursor=pointer]:
+                - /placeholder: How does your team work today, where do you see friction, and what would you like to improve?
+            - button "SHIP IT" [ref=e82] [cursor=pointer]
+          - generic [ref=e83]:
+            - paragraph [ref=e84]: FAQ
+            - generic [ref=e85]:
+              - heading [level=3] [ref=e87]:
+                - button [ref=e88] [cursor=pointer]:
+                  - paragraph [ref=e89]: Approach
+              - heading [level=3] [ref=e99]:
+                - button [ref=e100] [cursor=pointer]:
+                  - paragraph [ref=e101]: Collaborations
+              - heading [level=3] [ref=e111]:
+                - button [ref=e112] [cursor=pointer]:
+                  - paragraph [ref=e113]: Press / Interviews
+              - heading [level=3] [ref=e123]:
+                - button [ref=e124] [cursor=pointer]:
+                  - paragraph [ref=e125]: Recommendations (life matters too)
+    - main [ref=e134]:
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - paragraph [ref=e137]: About
+          - generic [ref=e139]:
+            - paragraph [ref=e140]: My work started early. At 14, I was designing 3D identities for competitive eSports teams, with work reaching an audience of 350,000+.
+            - paragraph [ref=e141]: Today, I work at the intersection of AI strategy and engineering. I help businesses redesign research, analysis and decision-making with AI, then build the systems required to make it real.
+            - paragraph [ref=e142]: Much of this work began in private markets, where I developed agentic systems for research, deal qualification and advisory workflows.
+            - paragraph [ref=e143]: "My focus is simple: making AI part of how a business operates, not just another tool."
+            - heading "Focus Areas" [level=2] [ref=e144]
+            - list [ref=e145]:
+              - listitem [ref=e146]:
+                - paragraph [ref=e147]: → AI Strategy & Operating Models
+              - listitem [ref=e148]:
+                - paragraph [ref=e149]: → Agentic Workflows
+              - listitem [ref=e150]:
+                - paragraph [ref=e151]: → Knowledge & Research Systems
+              - listitem [ref=e152]:
+                - paragraph [ref=e153]: → Custom AI Software
+            - paragraph
+        - generic [ref=e154]:
+          - paragraph [ref=e155]: Work
+          - list [ref=e158]:
+            - listitem [ref=e159]:
+              - button [ref=e160] [cursor=pointer]:
+                - paragraph [ref=e161]: Markets AI
+                - paragraph [ref=e162]: Project
+            - listitem [ref=e163]:
+              - button [ref=e164] [cursor=pointer]:
+                - paragraph [ref=e165]: Arvendorf
+                - paragraph [ref=e166]: Project
+            - listitem [ref=e167]:
+              - button [ref=e168] [cursor=pointer]:
+                - paragraph [ref=e169]: Captain
+                - paragraph [ref=e170]: Project
+            - listitem [ref=e171]:
+              - button [ref=e172] [cursor=pointer]:
+                - paragraph [ref=e173]: Avalco
+                - paragraph [ref=e174]: Project
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - paragraph [ref=e177]: Details
+            - button "info" [ref=e179] [cursor=pointer]
+          - generic [ref=e180]:
+            - generic [ref=e181]:
+              - button "Enlarge" [ref=e182] [cursor=pointer]
+              - generic [ref=e186]:
+                - button [ref=e187] [cursor=pointer]:
+                  - img "briefing" [ref=e189]
+                - button [ref=e190] [cursor=pointer]:
+                  - img "startups" [ref=e192]
+                - button [ref=e193] [cursor=pointer]:
+                  - img "workflows" [ref=e195]
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: Built an AI-native research and analysis system that replicates parts of the investment analyst workflow, from document ingestion and market research to structured decision materials.
+                  - paragraph: Markets AI combines agentic workflows, retrieval, structured financial reasoning and document generation to turn fragmented information into investment-ready output.
+                  - paragraph: "Key Features / Impact:"
+                  - list:
+                    - listitem:
+                      - paragraph: → Performs market research, company analysis and deal qualification through structured agent workflows.
+                    - listitem:
+                      - paragraph: → Uses retrieval-augmented generation over pitch decks, financial documents and external sources.
+                    - listitem:
+                      - paragraph: → Integrates specialized models for reasoning over financial tables and structured data.
+                    - listitem:
+                      - paragraph: → Generates investment memos and decision materials in minutes rather than days.
+                    - listitem:
+                      - paragraph: → Solo built end-to-end, from system architecture to deployment.
+                  - paragraph
+                - generic:
+                  - paragraph: Stack
+                  - paragraph: Next.js, Tailwind CSS, OpenAI Agents SDK, Crew AI, MongoDB, RAG pipelines
+    - contentinfo [ref=e196]:
+      - generic [ref=e201]:
+        - list [ref=e203]:
+          - listitem [ref=e204]:
+            - link "LinkedIn" [ref=e205] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/louiskarakas/
+          - listitem [ref=e206]:
+            - link "GitHub" [ref=e207] [cursor=pointer]:
+              - /url: https://www.github.com/Mertavelli
+        - list [ref=e208]
+        - list [ref=e209]
+        - list [ref=e210]:
+          - listitem [ref=e211]:
+            - 'link "Phone: +49 15567 350603" [ref=e212] [cursor=pointer]':
+              - /url: tel:+49 15567 350603
+          - listitem [ref=e213]:
+            - 'link "E-Mail: hello@louiskarakas.com" [ref=e214] [cursor=pointer]':
+              - /url: mailto:hello@louiskarakas.com
+        - list [ref=e215]:
+          - listitem [ref=e216]: © 2026
+  - alert [ref=e217]

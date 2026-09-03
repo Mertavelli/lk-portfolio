@@ -1,6 +1,6 @@
 import * as Accordion from '@radix-ui/react-accordion'
 import cn from 'clsx'
-import { Hubspot } from 'components/hubspot'
+import { ContactEmailForm } from 'components/contact-email-form'
 import { ScrollableBox } from 'components/scrollable-box'
 import { Separator } from 'components/separator'
 import { renderer } from 'contentful/faq-renderer'
@@ -69,11 +69,7 @@ export function ContactForm({ data }) {
         ) : (
           <ScrollableBox className={s.scrollable} shadow={false}>
             <div className={s.content}>{globalRenderer(data.description)}</div>
-            <Hubspot {...data.form} className={s.form}>
-              {({ ...helpers }) => (
-                <Hubspot.Form className={s.form} {...helpers} />
-              )}
-            </Hubspot>
+            <ContactEmailForm className={s.form} />
             <div className={s.accordion}>
               <p className="p text-uppercase text-bold text-muted">FAQ</p>
               <Accordion.Root

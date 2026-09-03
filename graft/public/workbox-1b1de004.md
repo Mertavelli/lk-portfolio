@@ -1,0 +1,74 @@
+# public\workbox-1b1de004.js
+
+- print · function · L29-L51 — print = function (method, args)
+- generatorFunction · function · L344-L350 — generatorFunction = (code, details = {})
+- WorkboxError · class · L369-L384 — class WorkboxError extends Error
+- constructor · method · L378-L383 — constructor(errorCode, details)
+- isArray · function · L399-L403 — isArray = (value, details)
+- hasMethod · function · L404-L410 — hasMethod = (object, expectedMethod, details)
+- isType · function · L411-L416 — isType = (object, expectedType, details)
+- isInstance · function · L417-L425 — isInstance = (object, // Need the general type to do the check later. // eslint-disable-next-line @typescript-eslint/ban-types expectedClass, details)
+- isOneOf · function · L426-L431 — isOneOf = (value, validValues, details)
+- isArrayOfClass · function · L432-L446 — isArrayOfClass = (value, // Need general type to do check later. expectedClass, // eslint-disable-line details)
+- normalizeHandler · function · L500-L524 — normalizeHandler = handler
+- Route · class · L542-L582 — class Route
+- constructor · method · L554-L573 — constructor(match, handler, method = defaultMethod)
+- setCatchHandler · method · L579-L581 — setCatchHandler(handler)
+- RegExpRoute · class · L602-L651 — class RegExpRoute extends Route
+- constructor · method · L616-L650 — constructor(regExp, handler, method)
+- match · function · L625-L648 — match = ({ url })
+- getFriendlyURL · function · L660-L665 — getFriendlyURL = url
+- Router · class · L691-L1080 — class Router
+- constructor · method · L695-L698 — constructor()
+- routes · method · L704-L706 — get routes()
+- addFetchListener · method · L711-L725 — addFetchListener()
+- addCacheListener · method · L748-L781 — addCacheListener()
+- handleRequest · method · L794-L922 — handleRequest({ request, event })
+- findMatchingRoute · method · L938-L989 — findMatchingRoute({ url, sameOrigin, request, event })
+- setDefaultHandler · method · L1004-L1006 — setDefaultHandler(handler, method = defaultMethod)
+- setCatchHandler · method · L1014-L1016 — setCatchHandler(handler)
+- registerRoute · method · L1022-L1061 — registerRoute(route)
+- unregisterRoute · method · L1067-L1079 — unregisterRoute(route)
+- getOrCreateDefaultRouter · function · L1097-L1105 — getOrCreateDefaultRouter = ()
+- registerRoute · function · L1132-L1183 — function registerRoute(capture, handler, method)
+- matchCallback · function · L1153-L1162 — matchCallback = ({ url })
+- _createCacheName · function · L1232-L1234 — _createCacheName = cacheName
+- eachCacheNameDetail · function · L1235-L1239 — eachCacheNameDetail = fn
+- stripParams · function · L1271-L1277 — function stripParams(fullURL, ignoreParams)
+- cacheMatchIgnoreParams · function · L1290-L1308 — async function cacheMatchIgnoreParams(cache, request, ignoreParams, matchOptions)
+- Deferred · class · L1325-L1335 — class Deferred
+- constructor · method · L1329-L1334 — constructor()
+- executeQuotaErrorCallbacks · function · L1363-L1376 — async function executeQuotaErrorCallbacks()
+- timeout · function · L1392-L1394 — function timeout(ms)
+- toRequest · function · L1403-L1405 — function toRequest(input)
+- StrategyHandler · class · L1415-L1890 — class StrategyHandler
+- constructor · method · L1432-L1492 — constructor(strategy, options)
+- fetch · method · L1506-L1573 — async fetch(input)
+- fetchAndCachePut · method · L1584-L1589 — async fetchAndCachePut(input)
+- cacheMatch · method · L1602-L1631 — async cacheMatch(key)
+- cachePut · method · L1647-L1716 — async cachePut(key, response)
+- getCacheKey · method · L1728-L1744 — async getCacheKey(request, mode)
+- hasCallback · method · L1752-L1759 — hasCallback(name)
+- runCallbacks · method · L1776-L1782 — async runCallbacks(name, param)
+- iterateCallbacks · method · L1792-L1807 — *iterateCallbacks(name)
+- statefulCallback · function · L1796-L1803 — statefulCallback = param
+- waitUntil · method · L1821-L1824 — waitUntil(promise)
+- doneWaiting · method · L1835-L1840 — async doneWaiting()
+- destroy · method · L1845-L1847 — destroy()
+- _ensureResponseSafeToCache · method · L1858-L1889 — async _ensureResponseSafeToCache(response)
+- Strategy · class · L1904-L2104 — class Strategy
+- constructor · method · L1927-L1960 — constructor(options = {})
+- handle · method · L1980-L1983 — handle(options)
+- handleAll · method · L2006-L2026 — handleAll(options)
+- _getResponse · method · L2027-L2070 — async _getResponse(handler, request, event)
+- _awaitComplete · method · L2071-L2103 — async _awaitComplete(responseDone, handler, request, event)
+- NetworkFirst · class · L2164-L2342 — class NetworkFirst extends Strategy
+- constructor · method · L2184-L2202 — constructor(options = {})
+- _handle · method · L2210-L2265 — async _handle(request, handler)
+- _getTimeoutPromise · method · L2275-L2294 — _getTimeoutPromise({ request, logs, handler })
+- onNetworkTimeout · function · L2282-L2287 — onNetworkTimeout = async ()
+- _getNetworkPromise · method · L2305-L2341 — async _getNetworkPromise({ timeoutId, request, logs, handler })
+- NetworkOnly · class · L2364-L2431 — class NetworkOnly extends Strategy
+- constructor · method · L2376-L2379 — constructor(options = {})
+- _handle · method · L2387-L2430 — async _handle(request, handler)
+- clientsClaim · function · L2446-L2448 — function clientsClaim()

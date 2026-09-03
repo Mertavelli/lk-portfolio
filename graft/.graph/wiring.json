@@ -1,0 +1,5187 @@
+{
+  "meta": {
+    "version": 1,
+    "nodeCount": 184,
+    "edgeCount": 423,
+    "languages": [
+      "typescript"
+    ],
+    "scopes": [
+      {
+        "prefix": "",
+        "label": "",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "components\\composable-image\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\composable-image\\index.js",
+      "span": "L1-L48",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "1014dec3157248f1a8105b0cd5d874a06a5b4af0b71ec8991854ce69a4b0b296",
+      "chars": 1144,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\contact-email-form\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\contact-email-form\\index.js",
+      "span": "L1-L116",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "20567ed2e5448318788d33f1a42521d677a3991f9435ba333253a86dca8f14d6",
+      "chars": 3086,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\contact-email-form\\index.js#FieldTypeSwitcher",
+      "name": "FieldTypeSwitcher",
+      "kind": "function",
+      "path": "components\\contact-email-form\\index.js",
+      "span": "L13-L49",
+      "signature": "function FieldTypeSwitcher({ field, input, errors })",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "df860e6b63c93c5842f561eb1484e5b964069935f801120bea1e783d281ccf60",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\contact-email-form\\index.js#onSubmit",
+      "name": "onSubmit",
+      "kind": "function",
+      "path": "components\\contact-email-form\\index.js",
+      "span": "L59-L80",
+      "signature": "onSubmit = async (fields)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "c0bd6df120b834513082b488e08a003d7c725e25a3832ecb2d67223543f07705",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\footer\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\footer\\index.js",
+      "span": "L1-L100",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "428e10b65ab5a6324deb25b1f49daf37542cf246b73196f0e88d057bb9b18450",
+      "chars": 3119,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\forms\\select\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\forms\\select\\index.js",
+      "span": "L1-L53",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "2ee14a185fb0d4558c671293ef472f18728f2d1f48df6cc0ac2e71d9a1f84729",
+      "chars": 1522,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\gallery\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\gallery\\index.js",
+      "span": "L1-L61",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "f0c39089123b04db246a189a12af22603b8357d3ead743604d61e5a4fd3fc005",
+      "chars": 1985,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\gallery\\index.js#escFunction",
+      "name": "escFunction",
+      "kind": "function",
+      "path": "components\\gallery\\index.js",
+      "span": "L22-L26",
+      "signature": "escFunction = (event)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "4b204a3b958c5c3f2190e86a152630484f7f155105ec0f9aa521ba90d2c3eb20",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\header\\contact-form\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\header\\contact-form\\index.js",
+      "span": "L1-L127",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "86a18055bbdc68bcac09366f216eb72229c4ea5ad28591c2a850ad95fae7bdac",
+      "chars": 4684,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\header\\contact-form\\index.js#closeContactTab",
+      "name": "closeContactTab",
+      "kind": "function",
+      "path": "components\\header\\contact-form\\index.js",
+      "span": "L28-L36",
+      "signature": "closeContactTab = ()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "42bb48d3de308d449b4e1e094903c0b4ec547b91cbd49361d18822c884b1e8d7",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\header\\contact-form\\index.js#escFunction",
+      "name": "escFunction",
+      "kind": "function",
+      "path": "components\\header\\contact-form\\index.js",
+      "span": "L39-L43",
+      "signature": "escFunction = (event)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "33cfd9d629f3f9317bd83ef998177ce37fa66e24e60bfbc87468bba1767c34cd",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\header\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\header\\index.js",
+      "span": "L1-L103",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "532ee4ac3dd50d539f981a718c662b8d122411dc80459369ae2900160d49781b",
+      "chars": 3312,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\hubspot\\input-fields\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\hubspot\\input-fields\\index.js",
+      "span": "L1-L188",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "7907598133b3ea831bf4176f5116b60fd7dfb37bdaaff9acfe6dac3988fb211f",
+      "chars": 4697,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\hubspot\\input-fields\\index.js#cn",
+      "name": "cn",
+      "kind": "method",
+      "path": "components\\hubspot\\input-fields\\index.js",
+      "span": "L94-L94",
+      "signature": "cn('p-s', s.error)}>",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "f6a67f7ae489e2255ad1451b2fd3800350c4a8f1b5cb8f342afc1c8e7cb29b16",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\hubspot\\input-fields\\index.js#cn",
+      "name": "cn",
+      "kind": "method",
+      "path": "components\\hubspot\\input-fields\\index.js",
+      "span": "L115-L117",
+      "signature": "cn('p-xs text-muted text-uppercase', s.label)} >",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "3624e9e790df6aa4f65587c053a004f26b3468850c57f3c15b2c8243b4cdb36c",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\isomorphic\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\isomorphic\\index.js",
+      "span": "L1-L26",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "7e76a60cccb4bcfff4cfbd1c9b3de5a54514377a9af9dbb93073556a5e7f8311",
+      "chars": 486,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\isomorphic\\index.js#ClientOnly",
+      "name": "ClientOnly",
+      "kind": "function",
+      "path": "components\\isomorphic\\index.js",
+      "span": "L3-L13",
+      "signature": "function ClientOnly({ children })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "708b7fdc8018284801dfc1969a10aadeec97f6a639bc12aa119ba0853b849c39",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\isomorphic\\index.js#ServerOnly",
+      "name": "ServerOnly",
+      "kind": "function",
+      "path": "components\\isomorphic\\index.js",
+      "span": "L15-L25",
+      "signature": "function ServerOnly({ children })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "b97340da1afcee0ca7a409742264939d5771717a87884b92dddee49260fa3944",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\layout-mobile\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\layout-mobile\\index.js",
+      "span": "L1-L31",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "d3379b23e26fa68e5f8b332179742315a51161166a9ca922ceee6bc8819a0f9a",
+      "chars": 965,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\noise\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\noise\\index.js",
+      "span": "L1-L57",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "41f3291826339dc3797afc1780be8a3c94779a9da380fde5e3a9bfc748d8bfb1",
+      "chars": 1554,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\noise\\index.js#Noise",
+      "name": "Noise",
+      "kind": "function",
+      "path": "components\\noise\\index.js",
+      "span": "L6-L56",
+      "signature": "function Noise()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "71f76e6482472bd3bd22dafed55b9f66c6031a2915955a5d2ecae646afea2f63",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\project-accordion\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\project-accordion\\index.js",
+      "span": "L1-L139",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "2b3c5c4148129a778159ae85c90d6bacc00c10b024597683b075f41e02b7e189",
+      "chars": 5162,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\scrollable-box\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\scrollable-box\\index.js",
+      "span": "L1-L47",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "2a22c1e7023ccbc99e7aee28f8c1cde51fd16ae9c0c7a2c4175ec593e44ddd74",
+      "chars": 1250,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\scrollable-box\\index.js#ScrollableBox",
+      "name": "ScrollableBox",
+      "kind": "function",
+      "path": "components\\scrollable-box\\index.js",
+      "span": "L7-L46",
+      "signature": "function ScrollableBox({ children, className, infinite, reset })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "e27a2cfee25f0e35f0bf6c9c41569e656c6754fc5ae21a27e366f28e5d3cd3af",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\separator\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\separator\\index.js",
+      "span": "L1-L13",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "15ab33da7256ffee7c5f876f25d6de5dc041716f86963f24e9dd6d19230b646a",
+      "chars": 295,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\separator\\index.js#Separator",
+      "name": "Separator",
+      "kind": "function",
+      "path": "components\\separator\\index.js",
+      "span": "L4-L12",
+      "signature": "function Separator({ className })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "ee0b8f20d352159a4e2508f095761a1da5092d7aecebf5b9141c4d96167b03b6",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\slider\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "components\\slider\\index.js",
+      "span": "L1-L31",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "0369059ba5feedc03a7b6cf23236d41bb095c06b92f21923fb7eff51556556fa",
+      "chars": 655,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "components\\slider\\index.js#Slider",
+      "name": "Slider",
+      "kind": "function",
+      "path": "components\\slider\\index.js",
+      "span": "L4-L30",
+      "signature": "function Slider({ children, slidesToShow = 1, draggable = true, slideGap = '10px', className, enableAutoplay = false, })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "f15190ac48ea0a11e538f189ad159874cbf6a1d0b7b9cdc75b67d024e32f9362",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "config\\contact-form.js",
+      "name": "contact-form.js",
+      "kind": "file",
+      "path": "config\\contact-form.js",
+      "span": "L1-L86",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "9492b09a594372603eca530be945b71af65ea0442657b0068feaee5279f37bec",
+      "chars": 1984,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "contentful\\api.js",
+      "name": "api.js",
+      "kind": "file",
+      "path": "contentful\\api.js",
+      "span": "L1-L27",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "250fbfb95b36d390814f95fcd782dd970fc0083e0bf830906789d6f351f6ab23",
+      "chars": 855,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "contentful\\api.js#fetchCmsQuery",
+      "name": "fetchCmsQuery",
+      "kind": "function",
+      "path": "contentful\\api.js",
+      "span": "L3-L26",
+      "signature": "fetchCmsQuery = async (query, variables)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "513aa1544671528d9f5a18bc3abaf6ffda30446723991fb58bf6f131dedd3444",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "contentful\\faq-renderer.js",
+      "name": "faq-renderer.js",
+      "kind": "file",
+      "path": "contentful\\faq-renderer.js",
+      "span": "L1-L27",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "17e00ac1eae94f84899c458e9dcd14a99f7395ec24f4979827247539d7864f62",
+      "chars": 774,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "contentful\\faq-renderer.js#renderer",
+      "name": "renderer",
+      "kind": "function",
+      "path": "contentful\\faq-renderer.js",
+      "span": "L7-L26",
+      "signature": "renderer = ({ json })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "f1933071d357ed654a20cc56b6cfabb8527e26ed40602165358d28f519002ec6",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "contentful\\renderer.js",
+      "name": "renderer.js",
+      "kind": "file",
+      "path": "contentful\\renderer.js",
+      "span": "L1-L40",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "faa263217050d62521a38513d1e87ef5175f9118358c6a2985ab06f0177adce5",
+      "chars": 1261,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "contentful\\renderer.js#renderer",
+      "name": "renderer",
+      "kind": "function",
+      "path": "contentful\\renderer.js",
+      "span": "L7-L39",
+      "signature": "renderer = ({ json })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "d93989785dfd65487e7e1fab65d659564e08884a9b4bd0c51497d6315a86f6ea",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "hooks\\use-blaze-slider.js",
+      "name": "use-blaze-slider.js",
+      "kind": "file",
+      "path": "hooks\\use-blaze-slider.js",
+      "span": "L1-L17",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "8731945f66f43e889661cabea91d37ecc5ab13b164b7e1707661bf3fa4a24b45",
+      "chars": 378,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "hooks\\use-blaze-slider.js#useBlazeSlider",
+      "name": "useBlazeSlider",
+      "kind": "function",
+      "path": "hooks\\use-blaze-slider.js",
+      "span": "L4-L16",
+      "signature": "function useBlazeSlider(config)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "13dc050268f99e5f58c2f3dcb9ec4a79059a047563019c910e221abd13a4c2d5",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "hooks\\use-broadcast-channel.js",
+      "name": "use-broadcast-channel.js",
+      "kind": "file",
+      "path": "hooks\\use-broadcast-channel.js",
+      "span": "L1-L64",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "0d2bb80614062cdd16e54634ef97f800b8a213d88be8742e69f0600e62c86a28",
+      "chars": 1390,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "hooks\\use-broadcast-channel.js#useBroadcastChannel",
+      "name": "useBroadcastChannel",
+      "kind": "function",
+      "path": "hooks\\use-broadcast-channel.js",
+      "span": "L4-L63",
+      "signature": "function useBroadcastChannel(id = 'default')",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "9da9b36112fa396633c646f9a9bfbffeff8b389cf30eb625227c69920c590b93",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "hooks\\use-immutable-state.js",
+      "name": "use-immutable-state.js",
+      "kind": "file",
+      "path": "hooks\\use-immutable-state.js",
+      "span": "L1-L10",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "54a27ed3357b941ff2181fc9523738258e7698f7e77d4303ad9ef957e2d85690",
+      "chars": 214,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "hooks\\use-immutable-state.js#useImmutableState",
+      "name": "useImmutableState",
+      "kind": "function",
+      "path": "hooks\\use-immutable-state.js",
+      "span": "L3-L9",
+      "signature": "function useImmutableState(initialState)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "8a6cecb1657306ee4e190dee3dfb3d10b42909caac65b885ca3e602280a825b1",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "hooks\\use-ready-state.js",
+      "name": "use-ready-state.js",
+      "kind": "file",
+      "path": "hooks\\use-ready-state.js",
+      "span": "L1-L27",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "a0cf41e8a0c797a25d458e46d4cbb0c9227dbe6756e7da3517e82bc25c2515a8",
+      "chars": 767,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "hooks\\use-ready-state.js#useDocumentReadyState",
+      "name": "useDocumentReadyState",
+      "kind": "function",
+      "path": "hooks\\use-ready-state.js",
+      "span": "L7-L26",
+      "signature": "function useDocumentReadyState()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "1a2268b770af21b659c3cf532a0e67bc6501a770bdd1dfc7783803ab24cac148",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "hooks\\use-ready-state.js#useDocumentReadyState.onStateChange",
+      "name": "onStateChange",
+      "kind": "function",
+      "path": "hooks\\use-ready-state.js",
+      "span": "L15-L17",
+      "signature": "function onStateChange()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "09a128304531aace818a758d751a2da848f9c007d75767c6d54141ea540880aa",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "hooks\\use-scroll.js",
+      "name": "use-scroll.js",
+      "kind": "file",
+      "path": "hooks\\use-scroll.js",
+      "span": "L1-L17",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "e112cc4557d36c98da46237877c869886295343dcef39e68d424f382b004c086",
+      "chars": 379,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "hooks\\use-scroll.js#useScroll",
+      "name": "useScroll",
+      "kind": "function",
+      "path": "hooks\\use-scroll.js",
+      "span": "L4-L16",
+      "signature": "function useScroll(callback, deps = [])",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "91d2c3763aa334eb42a7c4d45f85ecea25773398f3d9c4651804f6754ec3eed3",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "layouts\\default\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "layouts\\default\\index.js",
+      "span": "L1-L79",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "8173eab2b55ad99e9fc741b1fc072afde2ea23d3b96d5fde399eb4abdcad6390",
+      "chars": 2079,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "layouts\\default\\index.js#Layout",
+      "name": "Layout",
+      "kind": "function",
+      "path": "layouts\\default\\index.js",
+      "span": "L14-L78",
+      "signature": "function Layout({ seo = { title: 'Louis Karakas – CTO', description: 'Independent CTO. I build AI-native software end-to-end – from idea to working product. Focus on agentic systems, automation and pragmatic execution.', image: { url: 'https://louiskarakas.com/profile.png' }, keywords: [ 'Louis Karakas', 'AI Product Engineer', 'AI Engineering', 'AI Product Development', 'AI Enablement', 'LLM Systems', 'Large Language Models', 'OpenAI', 'Agent Orchestration', 'AI Agents', 'AI Venture Prototyping', 'AI Automation', 'Business Automation', 'Process Automation', 'System Architecture', 'Technical Architecture', 'Web Application Development', 'Fullstack Engineering', 'Next.js', 'TypeScript', 'Product Engineering', 'Custom AI Tools', 'Execution Focused', 'Founder Engineer', 'AI Prototyping', 'MVP Development', ], }, children, theme = 'dark', className, principles, footerLinks, studioInfo, contactData, })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "813cbea948ee570ec785e0bcb03ee6a826e419eeb0fd13efc96fd90d7be87dc2",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\maths.js",
+      "name": "maths.js",
+      "kind": "file",
+      "path": "lib\\maths.js",
+      "span": "L1-L26",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "78ea1e558341718157a389ff8fe6bfc3146431056bc6b0ad7cbf5684664c3e04",
+      "chars": 597,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\maths.js#clamp",
+      "name": "clamp",
+      "kind": "function",
+      "path": "lib\\maths.js",
+      "span": "L1-L3",
+      "signature": "function clamp(min, input, max)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "e0d26aeeafac3364f9998a033d08265d29416288ca313b3906cfab50a85a2fcd",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\maths.js#lerp",
+      "name": "lerp",
+      "kind": "function",
+      "path": "lib\\maths.js",
+      "span": "L9-L11",
+      "signature": "function lerp(start, end, amt)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "b36a08ceedfba13a51685637eb8c6c477cbe30f4ce75d3803ecaf96dd825b64d",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\maths.js#mapRange",
+      "name": "mapRange",
+      "kind": "function",
+      "path": "lib\\maths.js",
+      "span": "L5-L7",
+      "signature": "function mapRange(in_min, in_max, input, out_min, out_max)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "e594691952b59d6d875ebc7421f4d569c9649e47864dc4ee7899a0f375c68ad3",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\maths.js#pad",
+      "name": "pad",
+      "kind": "function",
+      "path": "lib\\maths.js",
+      "span": "L17-L20",
+      "signature": "function pad(n)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "0c3a5fb053fc888630fca487e49ea58a6c80a14bdf79f25424ac913cfcf4f5e0",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\maths.js#truncate",
+      "name": "truncate",
+      "kind": "function",
+      "path": "lib\\maths.js",
+      "span": "L13-L15",
+      "signature": "function truncate(value, decimals)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "22978844d0bac7bbc4a678e14300bb0d31807963adf3cb031303e518782e1b37",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\orchestra\\grid\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "lib\\orchestra\\grid\\index.js",
+      "span": "L1-L27",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "7ec611b2c7a83802d34fde5facd70050c6b722dae281e247fc6ae357e90dc4fe",
+      "chars": 664,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\orchestra\\grid\\index.js#GridDebugger",
+      "name": "GridDebugger",
+      "kind": "function",
+      "path": "lib\\orchestra\\grid\\index.js",
+      "span": "L6-L26",
+      "signature": "function GridDebugger()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "11f8b6d853786e411cf30f6ed54b8f2600f47946253c1b3f133d59f83dbce97e",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\orchestra\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "lib\\orchestra\\index.js",
+      "span": "L1-L99",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "d4c37b1b9f59fc49e092fff84581ff182c8a49a29786007c460fd1fa0ac85281",
+      "chars": 2263,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\orchestra\\stats\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "lib\\orchestra\\stats\\index.js",
+      "span": "L1-L25",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "dc124b98701a556e6496b966390123ca027a87a89e2843ec80d8605562c8b26e",
+      "chars": 513,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\orchestra\\stats\\index.js#Stats",
+      "name": "Stats",
+      "kind": "function",
+      "path": "lib\\orchestra\\stats\\index.js",
+      "span": "L5-L24",
+      "signature": "function Stats()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "af064f41671b37ad7bb61d9b92156cf5e0d7e6c86c37ffb8b011f94df698af78",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\slugify.js",
+      "name": "slugify.js",
+      "kind": "file",
+      "path": "lib\\slugify.js",
+      "span": "L1-L11",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "12490ebe8b1bb74cc16b719a72093e7593643c18bca13d7f4d4adce7e42bf081",
+      "chars": 529,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\slugify.js#slugify",
+      "name": "slugify",
+      "kind": "function",
+      "path": "lib\\slugify.js",
+      "span": "L1-L10",
+      "signature": "function slugify(text)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "b5a41d64aeb5954e5cdcd4e6d9541b08ab73dcd58854df57cebd71059377f369",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\store.js",
+      "name": "store.js",
+      "kind": "file",
+      "path": "lib\\store.js",
+      "span": "L1-L27",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "391e7689447376890379f3e2f23725fd0becb2b3f7e5a08f1a316aacd644b2c4",
+      "chars": 964,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\hooks\\use-studio.js",
+      "name": "use-studio.js",
+      "kind": "file",
+      "path": "lib\\theatre\\hooks\\use-studio.js",
+      "span": "L1-L64",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "0a13b059f6e7cd1646d434d065d4cb403fe04fab79988c6fade47322951c8a07",
+      "chars": 1613,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\hooks\\use-studio.js#useIsStudio",
+      "name": "useIsStudio",
+      "kind": "function",
+      "path": "lib\\theatre\\hooks\\use-studio.js",
+      "span": "L7-L9",
+      "signature": "function useIsStudio()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "4fea49c7ef92bae675f8b06ce0123ff72081beba0748773bb78d5871b14f9a70",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\hooks\\use-studio.js#useStudio",
+      "name": "useStudio",
+      "kind": "function",
+      "path": "lib\\theatre\\hooks\\use-studio.js",
+      "span": "L11-L25",
+      "signature": "function useStudio()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "9e5a9dcdd627fb91779f7334544729c9859213e4bafe31c3a23718e8ab318701",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\hooks\\use-studio.js#useStudioCurrentObject",
+      "name": "useStudioCurrentObject",
+      "kind": "function",
+      "path": "lib\\theatre\\hooks\\use-studio.js",
+      "span": "L27-L63",
+      "signature": "function useStudioCurrentObject()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "c1982ef7e8858a68c5e0ab00680159cdc052a029330054c7e9a240638eecb7e0",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\hooks\\use-studio.js#useStudioCurrentObject.onSelectionChange",
+      "name": "onSelectionChange",
+      "kind": "function",
+      "path": "lib\\theatre\\hooks\\use-studio.js",
+      "span": "L53-L55",
+      "signature": "onSelectionChange = ({ address })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "653fe73361f0ad9e52b8c77b9c542ee7f892379412d34a76b69bb590571b1539",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\hooks\\use-theatre.js",
+      "name": "use-theatre.js",
+      "kind": "file",
+      "path": "lib\\theatre\\hooks\\use-theatre.js",
+      "span": "L1-L153",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "c30f4d0a6e64ed27f5ed4e932bbaa2acca367588447381d5126438b7f4021d59",
+      "chars": 3912,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\hooks\\use-theatre.js#addObject",
+      "name": "addObject",
+      "kind": "function",
+      "path": "lib\\theatre\\hooks\\use-theatre.js",
+      "span": "L34-L38",
+      "signature": "function addObject(address, config)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "671eb80eba38db0804e9fffbb4f2aa4173608f2a13a8b870da22042aec70e8db",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\hooks\\use-theatre.js#removeObject",
+      "name": "removeObject",
+      "kind": "function",
+      "path": "lib\\theatre\\hooks\\use-theatre.js",
+      "span": "L40-L45",
+      "signature": "function removeObject(address, config)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "7691e341d48123bcce672f46a2ce6fd8a398d2f72302ba412d42a565a5f4d96d",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\hooks\\use-theatre.js#useTheatre",
+      "name": "useTheatre",
+      "kind": "function",
+      "path": "lib\\theatre\\hooks\\use-theatre.js",
+      "span": "L75-L152",
+      "signature": "function useTheatre( sheet, theatreKey, config, { onValuesChange, lazy = true, deps = [] } = {} )",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "0813f6e3341c11577d99bcc10ddec1505f2388713267172da650ef8bea0a8183",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\hooks\\use-theatre.js#useTheatre.onChange",
+      "name": "onChange",
+      "kind": "function",
+      "path": "lib\\theatre\\hooks\\use-theatre.js",
+      "span": "L112-L114",
+      "signature": "function onChange({ values })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "5c0bd7e0acf23937a40c0c208c15c4ed48ca3ac697a0eedb00234296a762a553",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\hooks\\use-theatre.js#useTheatreObject",
+      "name": "useTheatreObject",
+      "kind": "function",
+      "path": "lib\\theatre\\hooks\\use-theatre.js",
+      "span": "L47-L73",
+      "signature": "function useTheatreObject(sheet, theatreKey, config, deps = [])",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "8957ed74a44bdd4b7b2699273c95e68f69f01c40babbec215ed8704e3455c9b6",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "lib\\theatre\\index.js",
+      "span": "L1-L108",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "facb27c3d011be957a69c94c78380f684c18e5dfe29c30370da9aedd1d2c740f",
+      "chars": 2510,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\index.js#ProjectProvider",
+      "name": "ProjectProvider",
+      "kind": "function",
+      "path": "lib\\theatre\\index.js",
+      "span": "L37-L75",
+      "signature": "function ProjectProvider({ children, id, config })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "e3c6b48993b5c819c0f69c0484cb48f63da0039c360e31d393142099bcb56561",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\index.js#RafDriverProvider",
+      "name": "RafDriverProvider",
+      "kind": "function",
+      "path": "lib\\theatre\\index.js",
+      "span": "L17-L29",
+      "signature": "function RafDriverProvider({ children, id = 'default' })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "41c5166b8995b46bc83bb0ffa4cf149fcfd662c8c2835b203c73521d5e5a8cf1",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\index.js#useCurrentProject",
+      "name": "useCurrentProject",
+      "kind": "function",
+      "path": "lib\\theatre\\index.js",
+      "span": "L77-L79",
+      "signature": "function useCurrentProject()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "5ebe77f1c7e682f30c43de4b05f7d445acc04d2880b9f22a15857a7db660ad00",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\index.js#useCurrentRafDriver",
+      "name": "useCurrentRafDriver",
+      "kind": "function",
+      "path": "lib\\theatre\\index.js",
+      "span": "L31-L33",
+      "signature": "function useCurrentRafDriver()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "e2f6f1277a764a62da110dbb473eddc7cc373c726198e98b7cb380462f9abc12",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\index.js#useCurrentSheet",
+      "name": "useCurrentSheet",
+      "kind": "function",
+      "path": "lib\\theatre\\index.js",
+      "span": "L105-L107",
+      "signature": "function useCurrentSheet()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "3ebd3f75b4dceb3919bae9bc7a48e9ab3abfd54bfd29076815ec6dedb38d4496",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\index.js#useSheet",
+      "name": "useSheet",
+      "kind": "function",
+      "path": "lib\\theatre\\index.js",
+      "span": "L83-L92",
+      "signature": "function useSheet(id, instance)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "fc1a957884557e62106f3f8b54c3ef4d79dcb1a85006bbf9bc78b0f288158e9c",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\r3f.js",
+      "name": "r3f.js",
+      "kind": "file",
+      "path": "lib\\theatre\\r3f.js",
+      "span": "L1-L57",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "f188a4aca2e4257c2959fe49de94e4371aa49d9051448467280097316d7faacf",
+      "chars": 1610,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\r3f.js#Group",
+      "name": "Group",
+      "kind": "function",
+      "path": "lib\\theatre\\r3f.js",
+      "span": "L6-L56",
+      "signature": "function Group({ children, theatreKey, position = [0, 0, 0], rotation = [0, 0, 0], scale = [1, 1, 1], })",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "696a2ec84afb141c9da7de5dde47a74f77c65cda57f6d67ef702e5f50e5ef7f9",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\studio\\context.js",
+      "name": "context.js",
+      "kind": "file",
+      "path": "lib\\theatre\\studio\\context.js",
+      "span": "L1-L4",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "7412e1cefbf9211efe7ee2d9d8c230054e176e91e93d13d7f968a68b3e6baca5",
+      "chars": 92,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\theatre\\studio\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "lib\\theatre\\studio\\index.js",
+      "span": "L1-L59",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "5932300cca7c288fc0018ca9be66746eae618179e9ba0d0cf83325d702e1a5e9",
+      "chars": 1673,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\zustand-broadcast.js",
+      "name": "zustand-broadcast.js",
+      "kind": "file",
+      "path": "lib\\zustand-broadcast.js",
+      "span": "L1-L19",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "f45c7d2d014783c864042f39eae6ea4c834038430f29551057b6159cf0a7eb4b",
+      "chars": 484,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "lib\\zustand-broadcast.js#broadcast",
+      "name": "broadcast",
+      "kind": "function",
+      "path": "lib\\zustand-broadcast.js",
+      "span": "L1-L18",
+      "signature": "function broadcast(store, id = 'zustand-broadcast')",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "5e9237cfbc7f136dcc9b2c8f3a2772b8fe0432a89f6d0890a93ee6eb30fd5ede",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "next-sitemap.config.js",
+      "name": "next-sitemap.config.js",
+      "kind": "file",
+      "path": "next-sitemap.config.js",
+      "span": "L1-L5",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "b2c8bd275524e27228e9763da0cbdd5ba046d30ffe7af513a4f24855b33763d6",
+      "chars": 133,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "next.config.js",
+      "name": "next.config.js",
+      "kind": "file",
+      "path": "next.config.js",
+      "span": "L1-L169",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "6e193e223669d440b9a6f40b20e93c35f517c70f8d566b86684d3ab6d54ce25a",
+      "chars": 4291,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "next.config.js#nextConfigWrapper",
+      "name": "nextConfigWrapper",
+      "kind": "function",
+      "path": "next.config.js",
+      "span": "L155-L160",
+      "signature": "nextConfigWrapper = ()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "43cf2cba3d49b9a36c9a9285e9ab0db24389d4656c99c7c80192ce2c727bfde4",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\_app.js",
+      "name": "_app.js",
+      "kind": "file",
+      "path": "pages\\_app.js",
+      "span": "L1-L83",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "4d0fc63046acf48bb3a45b6fd917d116aed1e7662200610874cd32ea0565066b",
+      "chars": 2225,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\_app.js#MyApp",
+      "name": "MyApp",
+      "kind": "function",
+      "path": "pages\\_app.js",
+      "span": "L49-L80",
+      "signature": "function MyApp({ Component, pageProps })",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "27f1776c034e7dc0fcc3b7f857075aa55923a5b20eb545f3adb82f270e640a75",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\_debug\\orchestra\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "pages\\_debug\\orchestra\\index.js",
+      "span": "L1-L6",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "e81f8e19fd50a582ba554f6ed5f2cdf45ef029060c558679b9417e145570a84e",
+      "chars": 123,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\_debug\\orchestra\\index.js#Orchestra",
+      "name": "Orchestra",
+      "kind": "function",
+      "path": "pages\\_debug\\orchestra\\index.js",
+      "span": "L3-L5",
+      "signature": "function Orchestra()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "f4ba91b015563b597268c4782df5bd62db998bf220979e3dcab379818c9bd00d",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\_debug\\theatre\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "pages\\_debug\\theatre\\index.js",
+      "span": "L1-L64",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "7e6b43a8511e573c8d2321e8d885a2a5154439947e661c7e4af388a64029a970",
+      "chars": 1635,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\_debug\\theatre\\index.js#sanitizeConfig",
+      "name": "sanitizeConfig",
+      "kind": "function",
+      "path": "pages\\_debug\\theatre\\index.js",
+      "span": "L8-L25",
+      "signature": "function sanitizeConfig(config = {})",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "198ffd6f9a1b19e57f448dcf127c43b0e3a75e9a7f981fd5c123de32f12793af",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\_debug\\theatre\\index.js#Theatre",
+      "name": "Theatre",
+      "kind": "function",
+      "path": "pages\\_debug\\theatre\\index.js",
+      "span": "L34-L63",
+      "signature": "function Theatre()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "6bbeeb2c4b3e3ab5005e1cb4da193e2cf94097de0f7f19b60ee5e481fe953316",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\_debug\\theatre\\index.js#TheatreObject",
+      "name": "TheatreObject",
+      "kind": "function",
+      "path": "pages\\_debug\\theatre\\index.js",
+      "span": "L27-L32",
+      "signature": "function TheatreObject({ objectAddress, config })",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "59687c65be3907b629760fc7f330d86c270fc0480dd89d2651f71788286b1d9c",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\_document.js",
+      "name": "_document.js",
+      "kind": "file",
+      "path": "pages\\_document.js",
+      "span": "L1-L61",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "111f2311cf1c59405b0b89ff417b749baf753dc5e2a6d303c9e4f95bee46d90f",
+      "chars": 1702,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\_document.js#Document",
+      "name": "Document",
+      "kind": "function",
+      "path": "pages\\_document.js",
+      "span": "L4-L60",
+      "signature": "function Document()",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "ce9ea0413c14f175cf26d645523465b07020348e9c634bfba87f4c2dc48753d2",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\contact.js",
+      "name": "contact.js",
+      "kind": "file",
+      "path": "pages\\api\\contact.js",
+      "span": "L1-L103",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "8b0a57784f6c4f587d72bb6f2d9cee7c9479d26c04420e0324eefb9e624069c1",
+      "chars": 3298,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\contact.js#escapeHtml",
+      "name": "escapeHtml",
+      "kind": "function",
+      "path": "pages\\api\\contact.js",
+      "span": "L15-L21",
+      "signature": "escapeHtml = (value)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "c8a513a96144cd913078567670badfdd68e01623991a8bf011c0f44841a1d426",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\contact.js#handler",
+      "name": "handler",
+      "kind": "function",
+      "path": "pages\\api\\contact.js",
+      "span": "L28-L102",
+      "signature": "async function handler(req, res)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "e6578e7670267d99fc6dce70ac82fb8ff0aaeb9f1b29ff1a4ba7f6f146ed13e5",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\contact.js#valueFor",
+      "name": "valueFor",
+      "kind": "function",
+      "path": "pages\\api\\contact.js",
+      "span": "L23-L26",
+      "signature": "valueFor = (value)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "fd2dc541bb8d6dccf7ff61dafa8cd9962f54c44b87ee028e3bf9211088e607e4",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\test.js",
+      "name": "test.js",
+      "kind": "file",
+      "path": "pages\\api\\test.js",
+      "span": "L1-L4",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "1700904e772710ed64f168ad3d38f3d6eeed21982befc499d9aef8623f970876",
+      "chars": 94,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\api\\test.js#handler",
+      "name": "handler",
+      "kind": "function",
+      "path": "pages\\api\\test.js",
+      "span": "L1-L3",
+      "signature": "function handler(req, res)",
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "974b9a51a29d38370fe15cce5ac59ffc44aee1489fc9f5192bd14f11a7f2ddd4",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\home\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "pages\\home\\index.js",
+      "span": "L1-L309",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "507139cebf9e89e4b3ea1e8566ac9a2b0e242d274dcdd8bbc02221601285a9a9",
+      "chars": 10780,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\home\\index.js#selectedProject",
+      "name": "selectedProject",
+      "kind": "method",
+      "path": "pages\\home\\index.js",
+      "span": "L261-L308",
+      "signature": "selectedProject?.stack?.map((item, i) => i === selectedProject.stack.length - 1 ? item : `${item}, `, )} </p> </div> )} </ScrollableBox> </div> </section> </div> </ClientOnly> )} <Gallery /> </Layout> ) } export async function getStaticProps({ preview = false })",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "007e6d112d500f84a03ab7833ad8954f3fefdba3341a86a811f0e96a6abf0bd3",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "pages\\index.js",
+      "name": "index.js",
+      "kind": "file",
+      "path": "pages\\index.js",
+      "span": "L1-L6",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "2db58666c4c5b0060b267d0b40b7d288414d4392b5cb0b63d717d8e08e2ce9db",
+      "chars": 144,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\sw.js",
+      "name": "sw.js",
+      "kind": "file",
+      "path": "public\\sw.js",
+      "span": "L1-L94",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "e1fb39693fa8604a86c044c177c6ccafb5de00ddb03f4c7e32d1c09dc9f66321",
+      "chars": 2825,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\sw.js#require",
+      "name": "require",
+      "kind": "function",
+      "path": "public\\sw.js",
+      "span": "L56-L56",
+      "signature": "require = depUri",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "37bf3c27cd2a8577c8753e3141ad937586edeb896aa7caeceedaf15d44bf94ea",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\sw.js#singleRequire",
+      "name": "singleRequire",
+      "kind": "function",
+      "path": "public\\sw.js",
+      "span": "L22-L47",
+      "signature": "singleRequire = (uri, parentUri)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "5f056b92a5c020de57f2f4a33879ae6160be47fd2f72eb30d2f69beb19d030a6",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js",
+      "name": "workbox-1b1de004.js",
+      "kind": "file",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1-L2457",
+      "signature": null,
+      "exported": true,
+      "origin": "ast",
+      "body_hash": "a75022eeeeb035e565f127d501f1b75ef817ef81e43aceebe3a761e294a83c83",
+      "chars": 92691,
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#_createCacheName",
+      "name": "_createCacheName",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1232-L1234",
+      "signature": "_createCacheName = cacheName",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "29e7379b1c191cef77e7de68e8ea0cbd85a546704066d6705ff937aff251ea99",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#cacheMatchIgnoreParams",
+      "name": "cacheMatchIgnoreParams",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1290-L1308",
+      "signature": "async function cacheMatchIgnoreParams(cache, request, ignoreParams, matchOptions)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "80cd3a24f7332283cb53fd3565fbccf3f08c3d7ef1c70bf50abf116380002db5",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#clientsClaim",
+      "name": "clientsClaim",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L2446-L2448",
+      "signature": "function clientsClaim()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "61cbfb42268825d706ea6896c447540947b68a36c7fc2a7355d66767c54c0e7f",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Deferred",
+      "name": "Deferred",
+      "kind": "class",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1325-L1335",
+      "signature": "class Deferred",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "8f071ab26e22e9683cf741b785c737db47d6dc5bcf31afe8fbe5a90880c6a85f",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Deferred.constructor",
+      "name": "constructor",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1329-L1334",
+      "signature": "constructor()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "df97cf6ee115d8181378420930c61c957ab90165a740e492fbd220c37b5fd2e7",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#eachCacheNameDetail",
+      "name": "eachCacheNameDetail",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1235-L1239",
+      "signature": "eachCacheNameDetail = fn",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "4f2a36c2d960b41c03480bc1f5941981612fecc4962b461979f24003ff095d79",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#executeQuotaErrorCallbacks",
+      "name": "executeQuotaErrorCallbacks",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1363-L1376",
+      "signature": "async function executeQuotaErrorCallbacks()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "acc5b1ae71f226bb7c433f2be6788de52d29a6f437e9d4a2ba15da3e52a312c9",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#generatorFunction",
+      "name": "generatorFunction",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L344-L350",
+      "signature": "generatorFunction = (code, details = {})",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "6621225f88c84a8c23dd0220b17b3bd3c7e8a6aece9c3a0ea4cdfd702838ad72",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#getFriendlyURL",
+      "name": "getFriendlyURL",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L660-L665",
+      "signature": "getFriendlyURL = url",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "f2c70eb37d0112ea3400614d876113b2490e8004d38aa9e82f6b4b518b7d615d",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#getOrCreateDefaultRouter",
+      "name": "getOrCreateDefaultRouter",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1097-L1105",
+      "signature": "getOrCreateDefaultRouter = ()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "832503b21b1d11d915b35bdc9d1212590c8a40a32309251018ecb410a89846aa",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#hasMethod",
+      "name": "hasMethod",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L404-L410",
+      "signature": "hasMethod = (object, expectedMethod, details)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "f39526df172e1e2438a24937e40504cad08328b21807e7c59e5fb218e1ee6215",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#isArray",
+      "name": "isArray",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L399-L403",
+      "signature": "isArray = (value, details)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "42cf35c088118cf5fa6b6f03a40fe64dcf9c7916080ce366630a08269a8d9447",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#isArrayOfClass",
+      "name": "isArrayOfClass",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L432-L446",
+      "signature": "isArrayOfClass = (value, // Need general type to do check later. expectedClass, // eslint-disable-line details)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "aeea03b0b5fb37b11b17b87349d738a80c848a6ddc05c58948703acde9aaf939",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#isInstance",
+      "name": "isInstance",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L417-L425",
+      "signature": "isInstance = (object, // Need the general type to do the check later. // eslint-disable-next-line @typescript-eslint/ban-types expectedClass, details)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "954e35e6b2d8a1f42823594ac7016c6a3151357da39dba33ab4e75901bf0f615",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#isOneOf",
+      "name": "isOneOf",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L426-L431",
+      "signature": "isOneOf = (value, validValues, details)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "055a83c8b746484601cd0a7a0b74d21850f15463ca641003033d95964127418d",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#isType",
+      "name": "isType",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L411-L416",
+      "signature": "isType = (object, expectedType, details)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "771f5f067a85afb339207195a97d02cca1de1d5eae25eaefc9df9421092064c0",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#NetworkFirst",
+      "name": "NetworkFirst",
+      "kind": "class",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L2164-L2342",
+      "signature": "class NetworkFirst extends Strategy",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "0a48bb1a7dbe106e57dd7b22885db2c5a6d389e21d16ef99cfb292decc26b83f",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#NetworkFirst._getNetworkPromise",
+      "name": "_getNetworkPromise",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L2305-L2341",
+      "signature": "async _getNetworkPromise({ timeoutId, request, logs, handler })",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "665d94a56a363a81738663cf4e0906cac0c63ad91823032027672368246ca48a",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#NetworkFirst._getTimeoutPromise",
+      "name": "_getTimeoutPromise",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L2275-L2294",
+      "signature": "_getTimeoutPromise({ request, logs, handler })",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "64857b41863494394e7e03bebcea0bfaf828a9fdacf0e0c47d7a58bd0bb83004",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#NetworkFirst._getTimeoutPromise.onNetworkTimeout",
+      "name": "onNetworkTimeout",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L2282-L2287",
+      "signature": "onNetworkTimeout = async ()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "f37866bc38e08572cede3e6344f5107aae1943bacfb1e05e542afe3282307023",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#NetworkFirst._handle",
+      "name": "_handle",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L2210-L2265",
+      "signature": "async _handle(request, handler)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "53f4110e9ba451bd9beceb4aeda0e840e3cf55af3309694e7b252305b1823139",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#NetworkFirst.constructor",
+      "name": "constructor",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L2184-L2202",
+      "signature": "constructor(options = {})",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "5c1403b5acfd62663f138da21fa6773749f7f0b3317564bf136b5bbe87748509",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#NetworkOnly",
+      "name": "NetworkOnly",
+      "kind": "class",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L2364-L2431",
+      "signature": "class NetworkOnly extends Strategy",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "70f253c03e414867a786782450def51c1b6508174da227ace67bb507c8f073aa",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#NetworkOnly._handle",
+      "name": "_handle",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L2387-L2430",
+      "signature": "async _handle(request, handler)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "502fade6ea87952b8151d87aac4c75e1d20eea97daee077d70433b4c2bf28259",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#NetworkOnly.constructor",
+      "name": "constructor",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L2376-L2379",
+      "signature": "constructor(options = {})",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "360278b634f92819c713db904c61061c5138c728d204a45b0bd4c06e159dfd6e",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#normalizeHandler",
+      "name": "normalizeHandler",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L500-L524",
+      "signature": "normalizeHandler = handler",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "82427b3bdd29d5d0f4b3681d10757bab88ce7a72e412c00de1d95de4f08074e6",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#print",
+      "name": "print",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L29-L51",
+      "signature": "print = function (method, args)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "35d5fa458808de59cef9864196aa6d23b6cf4821b9add5fb8097642a82f9bef6",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#RegExpRoute",
+      "name": "RegExpRoute",
+      "kind": "class",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L602-L651",
+      "signature": "class RegExpRoute extends Route",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "0a63378a3ca6bde57437d2c1bd18a4103d5b09c09124379aba1979d27ce91427",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#RegExpRoute.constructor",
+      "name": "constructor",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L616-L650",
+      "signature": "constructor(regExp, handler, method)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "f47ee06a50b45ef6162f15c4cf1d3a55b80219aeb1e7fa816832df6baa7fc652",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#RegExpRoute.constructor.match",
+      "name": "match",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L625-L648",
+      "signature": "match = ({ url })",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "4d38c45828ec6d5dba9d918c0281f2bb50b97413d85501fb63041196a5434035",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#registerRoute",
+      "name": "registerRoute",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1132-L1183",
+      "signature": "function registerRoute(capture, handler, method)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "6ded323ab052bfb8aa6d5992d808678bf51a301996f13fb25687e100340cb3c5",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#registerRoute.matchCallback",
+      "name": "matchCallback",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1153-L1162",
+      "signature": "matchCallback = ({ url })",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "65a6de500b07450b28e2e5acdfc9c3243536cd7621ad5a6bec645b181191b73e",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Route",
+      "name": "Route",
+      "kind": "class",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L542-L582",
+      "signature": "class Route",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "2f7b0558f38e7333f1086eea4d3e61188f401e548fbddce6879ea88804ba21bc",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Route.constructor",
+      "name": "constructor",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L554-L573",
+      "signature": "constructor(match, handler, method = defaultMethod)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "a38314545164a91daa4f5b76306a2fe1977885c27d865cf3e2115d627e6d572a",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Route.setCatchHandler",
+      "name": "setCatchHandler",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L579-L581",
+      "signature": "setCatchHandler(handler)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "c720942e4548b05607c50bfb20e6d6e9ef770a1a0889d3414095f851a9d21cb2",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Router",
+      "name": "Router",
+      "kind": "class",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L691-L1080",
+      "signature": "class Router",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "4531948b331b3227026faf7d2a7c2d0dd7fd3a464ae3b7c3f4d83a1b878cc12d",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Router.addCacheListener",
+      "name": "addCacheListener",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L748-L781",
+      "signature": "addCacheListener()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "82cc6d8728a6a906e50afbffdd2b0157fcb00783ec14ab7c2ee95b8a672dce15",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Router.addFetchListener",
+      "name": "addFetchListener",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L711-L725",
+      "signature": "addFetchListener()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "68348a124f2071c905156045e07fa0603baa7b8c4b948bb0a04c1c64e347614f",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Router.constructor",
+      "name": "constructor",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L695-L698",
+      "signature": "constructor()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "098a5185257a88cfce4abe134b4a807938d77391639ccf2616b198edbc4015b7",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Router.findMatchingRoute",
+      "name": "findMatchingRoute",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L938-L989",
+      "signature": "findMatchingRoute({ url, sameOrigin, request, event })",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "6b9930e5cff7382983e2d6bb55f342c54e1eb779e00e67cbb9584349a3a36458",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Router.handleRequest",
+      "name": "handleRequest",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L794-L922",
+      "signature": "handleRequest({ request, event })",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "5e8b63e2cf60f9dcaf29f9151276b850d3de5b3d284a7e54adc1ad0432b10e68",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Router.registerRoute",
+      "name": "registerRoute",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1022-L1061",
+      "signature": "registerRoute(route)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "f2ab97b85cdaab399b260b8c07ae80b76dd5ad5f78100938cc084a613a757208",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Router.routes",
+      "name": "routes",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L704-L706",
+      "signature": "get routes()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "6cf15a31d969fdee3dbebf6cdee0900431fc90ff66c5afe25dcb7e0bbfd13158",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Router.setCatchHandler",
+      "name": "setCatchHandler",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1014-L1016",
+      "signature": "setCatchHandler(handler)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "50c536aae48a3ff71f9900a8be11942fb7043f917d6d72088233d15982f51e30",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Router.setDefaultHandler",
+      "name": "setDefaultHandler",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1004-L1006",
+      "signature": "setDefaultHandler(handler, method = defaultMethod)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "8e86e3e6a46c51e2540a97e342df8467536977af09a32a6385eadf9cf4b308d2",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Router.unregisterRoute",
+      "name": "unregisterRoute",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1067-L1079",
+      "signature": "unregisterRoute(route)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "8d36f1d5823fad197e81f87c54f248e0488a64048b5d4beca83ac375b6f15bbd",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Strategy",
+      "name": "Strategy",
+      "kind": "class",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1904-L2104",
+      "signature": "class Strategy",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "1e0688d7af8c2959a54993f2fcc02d610f2f248ecff6950b8e9a451a2cc16768",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Strategy._awaitComplete",
+      "name": "_awaitComplete",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L2071-L2103",
+      "signature": "async _awaitComplete(responseDone, handler, request, event)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "b648e08080bab1d127c8e93f969b83c093140b1565308bed3fb3357678bcbaca",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Strategy._getResponse",
+      "name": "_getResponse",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L2027-L2070",
+      "signature": "async _getResponse(handler, request, event)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "a9fac3a5a585df55a9db1a35cd22e2695bebeba256f15c257c3850c546340a39",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Strategy.constructor",
+      "name": "constructor",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1927-L1960",
+      "signature": "constructor(options = {})",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "d06c6560a2519644163f325e2fb9cb379c8fdd9943e444cae586dca97cfb7d0b",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Strategy.handle",
+      "name": "handle",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1980-L1983",
+      "signature": "handle(options)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "0655d4e12fdc1eb297e5a345be91169a1779bfffe8aade5cbd29fa9b197095e1",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#Strategy.handleAll",
+      "name": "handleAll",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L2006-L2026",
+      "signature": "handleAll(options)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "b157035a046732ab09e4b0e37db3ac43df504482a20c67e0855462b5c3568167",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler",
+      "name": "StrategyHandler",
+      "kind": "class",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1415-L1890",
+      "signature": "class StrategyHandler",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "f7f84f972c75ed1ba4f804b534ecc730b40643c877d70cfcaea0ef93d5c4973c",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler._ensureResponseSafeToCache",
+      "name": "_ensureResponseSafeToCache",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1858-L1889",
+      "signature": "async _ensureResponseSafeToCache(response)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "9692d35702fe46e951b41df83a971ef5629dbf9afc723dc2f6ea4a0ccb26f9a5",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler.cacheMatch",
+      "name": "cacheMatch",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1602-L1631",
+      "signature": "async cacheMatch(key)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "27c8fd54d7562b5b91ef34e0f88c92a79719487d8bd6a96033908ea50b29aeaf",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler.cachePut",
+      "name": "cachePut",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1647-L1716",
+      "signature": "async cachePut(key, response)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "c120103a3889afc33178371ea33af19e9a3ba44c47d412a5ad7e55117405aa43",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler.constructor",
+      "name": "constructor",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1432-L1492",
+      "signature": "constructor(strategy, options)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "5020d1c08e588e6209b0700764d1dc1a4c73d4fd1c2da6a1928a47b277ab0321",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler.destroy",
+      "name": "destroy",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1845-L1847",
+      "signature": "destroy()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "e17efea872865b0b300f338a7588362fb8f42c35e8b7407a93a632756633f21f",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler.doneWaiting",
+      "name": "doneWaiting",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1835-L1840",
+      "signature": "async doneWaiting()",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "41109b4c966364a2ba626d91144ce3486468fd0bc29df2ea60dd76c3af2a3061",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler.fetch",
+      "name": "fetch",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1506-L1573",
+      "signature": "async fetch(input)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "aa6647a2243b025febb7ba067de8cf85d1390320b83a7b11b7b9f789ebcfc226",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler.fetchAndCachePut",
+      "name": "fetchAndCachePut",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1584-L1589",
+      "signature": "async fetchAndCachePut(input)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "92301e9dbac34e3bd2c6b6bdeedc51ae565ed81a8d8ed6ca093fdb5b727cc0aa",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler.getCacheKey",
+      "name": "getCacheKey",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1728-L1744",
+      "signature": "async getCacheKey(request, mode)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "484ad133df7612a7029242e7c9f43dced6b22d57616be4448be8ad3c3122a473",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler.hasCallback",
+      "name": "hasCallback",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1752-L1759",
+      "signature": "hasCallback(name)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "f26d7f6024b53c254b30b3a9241b5fcb59a615008d9c467f71cadc2a8c018f9b",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler.iterateCallbacks",
+      "name": "iterateCallbacks",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1792-L1807",
+      "signature": "*iterateCallbacks(name)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "f3e4648dbe21283c587679410627751067ad6757c69a7c455f3f6c57ad728af1",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler.iterateCallbacks.statefulCallback",
+      "name": "statefulCallback",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1796-L1803",
+      "signature": "statefulCallback = param",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "753fbae2edd2e594c64e856811c5fc87b3cf3bb195c9747cb73424a89c182334",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler.runCallbacks",
+      "name": "runCallbacks",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1776-L1782",
+      "signature": "async runCallbacks(name, param)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "f39b7c336de5793f73ddca550a3e33615553a65799006429ff42757653e17149",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#StrategyHandler.waitUntil",
+      "name": "waitUntil",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1821-L1824",
+      "signature": "waitUntil(promise)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "f8bac6985668a230da67315caced5b32ff89a42e826226e80d503f993fd6c446",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#stripParams",
+      "name": "stripParams",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1271-L1277",
+      "signature": "function stripParams(fullURL, ignoreParams)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "d9527c31f4caa86eb0f72a6028dc55a7de2b88ac248cc37d67806cd1a72deafd",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#timeout",
+      "name": "timeout",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1392-L1394",
+      "signature": "function timeout(ms)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "a8b70e546170e6940b9a7c641640cd184bdf5bd1c2ff56933700a058f6705d98",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#toRequest",
+      "name": "toRequest",
+      "kind": "function",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L1403-L1405",
+      "signature": "function toRequest(input)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "ba22be5603cc5807f963e2a897d42a7d50d1f8e8fa9024723a65a8db30ba4dcb",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#WorkboxError",
+      "name": "WorkboxError",
+      "kind": "class",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L369-L384",
+      "signature": "class WorkboxError extends Error",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "20a9310ddde2c4d6f39d5005c093173e791aae78a9c81d3d2286bccdc10f5b9b",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    },
+    {
+      "id": "public\\workbox-1b1de004.js#WorkboxError.constructor",
+      "name": "constructor",
+      "kind": "method",
+      "path": "public\\workbox-1b1de004.js",
+      "span": "L378-L383",
+      "signature": "constructor(errorCode, details)",
+      "exported": false,
+      "origin": "ast",
+      "body_hash": "64c53cbb300d5e1b882d2d62f451eee60d3bb6fbcbcea6121bfa41a92c08d509",
+      "summary_state": "pending",
+      "summary": null,
+      "crux": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "components\\composable-image\\index.js",
+      "target": "./composable-image.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\composable-image\\index.js",
+      "target": "@studio-freight/compono",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\composable-image\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\contact-email-form\\index.js",
+      "target": "components\\contact-email-form\\index.js#FieldTypeSwitcher",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\contact-email-form\\index.js",
+      "target": "components\\contact-email-form\\index.js#onSubmit",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\contact-email-form\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\contact-email-form\\index.js",
+      "target": "components/hubspot/hubspot.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\contact-email-form\\index.js",
+      "target": "components/hubspot/input-fields",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\contact-email-form\\index.js",
+      "target": "config/contact-form",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\contact-email-form\\index.js",
+      "target": "lib/store",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\contact-email-form\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\contact-email-form\\index.js",
+      "target": "react-hook-form",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\footer\\index.js",
+      "target": "./footer.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\footer\\index.js",
+      "target": "@studio-freight/compono",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\footer\\index.js",
+      "target": "@studio-freight/hamo",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\footer\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\footer\\index.js",
+      "target": "components/separator",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\forms\\select\\index.js",
+      "target": "./select.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\forms\\select\\index.js",
+      "target": "@radix-ui/react-select",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\forms\\select\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\forms\\select\\index.js",
+      "target": "next/dynamic",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\forms\\select\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\gallery\\index.js",
+      "target": "components\\gallery\\index.js#escFunction",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\gallery\\index.js",
+      "target": "./gallery.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\gallery\\index.js",
+      "target": "@studio-freight/hamo",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\gallery\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\gallery\\index.js",
+      "target": "components/composable-image",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\gallery\\index.js",
+      "target": "components/scrollable-box",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\gallery\\index.js",
+      "target": "lib/store",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\gallery\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js",
+      "target": "components\\header\\contact-form\\index.js#closeContactTab",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js",
+      "target": "components\\header\\contact-form\\index.js#escFunction",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js",
+      "target": "./contact-form.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js",
+      "target": "@radix-ui/react-accordion",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js",
+      "target": "components/contact-email-form",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js",
+      "target": "components/scrollable-box",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js",
+      "target": "components/separator",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js",
+      "target": "contentful/faq-renderer",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js",
+      "target": "contentful/renderer",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js",
+      "target": "lib/slugify",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js",
+      "target": "lib/store",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js",
+      "target": "next/router",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\contact-form\\index.js#escFunction",
+      "target": "components\\header\\contact-form\\index.js#closeContactTab",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\index.js",
+      "target": "./header.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\index.js",
+      "target": "@studio-freight/compono",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\index.js",
+      "target": "@studio-freight/hamo",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\index.js",
+      "target": "@vercel/analytics",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\index.js",
+      "target": "components/header/contact-form",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\index.js",
+      "target": "components/separator",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\index.js",
+      "target": "lib/maths",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\index.js",
+      "target": "lib/store",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\header\\index.js",
+      "target": "next/dynamic",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\hubspot\\input-fields\\index.js",
+      "target": "lib\\theatre\\hooks\\use-theatre.js#useTheatre.onChange",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "components\\hubspot\\input-fields\\index.js",
+      "target": "components\\hubspot\\input-fields\\index.js#cn",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\hubspot\\input-fields\\index.js",
+      "target": "./input-fields.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\hubspot\\input-fields\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\hubspot\\input-fields\\index.js",
+      "target": "components/forms/select",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\hubspot\\input-fields\\index.js",
+      "target": "lib/slugify",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\hubspot\\input-fields\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\isomorphic\\index.js",
+      "target": "components\\isomorphic\\index.js#ClientOnly",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\isomorphic\\index.js",
+      "target": "components\\isomorphic\\index.js#ServerOnly",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\isomorphic\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\layout-mobile\\index.js",
+      "target": "./layout-mobile.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\layout-mobile\\index.js",
+      "target": "@studio-freight/compono",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\layout-mobile\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\layout-mobile\\index.js",
+      "target": "components/project-accordion",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\layout-mobile\\index.js",
+      "target": "contentful/renderer",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\noise\\index.js",
+      "target": "components\\noise\\index.js#Noise",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\noise\\index.js",
+      "target": "./noise.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\noise\\index.js",
+      "target": "@studio-freight/hamo",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\noise\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\noise\\index.js",
+      "target": "react-use",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\project-accordion\\index.js",
+      "target": "./project-accordion.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\project-accordion\\index.js",
+      "target": "@radix-ui/react-accordion",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\project-accordion\\index.js",
+      "target": "@studio-freight/compono",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\project-accordion\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\project-accordion\\index.js",
+      "target": "components/composable-image",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\project-accordion\\index.js",
+      "target": "components/slider",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\project-accordion\\index.js",
+      "target": "contentful/renderer",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\project-accordion\\index.js",
+      "target": "lib/slugify",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\project-accordion\\index.js",
+      "target": "next/dynamic",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\project-accordion\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\scrollable-box\\index.js",
+      "target": "components\\scrollable-box\\index.js#ScrollableBox",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\scrollable-box\\index.js",
+      "target": "./scrollable-box.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\scrollable-box\\index.js",
+      "target": "@studio-freight/hamo",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\scrollable-box\\index.js",
+      "target": "@studio-freight/lenis",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\scrollable-box\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\scrollable-box\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\scrollable-box\\index.js#ScrollableBox",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.destroy",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "components\\separator\\index.js",
+      "target": "components\\separator\\index.js#Separator",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\separator\\index.js",
+      "target": "./separator.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\separator\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\slider\\index.js",
+      "target": "components\\slider\\index.js#Slider",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\slider\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\slider\\index.js",
+      "target": "hooks/use-blaze-slider",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "components\\slider\\index.js#Slider",
+      "target": "hooks\\use-blaze-slider.js#useBlazeSlider",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "contentful\\api.js",
+      "target": "contentful\\api.js#fetchCmsQuery",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "contentful\\api.js",
+      "target": "graphql-request",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "contentful\\faq-renderer.js",
+      "target": "contentful\\faq-renderer.js#renderer",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "contentful\\faq-renderer.js",
+      "target": "./renderer.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "contentful\\faq-renderer.js",
+      "target": "@contentful/rich-text-react-renderer",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "contentful\\faq-renderer.js",
+      "target": "@contentful/rich-text-types",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "contentful\\faq-renderer.js",
+      "target": "@studio-freight/compono",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "contentful\\faq-renderer.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "contentful\\renderer.js",
+      "target": "contentful\\renderer.js#renderer",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "contentful\\renderer.js",
+      "target": "./renderer.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "contentful\\renderer.js",
+      "target": "@contentful/rich-text-react-renderer",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "contentful\\renderer.js",
+      "target": "@contentful/rich-text-types",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "contentful\\renderer.js",
+      "target": "@studio-freight/compono",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "contentful\\renderer.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "hooks\\use-blaze-slider.js",
+      "target": "hooks\\use-blaze-slider.js#useBlazeSlider",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "hooks\\use-blaze-slider.js",
+      "target": "blaze-slider",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "hooks\\use-blaze-slider.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "hooks\\use-broadcast-channel.js",
+      "target": "hooks\\use-broadcast-channel.js#useBroadcastChannel",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "hooks\\use-broadcast-channel.js",
+      "target": "events",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "hooks\\use-broadcast-channel.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "hooks\\use-immutable-state.js",
+      "target": "hooks\\use-immutable-state.js#useImmutableState",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "hooks\\use-immutable-state.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "hooks\\use-ready-state.js",
+      "target": "hooks\\use-ready-state.js#useDocumentReadyState",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "hooks\\use-ready-state.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "hooks\\use-ready-state.js#useDocumentReadyState",
+      "target": "hooks\\use-ready-state.js#useDocumentReadyState.onStateChange",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "hooks\\use-scroll.js",
+      "target": "hooks\\use-scroll.js#useScroll",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "hooks\\use-scroll.js",
+      "target": "lib/store",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "hooks\\use-scroll.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "layouts\\default\\index.js",
+      "target": "layouts\\default\\index.js#Layout",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "layouts\\default\\index.js",
+      "target": "./layout.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "layouts\\default\\index.js",
+      "target": "@studio-freight/compono",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "layouts\\default\\index.js",
+      "target": "@studio-freight/hamo",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "layouts\\default\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "layouts\\default\\index.js",
+      "target": "components/footer",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "layouts\\default\\index.js",
+      "target": "components/header",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "layouts\\default\\index.js",
+      "target": "next/dynamic",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\maths.js",
+      "target": "lib\\maths.js#clamp",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\maths.js",
+      "target": "lib\\maths.js#lerp",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\maths.js",
+      "target": "lib\\maths.js#mapRange",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\maths.js",
+      "target": "lib\\maths.js#pad",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\maths.js",
+      "target": "lib\\maths.js#truncate",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\grid\\index.js",
+      "target": "lib\\orchestra\\grid\\index.js#GridDebugger",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\grid\\index.js",
+      "target": "./grid.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\grid\\index.js",
+      "target": "@studio-freight/hamo",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\grid\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\grid\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\index.js",
+      "target": "lib\\zustand-broadcast.js#broadcast",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "lib\\orchestra\\index.js",
+      "target": "./grid",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\index.js",
+      "target": "./orchestra.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\index.js",
+      "target": "./stats",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\index.js",
+      "target": "idb-keyval",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\index.js",
+      "target": "lib/zustand-broadcast",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\index.js",
+      "target": "zustand",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\index.js",
+      "target": "zustand/middleware",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\stats\\index.js",
+      "target": "lib\\orchestra\\stats\\index.js#Stats",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\stats\\index.js",
+      "target": "@studio-freight/hamo",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\stats\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\orchestra\\stats\\index.js",
+      "target": "stats.js",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\slugify.js",
+      "target": "lib\\slugify.js#slugify",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\store.js",
+      "target": "zustand/shallow",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\store.js",
+      "target": "zustand/traditional",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-studio.js",
+      "target": "lib\\theatre\\hooks\\use-studio.js#useIsStudio",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-studio.js",
+      "target": "lib\\theatre\\hooks\\use-studio.js#useStudio",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-studio.js",
+      "target": "lib\\theatre\\hooks\\use-studio.js#useStudioCurrentObject",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-studio.js",
+      "target": "../studio/context",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-studio.js",
+      "target": "hooks/use-broadcast-channel",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-studio.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-studio.js#useStudio",
+      "target": "lib\\theatre\\hooks\\use-studio.js#useIsStudio",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-studio.js#useStudioCurrentObject",
+      "target": "hooks\\use-broadcast-channel.js#useBroadcastChannel",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-studio.js#useStudioCurrentObject",
+      "target": "lib\\theatre\\hooks\\use-studio.js#useStudio",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-studio.js#useStudioCurrentObject",
+      "target": "lib\\theatre\\hooks\\use-studio.js#useStudioCurrentObject.onSelectionChange",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js",
+      "target": "lib\\theatre\\hooks\\use-theatre.js#addObject",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js",
+      "target": "lib\\theatre\\hooks\\use-theatre.js#removeObject",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js",
+      "target": "lib\\theatre\\hooks\\use-theatre.js#useTheatre",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js",
+      "target": "lib\\theatre\\hooks\\use-theatre.js#useTheatreObject",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js",
+      "target": "..",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js",
+      "target": "./use-studio",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js",
+      "target": "hooks/use-broadcast-channel",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js",
+      "target": "lib/orchestra",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js",
+      "target": "throttle-debounce",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js#useTheatre",
+      "target": "hooks\\use-broadcast-channel.js#useBroadcastChannel",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js#useTheatre",
+      "target": "lib\\theatre\\hooks\\use-studio.js#useIsStudio",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js#useTheatre",
+      "target": "lib\\theatre\\hooks\\use-studio.js#useStudioCurrentObject",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js#useTheatre",
+      "target": "lib\\theatre\\hooks\\use-theatre.js#addObject",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js#useTheatre",
+      "target": "lib\\theatre\\hooks\\use-theatre.js#removeObject",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js#useTheatre",
+      "target": "lib\\theatre\\hooks\\use-theatre.js#useTheatreObject",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js#useTheatre",
+      "target": "lib\\theatre\\index.js#useCurrentRafDriver",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "lib\\theatre\\hooks\\use-theatre.js#useTheatre",
+      "target": "lib\\theatre\\hooks\\use-theatre.js#useTheatre.onChange",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\index.js",
+      "target": "lib\\theatre\\index.js#useSheet",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\index.js",
+      "target": "lib\\theatre\\index.js#ProjectProvider",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\index.js",
+      "target": "lib\\theatre\\index.js#RafDriverProvider",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\index.js",
+      "target": "lib\\theatre\\index.js#useCurrentProject",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\index.js",
+      "target": "lib\\theatre\\index.js#useCurrentRafDriver",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\index.js",
+      "target": "lib\\theatre\\index.js#useCurrentSheet",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\index.js",
+      "target": "lib\\theatre\\index.js#useSheet",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\index.js",
+      "target": "@studio-freight/hamo",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\index.js",
+      "target": "@theatre/core",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\index.js",
+      "target": "hooks/use-immutable-state",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\index.js#RafDriverProvider",
+      "target": "hooks\\use-immutable-state.js#useImmutableState",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "lib\\theatre\\index.js#useSheet",
+      "target": "lib\\theatre\\index.js#useCurrentProject",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\r3f.js",
+      "target": "lib\\theatre\\r3f.js#Group",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\r3f.js",
+      "target": ".",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\r3f.js",
+      "target": "./hooks/use-theatre",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\r3f.js",
+      "target": "@theatre/core",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\r3f.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\r3f.js#Group",
+      "target": "lib\\theatre\\hooks\\use-theatre.js#useTheatre",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "lib\\theatre\\r3f.js#Group",
+      "target": "lib\\theatre\\index.js#useCurrentSheet",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "lib\\theatre\\studio\\context.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\studio\\index.js",
+      "target": "lib\\theatre\\index.js#useCurrentProject",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "lib\\theatre\\studio\\index.js",
+      "target": "lib\\theatre\\index.js#useCurrentRafDriver",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "lib\\theatre\\studio\\index.js",
+      "target": "./context",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\studio\\index.js",
+      "target": "./studio.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\studio\\index.js",
+      "target": "@theatre/studio",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\studio\\index.js",
+      "target": "jsonminify",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\studio\\index.js",
+      "target": "lib/theatre",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\theatre\\studio\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "lib\\zustand-broadcast.js",
+      "target": "lib\\zustand-broadcast.js#broadcast",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "next.config.js",
+      "target": "next.config.js#nextConfigWrapper",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "next.config.js",
+      "target": "public\\sw.js#require",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "next.config.js",
+      "target": "next.config.js#nextConfigWrapper",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_app.js",
+      "target": "pages\\_app.js#MyApp",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_app.js",
+      "target": "@studio-freight/compono",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_app.js",
+      "target": "@studio-freight/react-lenis",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_app.js",
+      "target": "@studio-freight/tempus",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_app.js",
+      "target": "@vercel/analytics/react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_app.js",
+      "target": "blaze-slider/dist/blaze.css",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_app.js",
+      "target": "gsap",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_app.js",
+      "target": "gsap/dist/ScrollTrigger",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_app.js",
+      "target": "lib/store",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_app.js",
+      "target": "next/dynamic",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_app.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_app.js",
+      "target": "styles/global.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_debug\\orchestra\\index.js",
+      "target": "pages\\_debug\\orchestra\\index.js#Orchestra",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_debug\\orchestra\\index.js",
+      "target": "lib/orchestra",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_debug\\theatre\\index.js",
+      "target": "pages\\_debug\\theatre\\index.js#sanitizeConfig",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_debug\\theatre\\index.js",
+      "target": "pages\\_debug\\theatre\\index.js#Theatre",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_debug\\theatre\\index.js",
+      "target": "pages\\_debug\\theatre\\index.js#TheatreObject",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_debug\\theatre\\index.js",
+      "target": "./theatre.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_debug\\theatre\\index.js",
+      "target": "@theatre/core",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_debug\\theatre\\index.js",
+      "target": "lib/orchestra",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_debug\\theatre\\index.js",
+      "target": "lib/theatre",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_debug\\theatre\\index.js",
+      "target": "lib/theatre/hooks/use-theatre",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_debug\\theatre\\index.js",
+      "target": "lib/theatre/studio",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_debug\\theatre\\index.js#sanitizeConfig",
+      "target": "pages\\_debug\\theatre\\index.js#sanitizeConfig",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_debug\\theatre\\index.js#TheatreObject",
+      "target": "lib\\theatre\\hooks\\use-theatre.js#useTheatre",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\_debug\\theatre\\index.js#TheatreObject",
+      "target": "lib\\theatre\\index.js#useSheet",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\_debug\\theatre\\index.js#TheatreObject",
+      "target": "pages\\_debug\\theatre\\index.js#sanitizeConfig",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_document.js",
+      "target": "pages\\_document.js#Document",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\_document.js",
+      "target": "next/document",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\contact.js",
+      "target": "pages\\api\\contact.js#escapeHtml",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\contact.js",
+      "target": "pages\\api\\contact.js#handler",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\contact.js",
+      "target": "pages\\api\\contact.js#valueFor",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\contact.js#handler",
+      "target": "pages\\api\\contact.js#escapeHtml",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\contact.js#handler",
+      "target": "pages\\api\\contact.js#valueFor",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\api\\test.js",
+      "target": "pages\\api\\test.js#handler",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "lib\\slugify.js#slugify",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "pages\\home\\index.js#selectedProject",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "./home.module.scss",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "@studio-freight/compono",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "@studio-freight/hamo",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "@vercel/analytics",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "clsx",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "components/composable-image",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "components/isomorphic",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "components/layout-mobile",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "components/scrollable-box",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "contentful/api",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "contentful/queries/home.graphql",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "contentful/renderer",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "layouts/default",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "lib/slugify",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "lib/store",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "next/dynamic",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "next/router",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "pages\\home\\index.js#selectedProject",
+      "target": "contentful\\api.js#fetchCmsQuery",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "pages\\index.js",
+      "target": "./home",
+      "relation": "imports",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\sw.js",
+      "target": "public\\sw.js#require",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\sw.js",
+      "target": "public\\workbox-1b1de004.js#Router.registerRoute",
+      "relation": "calls",
+      "confidence": "inferred"
+    },
+    {
+      "source": "public\\sw.js",
+      "target": "public\\sw.js#require",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\sw.js",
+      "target": "public\\sw.js#singleRequire",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\sw.js#require",
+      "target": "public\\sw.js#singleRequire",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#_createCacheName",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#eachCacheNameDetail",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#getFriendlyURL",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#print",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#_createCacheName",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#cacheMatchIgnoreParams",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#clientsClaim",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#Deferred",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#eachCacheNameDetail",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#executeQuotaErrorCallbacks",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#generatorFunction",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#getFriendlyURL",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#getOrCreateDefaultRouter",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#hasMethod",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#isArray",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#isArrayOfClass",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#isInstance",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#isOneOf",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#isType",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#NetworkFirst",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#NetworkOnly",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#normalizeHandler",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#print",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#RegExpRoute",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#registerRoute",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#Route",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#Router",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#Strategy",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#stripParams",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#timeout",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#toRequest",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js",
+      "target": "public\\workbox-1b1de004.js#WorkboxError",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#cacheMatchIgnoreParams",
+      "target": "public\\workbox-1b1de004.js#stripParams",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Deferred",
+      "target": "public\\workbox-1b1de004.js#Deferred.constructor",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#getOrCreateDefaultRouter",
+      "target": "public\\workbox-1b1de004.js#Router.addCacheListener",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#getOrCreateDefaultRouter",
+      "target": "public\\workbox-1b1de004.js#Router.addFetchListener",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkFirst",
+      "target": "public\\workbox-1b1de004.js#NetworkFirst._getNetworkPromise",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkFirst",
+      "target": "public\\workbox-1b1de004.js#NetworkFirst._getTimeoutPromise",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkFirst",
+      "target": "public\\workbox-1b1de004.js#NetworkFirst._handle",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkFirst",
+      "target": "public\\workbox-1b1de004.js#NetworkFirst.constructor",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkFirst",
+      "target": "public\\workbox-1b1de004.js#Strategy",
+      "relation": "extends",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkFirst._getNetworkPromise",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.cacheMatch",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkFirst._getNetworkPromise",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.fetchAndCachePut",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkFirst._getTimeoutPromise",
+      "target": "public\\workbox-1b1de004.js#NetworkFirst._getTimeoutPromise.onNetworkTimeout",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkFirst._getTimeoutPromise.onNetworkTimeout",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.cacheMatch",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkFirst._handle",
+      "target": "public\\workbox-1b1de004.js#NetworkFirst._getNetworkPromise",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkFirst._handle",
+      "target": "public\\workbox-1b1de004.js#NetworkFirst._getTimeoutPromise",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkFirst._handle",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.waitUntil",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkOnly",
+      "target": "public\\workbox-1b1de004.js#NetworkOnly._handle",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkOnly",
+      "target": "public\\workbox-1b1de004.js#NetworkOnly.constructor",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkOnly",
+      "target": "public\\workbox-1b1de004.js#Strategy",
+      "relation": "extends",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkOnly._handle",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.fetch",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#NetworkOnly._handle",
+      "target": "public\\workbox-1b1de004.js#timeout",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#RegExpRoute",
+      "target": "public\\workbox-1b1de004.js#RegExpRoute.constructor",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#RegExpRoute",
+      "target": "public\\workbox-1b1de004.js#Route",
+      "relation": "extends",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#RegExpRoute.constructor",
+      "target": "public\\workbox-1b1de004.js#RegExpRoute.constructor.match",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#registerRoute",
+      "target": "public\\workbox-1b1de004.js#getOrCreateDefaultRouter",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#registerRoute",
+      "target": "public\\workbox-1b1de004.js#Router.registerRoute",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#registerRoute",
+      "target": "public\\workbox-1b1de004.js#registerRoute.matchCallback",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Route",
+      "target": "public\\workbox-1b1de004.js#Route.constructor",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Route",
+      "target": "public\\workbox-1b1de004.js#Route.setCatchHandler",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Route.constructor",
+      "target": "public\\workbox-1b1de004.js#normalizeHandler",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Route.setCatchHandler",
+      "target": "public\\workbox-1b1de004.js#normalizeHandler",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router",
+      "target": "public\\workbox-1b1de004.js#Router.addCacheListener",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router",
+      "target": "public\\workbox-1b1de004.js#Router.addFetchListener",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router",
+      "target": "public\\workbox-1b1de004.js#Router.constructor",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router",
+      "target": "public\\workbox-1b1de004.js#Router.findMatchingRoute",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router",
+      "target": "public\\workbox-1b1de004.js#Router.handleRequest",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router",
+      "target": "public\\workbox-1b1de004.js#Router.registerRoute",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router",
+      "target": "public\\workbox-1b1de004.js#Router.routes",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router",
+      "target": "public\\workbox-1b1de004.js#Router.setCatchHandler",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router",
+      "target": "public\\workbox-1b1de004.js#Router.setDefaultHandler",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router",
+      "target": "public\\workbox-1b1de004.js#Router.unregisterRoute",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router.addCacheListener",
+      "target": "public\\workbox-1b1de004.js#Router.handleRequest",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router.addCacheListener",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.waitUntil",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router.addFetchListener",
+      "target": "public\\workbox-1b1de004.js#Router.handleRequest",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router.findMatchingRoute",
+      "target": "public\\workbox-1b1de004.js#getFriendlyURL",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router.handleRequest",
+      "target": "public\\workbox-1b1de004.js#getFriendlyURL",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router.handleRequest",
+      "target": "public\\workbox-1b1de004.js#Router.findMatchingRoute",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router.handleRequest",
+      "target": "public\\workbox-1b1de004.js#Strategy.handle",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router.setCatchHandler",
+      "target": "public\\workbox-1b1de004.js#normalizeHandler",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Router.setDefaultHandler",
+      "target": "public\\workbox-1b1de004.js#normalizeHandler",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy",
+      "target": "public\\workbox-1b1de004.js#Strategy._awaitComplete",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy",
+      "target": "public\\workbox-1b1de004.js#Strategy._getResponse",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy",
+      "target": "public\\workbox-1b1de004.js#Strategy.constructor",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy",
+      "target": "public\\workbox-1b1de004.js#Strategy.handle",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy",
+      "target": "public\\workbox-1b1de004.js#Strategy.handleAll",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy._awaitComplete",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.destroy",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy._awaitComplete",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.doneWaiting",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy._awaitComplete",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.runCallbacks",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy._getResponse",
+      "target": "public\\workbox-1b1de004.js#getFriendlyURL",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy._getResponse",
+      "target": "public\\workbox-1b1de004.js#NetworkFirst._handle",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy._getResponse",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.iterateCallbacks",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy._getResponse",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.runCallbacks",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy.handle",
+      "target": "public\\workbox-1b1de004.js#Strategy.handleAll",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy.handleAll",
+      "target": "public\\workbox-1b1de004.js#Strategy._awaitComplete",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#Strategy.handleAll",
+      "target": "public\\workbox-1b1de004.js#Strategy._getResponse",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler._ensureResponseSafeToCache",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.cacheMatch",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.cachePut",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.constructor",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.destroy",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.doneWaiting",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.fetch",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.fetchAndCachePut",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.getCacheKey",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.hasCallback",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.iterateCallbacks",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.runCallbacks",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.waitUntil",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler._ensureResponseSafeToCache",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.iterateCallbacks",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.cacheMatch",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.getCacheKey",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.cacheMatch",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.iterateCallbacks",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.cacheMatch",
+      "target": "public\\workbox-1b1de004.js#toRequest",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.cachePut",
+      "target": "public\\workbox-1b1de004.js#cacheMatchIgnoreParams",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.cachePut",
+      "target": "public\\workbox-1b1de004.js#executeQuotaErrorCallbacks",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.cachePut",
+      "target": "public\\workbox-1b1de004.js#getFriendlyURL",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.cachePut",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler._ensureResponseSafeToCache",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.cachePut",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.getCacheKey",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.cachePut",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.hasCallback",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.cachePut",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.iterateCallbacks",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.cachePut",
+      "target": "public\\workbox-1b1de004.js#timeout",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.cachePut",
+      "target": "public\\workbox-1b1de004.js#toRequest",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.constructor",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.waitUntil",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.fetch",
+      "target": "public\\workbox-1b1de004.js#getFriendlyURL",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.fetch",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.hasCallback",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.fetch",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.iterateCallbacks",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.fetch",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.runCallbacks",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.fetch",
+      "target": "public\\workbox-1b1de004.js#toRequest",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.fetchAndCachePut",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.cachePut",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.fetchAndCachePut",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.fetch",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.fetchAndCachePut",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.waitUntil",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.getCacheKey",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.iterateCallbacks",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.getCacheKey",
+      "target": "public\\workbox-1b1de004.js#toRequest",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.iterateCallbacks",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.iterateCallbacks.statefulCallback",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#StrategyHandler.runCallbacks",
+      "target": "public\\workbox-1b1de004.js#StrategyHandler.iterateCallbacks",
+      "relation": "calls",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#WorkboxError",
+      "target": "public\\workbox-1b1de004.js#WorkboxError.constructor",
+      "relation": "contains",
+      "confidence": "extracted"
+    },
+    {
+      "source": "public\\workbox-1b1de004.js#WorkboxError",
+      "target": "Error",
+      "relation": "extends",
+      "confidence": "inferred"
+    }
+  ]
+}

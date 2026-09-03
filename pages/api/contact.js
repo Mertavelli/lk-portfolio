@@ -4,12 +4,11 @@ const fields = [
   ['full_name', 'Full name'],
   ['company', 'Company'],
   ['email', 'Email'],
-  ['project_scope', 'Project scope'],
-  ['budget_expectation', 'Budget expectation'],
-  ['timeline_expectation', 'Timeline expectation'],
-  ['how_you_found_us', 'How they found us'],
+  ['what_are_you_looking_to_improve', 'What are you looking to improve?'],
+  ['timeline_expectation', 'Timeline'],
+  ['how_you_found_us', 'How did you find me?'],
   ['favorite_movie_or_album', 'Favourite movie or album'],
-  ['description', 'Project details'],
+  ['description', 'Current setup or challenge'],
 ]
 
 const escapeHtml = (value) =>

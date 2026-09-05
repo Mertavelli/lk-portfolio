@@ -81,9 +81,6 @@ export const Header = ({ principles = [], contact }) => {
             <Link className={cn('p-s decorate', s.navLink)} href="/approach">
               Approach
             </Link>
-            <Link className={cn('p-s decorate', s.navLink)} href="/diagnostic">
-              Diagnostic
-            </Link>
           </nav>
           <button
             aria-controls="mobile-navigation"
@@ -127,13 +124,6 @@ export const Header = ({ principles = [], contact }) => {
             onClick={() => setMenuIsOpen(false)}
           >
             Approach
-          </Link>
-          <Link
-            className={cn('p-s decorate', s.navLink)}
-            href="/diagnostic"
-            onClick={() => setMenuIsOpen(false)}
-          >
-            Diagnostic
           </Link>
         </nav>
       )}
